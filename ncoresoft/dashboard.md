@@ -13,7 +13,7 @@
         <a href="https://github.com">GitHub Opensource</a>
     </li>
 </ul>
-<h1>High quality WPF program created by Ncoresoft!</h1>
+<h1>High Quality WPF Open Source Program Created by Ncoresoft.</h1>
 <ul class="applist">
     <li>
         <div class="name">NcoreHelper</div>
