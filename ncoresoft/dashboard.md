@@ -7,8 +7,11 @@
   <li>
     <div class="dash-app-name">Leagueoflegends</div>
     <div class="dash-app-info">This application was implemented on a new client basis in 2021. The game's rich and vast content has enabled numerous 'User Control' and 'Template', making it the best practice project for WPF research!</div>
+  </li>
+  <li>
     <div class="dash-app-name">NcoreHelper</div>
     <div class="dash-app-info">Ncore Helper is a development-friendly tool studio tool based on WPF. Key features can analyze the dot-net assembly, load and edit a dot-net project, and edit the github markdown. Individual program extensions are also possible.</div>
+  </li>
 </ul>
 <h1>Articles</h1>
 <ul>
