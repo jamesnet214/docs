@@ -1,3 +1,4 @@
+
 <h1>What if the WPF developer made a famous program?</h1>
 <ul class="applist">
     <li>
@@ -20,7 +21,7 @@
         <div class="info">Ncore Helper is a development-friendly tool studio tool based on WPF. Key features can analyze the dot-net assembly, load and edit a dot-net project, and edit the github markdown. Individual program extensions are also possible.</div>
         <a href="https://github.com">Run Demo App</a></br>
         <a href="https://github.com">GitHub Opensource</a>
-    </li>    
+    </li>
     <li>
         <div class="name">iCommand WPF</div>
         <div class="info">Ncore Helper is a development-friendly tool studio tool based on WPF. Key features can analyze the dot-net assembly, load and edit a dot-net project, and edit the github markdown. Individual program extensions are also possible.</div>
@@ -33,7 +34,8 @@
     <li>
         <div class="name">WPF Code Rules</div>
         <div class="left">
-            <div class="info">WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.
+            <div class="info">
+                WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.
             </div>
             <a href="https://github.com">PDF Download</a></br>
             <a href="https://github.com">README.md</a>
@@ -41,81 +43,133 @@
     </li>
     <li>
         <div class="name">WPF Guidance</div>
-        <div class="info">WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.</div>
-        <a href="https://github.com">PDF Download</a></br>
-        <a href="https://github.com">README.md</a>
+        <div class="left">
+            <div class="info">
+                WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.
+            </div>
+            <a href="https://github.com">PDF Download</a></br>
+            <a href="https://github.com">README.md</a>
+        </div>
     </li>
     <li>
         <div class="name">WPF Binding</div>
-        <div class="info">WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.</div>
-        <a href="https://github.com">PDF Download</a></br>
-        <a href="https://github.com">README.md</a>
+        <div class="left">
+            <div class="info">
+                WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.
+            </div>
+            <a href="https://github.com">PDF Download</a></br>
+            <a href="https://github.com">README.md</a>
+        </div>
     </li>
     <li>
         <div class="name">WPF DependencyProperty</div>
-        <div class="info">WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.</div>
-        <a href="https://github.com">PDF Download</a></br>
-        <a href="https://github.com">README.md</a>
+        <div class="left">
+            <div class="info">
+                WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.
+            </div>
+            <a href="https://github.com">PDF Download</a></br>
+            <a href="https://github.com">README.md</a>
+        </div>
     </li>
     <li>
         <div class="name">WPF Template</div>
-        <div class="info">WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.</div>
-        <a href="https://github.com">PDF Download</a></br>
-        <a href="https://github.com">README.md</a>
+        <div class="left">
+            <div class="info">
+                WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.
+            </div>
+            <a href="https://github.com">PDF Download</a></br>
+            <a href="https://github.com">README.md</a>
+        </div>
     </li>
     <li>
         <div class="name">WPF Trigger</div>
-        <div class="info">WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.</div>
-        <a href="https://github.com">Run Demo App</a></br>
-        <a href="https://github.com">GitHub Opensource</a>
+        <div class="left">
+            <div class="info">
+                WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.
+            </div>
+            <a href="https://github.com">PDF Download</a></br>
+            <a href="https://github.com">README.md</a>
+        </div>
     </li>
     <li>
         <div class="name">WPF IValueConverter</div>
-        <div class="info">WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.</div>
-        <a href="https://github.com">Run Demo App</a></br>
-        <a href="https://github.com">GitHub Opensource</a>
+        <div class="left">
+            <div class="info">
+                WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.
+            </div>
+            <a href="https://github.com">PDF Download</a></br>
+            <a href="https://github.com">README.md</a>
+        </div>
     </li>
     <li>
         <div class="name">WPF ICommand</div>
-        <div class="info">WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.</div>
-        <a href="https://github.com">Run Demo App</a></br>
-        <a href="https://github.com">GitHub Opensource</a>
+        <div class="left">
+            <div class="info">
+                WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.
+            </div>
+            <a href="https://github.com">PDF Download</a></br>
+            <a href="https://github.com">README.md</a>
+        </div>
     </li>
     <li>
         <div class="name">WPF Event Flow</div>
-        <div class="info">WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.</div>
-        <a href="https://github.com">Run Demo App</a></br>
-        <a href="https://github.com">GitHub Opensource</a>
+        <div class="left">
+            <div class="info">
+                WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.
+            </div>
+            <a href="https://github.com">PDF Download</a></br>
+            <a href="https://github.com">README.md</a>
+        </div>
     </li>
     <li>
         <div class="name">BackgroundWorker</div>
-        <div class="info">WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.</div>
-        <a href="https://github.com">Run Demo App</a></br>
-        <a href="https://github.com">GitHub Opensource</a>
+        <div class="left">
+            <div class="info">
+                WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.
+            </div>
+            <a href="https://github.com">PDF Download</a></br>
+            <a href="https://github.com">README.md</a>
+        </div>
     </li>
     <li>
         <div class="name">WPF Dispatcher</div>
-        <div class="info">WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.</div>
-        <a href="https://github.com">Run Demo App</a></br>
-        <a href="https://github.com">GitHub Opensource</a>
+        <div class="left">
+            <div class="info">
+                WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.
+            </div>
+            <a href="https://github.com">PDF Download</a></br>
+            <a href="https://github.com">README.md</a>
+        </div>
     </li>
     <li>
         <div class="name">WPF DependencyProperty</div>
-        <div class="info">WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.</div>
-        <a href="https://github.com">Run Demo App</a></br>
-        <a href="https://github.com">GitHub Opensource</a>
+        <div class="left">
+            <div class="info">
+                WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.
+            </div>
+            <a href="https://github.com">PDF Download</a></br>
+            <a href="https://github.com">README.md</a>
+        </div>
     </li>
     <li>
         <div class="name">WPF CollectionViewSource</div>
-        <div class="info">WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.</div>
-        <a href="https://github.com">Run Demo App</a></br>
-        <a href="https://github.com">GitHub Opensource</a>
+        <div class="left">
+            <div class="info">
+                WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.
+            </div>
+            <a href="https://github.com">PDF Download</a></br>
+            <a href="https://github.com">README.md</a>
+        </div>
     </li>
     <li>
         <div class="name">WPF CSharp Regex</div>
-        <div class="info">WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.</div>
-        <a href="https://github.com">Run Demo App</a></br>
-        <a href="https://github.com">GitHub Opensource</a>
+        <div class="left">
+            <div class="info">
+                WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.
+            </div>
+            <a href="https://github.com">PDF Download</a></br>
+            <a href="https://github.com">README.md</a>
+        </div>
     </li>
 </ul>
 
@@ -138,7 +192,7 @@
         <div class="info">Ncore Helper is a development-friendly tool studio tool based on WPF. Key features can analyze the dot-net assembly, load and edit a dot-net project, and edit the github markdown. Individual program extensions are also possible.</div>
         <a href="https://github.com">Run Demo App</a></br>
         <a href="https://github.com">GitHub Opensource</a>
-    </li>    
+    </li>
     <li>
         <div class="name">Reddit</div>
         <div class="info">Ncore Helper is a development-friendly tool studio tool based on WPF. Key features can analyze the dot-net assembly, load and edit a dot-net project, and edit the github markdown. Individual program extensions are also possible.</div>
