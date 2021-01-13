@@ -32,7 +32,9 @@
 <ul class="articlelist">
     <li>
         <div class="name">WPF Code Rules</div>
-        <div class="info">WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.
+        <div class="left">
+            <div class="info">WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.
+            </div>
             </br>
             <a href="https://github.com">PDF Download</a></br>
             <a href="https://github.com">README.md</a>
