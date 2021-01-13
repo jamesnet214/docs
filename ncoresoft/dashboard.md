@@ -100,7 +100,7 @@
     <a href="https://github.com">GitHub Opensource</a>
   </li>
   <li>
-    <div class="dash-app-name">WPF Csharp Regex</div>
+    <div class="dash-app-name">WPF CSharp Regex</div>
     <div class="dash-app-info">WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.</div>
     <a href="https://github.com">Run Demo App</a></br>
     <a href="https://github.com">GitHub Opensource</a>
