@@ -112,3 +112,32 @@
         <a href="https://github.com">GitHub Opensource</a>
     </li>
 </ul>
+
+<h1>Activity</h1>
+<ul class="activitylist">
+    <li>
+        <div class="name">Github</div>
+        <div class="info">'KakaoTalk' is a national messenger used by most Koreans. This app is well-organized for easy and quick access to various functions such as games, company affairs, banking, and government complaints as well as the original messenger functions. And since many people are using it as a PC version as much as a mobile, we think 'KakaoTalk' a great program to implement as a WPF app.</div>
+        <a href="https://github.com">Run Demo App</a></br>
+        <a href="https://github.com">GitHub Opensource</a>
+    </li>
+    <li>
+        <div class="name">Stackoverflow</div>
+        <div class="info">This application was implemented on a new client basis in 2021. The game's rich and vast content has enabled numerous 'User Control' and 'Template', making it the best practice project for WPF research!</div>
+        <a href="https://github.com">Run Demo App</a></br>
+        <a href="https://github.com">GitHub Opensource</a>
+    </li>
+    <li>
+        <div class="name">Youtube</div>
+        <div class="info">Ncore Helper is a development-friendly tool studio tool based on WPF. Key features can analyze the dot-net assembly, load and edit a dot-net project, and edit the github markdown. Individual program extensions are also possible.</div>
+        <a href="https://github.com">Run Demo App</a></br>
+        <a href="https://github.com">GitHub Opensource</a>
+    </li>    
+    <li>
+        <div class="name">Reddit</div>
+        <div class="info">Ncore Helper is a development-friendly tool studio tool based on WPF. Key features can analyze the dot-net assembly, load and edit a dot-net project, and edit the github markdown. Individual program extensions are also possible.</div>
+        <a href="https://github.com">Run Demo App</a></br>
+        <a href="https://github.com">GitHub Opensource</a>
+    </li>
+</ul>
+
