@@ -9,10 +9,14 @@
   <li>
     <div class="dash-app-name">Leagueoflegends</div>
     <div class="dash-app-info">This application was implemented on a new client basis in 2021. The game's rich and vast content has enabled numerous 'User Control' and 'Template', making it the best practice project for WPF research!</div>
+    <a href="https://github.com">Run Demo App</a></br>
+    <a href="https://github.com">GitHub Opensource</a>
   </li>
   <li>
     <div class="dash-app-name">NcoreHelper</div>
     <div class="dash-app-info">Ncore Helper is a development-friendly tool studio tool based on WPF. Key features can analyze the dot-net assembly, load and edit a dot-net project, and edit the github markdown. Individual program extensions are also possible.</div>
+    <a href="https://github.com">Run Demo App</a></br>
+    <a href="https://github.com">GitHub Opensource</a>
   </li>
 </ul>
 <h1>Articles</h1>
@@ -20,5 +24,7 @@
   <li>
     <div class="dash-app-name">WPF Code Rules</div>
     <div class="dash-app-info">WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.</div>
+    <a href="https://github.com">Run Demo App</a></br>
+    <a href="https://github.com">GitHub Opensource</a>
   </li>
 </ul>
