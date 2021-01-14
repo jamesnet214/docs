@@ -74,7 +74,7 @@
             <ul class="tags">
                 <li>WPF</li>
                 <li>Binding</li>
-                <li>MVVM</li>
+                <li>DataContext</li>
                 <li>Relative</li>
             </ul>      
             </div>              
