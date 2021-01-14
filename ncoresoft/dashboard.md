@@ -181,9 +181,10 @@
             <div class="info">
                 WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.                
             <ul class="tags">
-                <li>WPF</li>
                 <li>Bubbling</li>
                 <li>Tunneling</li>
+                <li>e.Handled</li>
+                <li>e.Cancel</li>
             </ul>      
             </div>              
             <div class="link">
