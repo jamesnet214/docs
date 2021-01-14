@@ -13,7 +13,8 @@
         <a href="https://github.com">Demo</a><span class="sep">│</span><a href="https://github.com">GitHub</a>
     </li>
 </ul>
-<h1>High Quality WPF Open Source Program Created by Ncoresoft.</h1>
+<h1>We are making various programs using dot-net technology such as WPF, Blazor, and Xamarin.</h1>
+<div class="desc">We are making various programs using dot-net technology such as WPF, Blazor, and Xamarin.</div>
 <ul class="applist">
     <li>
         <div class="name">NcoreHelper</div>
