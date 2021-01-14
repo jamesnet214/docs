@@ -37,8 +37,7 @@
         <div class="name">WPF Code Rules</div>
         <div class="left">
             <div class="info">
-                WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.
-                
+                WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.                
             <ul class="tags">
                 <li>WPF</li>
                 <li>C#</li>
@@ -55,8 +54,7 @@
         <div class="name">WPF Guidance</div>
         <div class="left">
             <div class="info">
-                WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.
-                
+                WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.                
             <ul class="tags">
                 <li>WPF</li>
                 <li>C#</li>
@@ -72,8 +70,7 @@
         <div class="name">Binding</div>
         <div class="left">
             <div class="info">
-                WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.
-                
+                WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.                
             <ul class="tags">
                 <li>WPF/C#</li>
                 <li>Binding</li>
@@ -83,7 +80,7 @@
             </div>              
             <div class="link">
                 <a href="https://github.com">Learn More..</a>
-                <span class="sep">│</span><a href="https://github.com/ncoresoftsource/wpfguidance">Sourcecode</a><span class="sep">│</span><a href="https://github.com/ncoresoftsource/wpfguidance">Markdown</a>
+                <span class="sep">│</span><a href="https://github.com/ncoresoftsource/wpfxamlbinding">Sourcecode</a><span class="sep">│</span><a href="https://github.com/ncoresoftsource/wpfxamlbinding">Markdown</a>
             </div>
         </div>
     </li>
