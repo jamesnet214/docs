@@ -57,8 +57,9 @@
                 WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.                
             <ul class="tags">
                 <li>WPF</li>
-                <li>C#</li>
+                <li>How To</li>
                 <li>Tutorial</li>
+                <li>StarterKit</li>
             </ul>      
             </div>              
             <div class="link">
