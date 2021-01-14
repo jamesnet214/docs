@@ -179,20 +179,16 @@
         <div class="name">WPF Event Flow</div>
         <div class="left">
             <div class="info">
-                WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.
+                WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.                
+            <ul class="tags">
+                <li>WPF</li>
+                <li>Bubbling</li>
+                <li>Tunneling</li>
+            </ul>      
+            </div>              
+            <div class="link">
+                <a href="https://github.com">Learn More..</a><span class="sep">│</span><a href="https://github.com/ncoresoftsource/eventflow">GitHub</a>
             </div>
-            <a href="https://github.com">PDF Download</a></br>
-            <a href="https://github.com">README.md</a>
-        </div>
-    </li>
-    <li>
-        <div class="name">BackgroundWorker</div>
-        <div class="left">
-            <div class="info">
-                WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.
-            </div>
-            <a href="https://github.com">PDF Download</a></br>
-            <a href="https://github.com">README.md</a>
         </div>
     </li>
     <li>
