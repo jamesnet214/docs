@@ -47,9 +47,7 @@
             </ul>      
             </div>              
             <div class="link">
-                <a href="https://github.com">Learn More..</a>
-                <span class="sep">│</span>
-                <a href="https://github.com/ncoresoftsource/wpfcoderules">GitHub</a>
+                <a href="https://github.com">Learn More..</a><span class="sep">│</span><a href="https://github.com/ncoresoftsource/wpfcoderules">GitHub</a>
             </div>
         </div>
     </li>
@@ -66,9 +64,7 @@
             </ul>      
             </div>              
             <div class="link">
-                <a href="https://github.com">Learn More..</a>
-                <span class="sep">│</span>
-                <a href="https://github.com/ncoresoftsource/wpfguidance">GitHub</a>
+                <a href="https://github.com">Learn More..</a><span class="sep">│</span><a href="https://github.com/ncoresoftsource/wpfguidance">GitHub</a>
             </div>
         </div>
     </li>
@@ -87,10 +83,7 @@
             </div>              
             <div class="link">
                 <a href="https://github.com">Learn More..</a>
-                <span class="sep">│</span>
-                <a href="https://github.com/ncoresoftsource/wpfguidance">Sourcecode</a>                
-                <span class="sep">│</span>
-                <a href="https://github.com/ncoresoftsource/wpfguidance">Markdown</a>
+                <span class="sep">│</span><a href="https://github.com/ncoresoftsource/wpfguidance">Sourcecode</a><span class="sep">│</span><a href="https://github.com/ncoresoftsource/wpfguidance">Markdown</a>
             </div>
         </div>
     </li>
