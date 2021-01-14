@@ -85,23 +85,39 @@
         </div>
     </li>
     <li>
-        <div class="name">DependencyProperty</div>
+        <div class="name">DpendencyProperty</div>
         <div class="left">
             <div class="info">
-                WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.
+                WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.                
+            <ul class="tags">
+                <li>WPF/C#</li>
+                <li>Binding</li>
+                <li>MVVM</li>
+                <li>Relative</li>
+            </ul>      
+            </div>              
+            <div class="link">
+                <a href="https://github.com">Learn More..</a>
+                <span class="sep">│</span><a href="https://github.com/ncoresoftsource/dependencyproperty">GitHub</a>
             </div>
-            <a href="https://github.com">PDF Download</a></br>
-            <a href="https://github.com">README.md</a>
         </div>
     </li>
     <li>
-        <div class="name">WPF Template</div>
+        <div class="name">Template</div>
         <div class="left">
             <div class="info">
-                WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.
+                WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.                
+            <ul class="tags">
+                <li>WPF/C#</li>
+                <li>Binding</li>
+                <li>MVVM</li>
+                <li>Relative</li>
+            </ul>      
+            </div>              
+            <div class="link">
+                <a href="https://github.com">Learn More..</a>
+                <span class="sep">│</span><a href="https://github.com/ncoresoftsource/template">GitHub</a>
             </div>
-            <a href="https://github.com">PDF Download</a></br>
-            <a href="https://github.com">README.md</a>
         </div>
     </li>
     <li>
