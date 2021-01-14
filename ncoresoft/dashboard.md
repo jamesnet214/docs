@@ -38,12 +38,13 @@
         <div class="left">
             <div class="info">
                 WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.
-            </div>
+                
             <ul class="tags">
                 <li>WPF</li>
                 <li>Rule</li>
                 <li>Framework</li>
-            </ul>                    
+            </ul>      
+            </div>              
             <a href="https://github.com">Learn More..</a><span class="sep">│</span><a href="https://github.com/ncoresoftsource/wpfcoderules">GitHub</a>
         </div>
     </li>
