@@ -45,7 +45,9 @@
                 <li>Framework</li>
             </ul>      
             </div>              
-            <a href="https://github.com">Learn More..</a><span class="sep">│</span><a href="https://github.com/ncoresoftsource/wpfcoderules">GitHub</a>
+            <div class="link">
+                <a href="https://github.com">Learn More..</a><span class="sep">│</span><a href="https://github.com/ncoresoftsource/wpfcoderules">GitHub</a>
+            </div>
         </div>
     </li>
     <li>
