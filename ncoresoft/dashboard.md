@@ -32,6 +32,7 @@
     </li>
 </ul>
 <h1>Articles</h1>
+<div class="desc">It's a research paper to learn and organize a variety of knowledge that is derived and approached in more depth with detailed.</div>
 <ul class="articlelist">
     <li>
         <div class="name">WPF Code Rules</div>
