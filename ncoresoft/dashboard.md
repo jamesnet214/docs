@@ -39,11 +39,16 @@
             <div class="info">
                 WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.
             </div>
+            <ul>
+                <li>WPF</li>
+                <li>Rule</li>
+                <li>Framework</li>
+            </ul>                    
             <a href="https://github.com">Learn More..</a><span class="sep">│</span><a href="https://github.com/ncoresoftsource/wpfcoderules">GitHub</a>
         </div>
     </li>
     <li>
-        <div class="name">WPF Guidance</div>
+        <div class="name">Guidance</div>
         <div class="left">
             <div class="info">
                 WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.
@@ -53,7 +58,7 @@
         </div>
     </li>
     <li>
-        <div class="name">WPF Binding</div>
+        <div class="name">Binding</div>
         <div class="left">
             <div class="info">
                 WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.
