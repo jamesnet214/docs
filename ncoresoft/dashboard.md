@@ -8,7 +8,7 @@
         <a href="https://github.com">Demo</a><span class="sep">│</span><a href="https://github.com">GitHub</a>
     </li>
     <li>
-        <div class="name">Leagueoflegends</div>
+        <div class="name">League of legends</div>
         <div class="info">This application was implemented on a new client basis in 2021. The game's rich and vast content has enabled numerous 'User Control' and 'Template', making it the best practice project for WPF research!</div>
         <a href="https://github.com">Demo</a><span class="sep">│</span><a href="https://github.com">GitHub</a>
     </li>
