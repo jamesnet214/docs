@@ -206,7 +206,7 @@
             </div>              
             <div class="link">
                 <a href="https://github.com">Learn More..</a>
-                <span class="sep">│</span><a href="https://github.com/ncoresoftsource/icommand">GitHub</a>
+                <span class="sep">│</span><a href="https://github.com/ncoresoftsource/dispatcher">GitHub</a>
             </div>
         </div>
     </li>
