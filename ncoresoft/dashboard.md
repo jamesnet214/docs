@@ -39,8 +39,7 @@
             <div class="info">
                 WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.
             </div>
-            <a href="https://github.com">PDF Download</a><span>│</span>
-            <a href="https://github.com/ncoresoftsource/wpfcoderules">README.md</a>
+            <a href="https://github.com">Learn More..</a><span class="sep">│</span><a href="https://github.com/ncoresoftsource/wpfcoderules">GitHub</a>
         </div>
     </li>
     <li>
