@@ -57,6 +57,7 @@
                 WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.                
             <ul class="tags">
                 <li>WPF</li>
+                <li>C#</li>
                 <li>How To</li>
                 <li>Tutorial</li>
                 <li>StarterKit</li>
@@ -91,9 +92,9 @@
                 WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.                
             <ul class="tags">
                 <li>WPF</li>
+                <li>C#</li>
                 <li>Binding</li>
-                <li>MVVM</li>
-                <li>Relative</li>
+                <li>Coercive</li>
             </ul>      
             </div>              
             <div class="link">
@@ -134,28 +135,44 @@
             </div>              
             <div class="link">
                 <a href="https://github.com">Learn More..</a>
-                <span class="sep">│</span><a href="https://github.com/ncoresoftsource/template">GitHub</a>
+                <span class="sep">│</span><a href="https://github.com/ncoresoftsource/trigger">GitHub</a>
             </div>
         </div>
     </li>
     <li>
-        <div class="name">WPF IValueConverter</div>
+        <div class="name">IValueConverter</div>
         <div class="left">
             <div class="info">
-                WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.
+                WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.                
+            <ul class="tags">
+                <li>WPF</li>
+                <li>C#</li>
+                <li>OneWay</li>
+                <li>ConvertBack</li>
+            </ul>      
+            </div>              
+            <div class="link">
+                <a href="https://github.com">Learn More..</a>
+                <span class="sep">│</span><a href="https://github.com/ncoresoftsource/ivalueconverter">GitHub</a>
             </div>
-            <a href="https://github.com">PDF Download</a></br>
-            <a href="https://github.com">README.md</a>
         </div>
     </li>
     <li>
-        <div class="name">WPF ICommand</div>
+        <div class="name">ICommand</div>
         <div class="left">
             <div class="info">
-                WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.
+                WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.                
+            <ul class="tags">
+                <li>WPF</li>
+                <li>C#</li>
+                <li>RelayCommand</li>
+                <li>Execute</li>
+            </ul>      
+            </div>              
+            <div class="link">
+                <a href="https://github.com">Learn More..</a>
+                <span class="sep">│</span><a href="https://github.com/ncoresoftsource/icommand">GitHub</a>
             </div>
-            <a href="https://github.com">PDF Download</a></br>
-            <a href="https://github.com">README.md</a>
         </div>
     </li>
     <li>
