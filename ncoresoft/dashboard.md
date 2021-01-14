@@ -3,7 +3,7 @@
 <div class="desc">How would it feel if a WPF developer created a famous program that wasn't made with WPF? Check out these programs now, which are based on the elegant programming of WPF and C#. And of course it's open source.</div>
 <ul class="applist">
     <li>
-        <div class="name">Kakaotalk</div>
+        <div class="name">Kakao Talk</div>
         <div class="info">'KakaoTalk' is a national messenger used by most Koreans. This app is well-organized for easy and quick access to various functions such as games, company affairs, banking, and government complaints as well as the original messenger functions. And since many people are using it as a PC version as much as a mobile, we think 'KakaoTalk' a great program to implement as a WPF app.</div>
         <a href="https://github.com">Demo</a><span class="sep">│</span><a href="https://github.com">GitHub</a>
     </li>
@@ -13,7 +13,7 @@
         <a href="https://github.com">Demo</a><span class="sep">│</span><a href="https://github.com">GitHub</a>
     </li>
 </ul>
-<h1>We are making various programs using dot-net technology such as WPF, Blazor, and Xamarin.</h1>
+<h1>We are making an interesting program. And it's open source.</h1>
 <div class="desc">We are making various programs using dot-net technology such as WPF, Blazor, and Xamarin.</div>
 <ul class="applist">
     <li>
