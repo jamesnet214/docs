@@ -31,7 +31,7 @@
         <a href="https://github.com">Demo</a><span class="sep">│</span><a href="https://github.com">GitHub</a>
     </li>
 </ul>
-<h1>Articles</h1>
+<h1>All research article</h1>
 <div class="desc">It's a research paper to learn and organize a variety of knowledge that is derived and approached in more depth with detailed.</div>
 <ul class="articlelist">
     <li>
