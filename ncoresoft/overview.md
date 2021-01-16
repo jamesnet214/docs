@@ -81,7 +81,7 @@
             </ul>      
             </div>              
             <div class="link">
-                <a href="https://github.com">Learn More..</a>
+                <a href="https://github.com">Learn</a>
                 <span class="sep">│</span><a href="https://github.com/ncoresoftsource/wpfxamlbinding">Sourcecode</a><span class="sep">│</span><a href="https://github.com/ncoresoftsource/wpfxamlbinding">Markdown</a>
             </div>
         </div>
@@ -99,7 +99,7 @@
             </ul>      
             </div>              
             <div class="link">
-                <a href="https://github.com">Learn More..</a>
+                <a href="https://github.com">Learn</a>
                 <span class="sep">│</span><a href="https://github.com/ncoresoftsource/dependencyproperty">GitHub</a>
             </div>
         </div>
@@ -117,7 +117,7 @@
             </ul>      
             </div>              
             <div class="link">
-                <a href="https://github.com">Learn More..</a>
+                <a href="https://github.com">Learn</a>
                 <span class="sep">│</span><a href="https://github.com/ncoresoftsource/template">GitHub</a>
             </div>
         </div>
