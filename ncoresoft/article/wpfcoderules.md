@@ -12,8 +12,8 @@
       <li>Git Branch</li>
       <li>DevOps</li>
     </ul>
-    <div class="writer-head">Writed by.</div>
     <div class="writer">
+      <div class="writer-head">Writed by.</div>
       <ul>
         <li>James</li>
         <li>Elena</li>
