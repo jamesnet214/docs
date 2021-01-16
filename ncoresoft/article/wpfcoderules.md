@@ -13,7 +13,7 @@
       <li>DevOps</li>
     </ul>
     <div class="writer">
-      <div class="writer-head">Writed by.</div>
+      <div class="writer-head">Contributors</div>
       <ul>
         <li>James</li>
         <li>Elena</li>
