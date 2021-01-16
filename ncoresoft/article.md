@@ -15,7 +15,7 @@
               </ul>      
               </div>              
               <div class="link">
-                  <a href="https://github.com">Learn More..</a><span class="sep">│</span><a href="https://github.com/ncoresoftsource/wpfcoderules">GitHub</a>
+                  <a @onclick="@(()=> MenuClick("wpfcoderules"))">Learn</a><span class="sep">│</span><a href="https://github.com/ncoresoftsource/wpfcoderules">GitHub</a>
               </div>
           </div>
       </li>
@@ -33,7 +33,7 @@
               </ul>      
               </div>              
               <div class="link">
-                  <a href="https://github.com">Learn More..</a><span class="sep">│</span><a href="https://github.com/ncoresoftsource/wpfguidance">GitHub</a>
+                  <a @onclick="@(()=> MenuClick("wpfguidance"))">Learn</a><span class="sep">│</span><a href="https://github.com/ncoresoftsource/wpfguidance">GitHub</a>
               </div>
           </div>
       </li>
@@ -49,8 +49,7 @@
               </ul>      
               </div>              
               <div class="link">
-                  <a href="https://github.com">Learn</a>
-                  <span class="sep">│</span><a href="https://github.com/ncoresoftsource/wpfxamlbinding">Sourcecode</a><span class="sep">│</span><a href="https://github.com/ncoresoftsource/wpfxamlbinding">Markdown</a>
+                  <a @onclick="@(()=> MenuClick("wpfxamlbinding"))">Learn</a><span class="sep">│</span><a href="https://github.com/ncoresoftsource/wpfxamlbinding">Sourcecode</a><span class="sep">│</span><a href="https://github.com/ncoresoftsource/wpfxamlbinding">Markdown</a>
               </div>
           </div>
       </li>
