@@ -22,3 +22,16 @@ In March 2016 two relevant informational Internet RFCs were published:
 
 ## CommonMark
 From 2012, a group of people, including Jeff Atwood and John MacFarlane, launched what Atwood characterized as a standardization effort.[20] A community website now aims to "document various tools and resources available to document authors and developers, as well as implementors of the various Markdown implementations".[21] In September 2014, Gruber objected to the usage of "Markdown" in the name of this effort and it was rebranded as a new dialect named CommonMark.[22][23] CommonMark.org published several versions of a specification, reference implementation, and test suite, and "[plans] to announce a finalized 1.0 spec and test suite in 2019."[24] No 1.0 spec has since been released as major issues still remain unsolved.[25] Nonetheless, the following sites and projects have adopted CommonMark: Discourse, GitHub, GitLab, Reddit, Qt, Stack Exchange (Stack Overflow), and Swift.
+
+# Markdown Extra
+Markdown Extra is a lightweight markup language based on Markdown implemented in PHP (originally), Python and Ruby.[31] It adds features not available with plain Markdown syntax. Markdown Extra is supported in some content management systems such as, for example, Drupal[32] and TYPO3.[33]
+
+Markdown Extra adds the following features to Markdown:
+
+- Markdown markup inside HTML blocks
+- Elements with id/class attribute
+- "Fenced code blocks" that span multiple lines of code
+- Tables[34]
+- Definition lists
+- Footnotes
+- Abbreviations
