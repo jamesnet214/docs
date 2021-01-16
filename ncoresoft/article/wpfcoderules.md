@@ -15,8 +15,8 @@
     <div class="writer">
       <div class="writer-head">Contributors</div>
       <ul>
-        <li>James</li>
-        <li>Elena</li>
+        <li>James.lee</li>
+        <li>Elena.kim</li>
       </ul>
     </div>
   </div>
