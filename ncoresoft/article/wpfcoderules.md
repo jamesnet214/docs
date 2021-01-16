@@ -8,9 +8,11 @@
       <li>Project</li>
       <li>Rules</li>
     </ul>
-    <ul class="writer">
-      <li>James</li>
-      <li>Elena</li>
-    </ul>
+    <div class="writer">
+      <ul>
+        <li>James</li>
+        <li>Elena</li>
+      </ul>
+    </div>
   </div>
 <publicarticle>
