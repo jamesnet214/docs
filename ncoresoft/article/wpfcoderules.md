@@ -1,4 +1,4 @@
 <publicarticle>
   <h1>WPF Code Rules</h1>
-  <div class="desc">GitHub Sourcecode</div>
+  <div class="desc">It's a research paper to learn and organize a variety of knowledge that is derived and approached in more depth with detailed.</div>
 <publicarticle>
