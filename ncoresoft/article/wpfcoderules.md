@@ -6,6 +6,7 @@
       <li>C#</li>
       <li>Framework</li>
       <li>Project</li>
+      <li>Design Resource</li>
       <li>Rules</li>
       <li>Code Review</li>
       <li>Git Branch</li>
