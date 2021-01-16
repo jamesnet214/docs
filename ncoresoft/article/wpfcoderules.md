@@ -8,6 +8,7 @@
       <li>Project</li>
       <li>Rules</li>
       <li>Code Review</li>
+      <li>Git</li>
       <li>DevOps</li>
     </ul>
     <div class="writer">
