@@ -1,4 +1,3 @@
-> This is a test sample document.
 # How to Create a Article
 This document covers the purpose of creating an Article better.
 
