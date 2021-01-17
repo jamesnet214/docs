@@ -1,7 +1,7 @@
-<aboutus_contributors>
+<aboutuscontributors>
   <h1>Contributors</h1>
   James Lee
   Elena Kim
   
-</aboutus_contributors>
+</aboutuscontributors>
 
