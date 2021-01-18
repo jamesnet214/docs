@@ -54,7 +54,7 @@
           </div>
       </li>
       <li>
-          <div class="name">DpendencyProperty</div>
+          <div class="name">DependencyProperty</div>
           <div class="left">
               <div class="info">
                   WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.                
@@ -134,6 +134,7 @@
                   <li>WPF</li>
                   <li>C#</li>
                   <li>RelayCommand</li>
+                  <li>CommandParameter</li>
                   <li>Execute</li>
               </ul>      
               </div>              
