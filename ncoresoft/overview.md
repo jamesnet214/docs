@@ -1,8 +1,8 @@
 
 <h1>What if the WPF developer made a famous program?</h1>
 <div class="desc">
-    <button class="btn-menu">Opensource Apps More.</button>
     <div class="head-text">How would it feel if a WPF developer created a famous program that wasn't made with WPF? Check out these programs now, which are based on the elegant programming of WPF and C#. And of course it's open source.</div>
+    <button class="btn-menu">Opensource Apps More.</button>
 </div>
 <ul class="applist">
     <li>
@@ -19,7 +19,10 @@
     </li>
 </ul>
 <h1>We are making an interesting program. And it's open source.</h1>
-<div class="desc">We are making various programs using dot-net technology such as WPF, Blazor, and Xamarin.</div>
+<div class="desc">
+    <div class="head-text">We are making various programs using dot-net technology such as WPF, Blazor, and Xamarin.</div>
+    <button class="btn-menu">Apps More.</button>
+</div>
 <ul class="applist">
     <li>
         <img class="thumb" src="https://github.com/ncoresoftsource/docs/blob/main/ncoresoft/src/images/ncorehelper.png?raw=true">
@@ -35,7 +38,10 @@
     </li>
 </ul>
 <h1>All research article</h1>
-<div class="desc">It's a research paper to learn and organize a variety of knowledge that is derived and approached in more depth with detailed.</div>
+<div class="desc">
+    <div class="head-text">It's a research paper to learn and organize a variety of knowledge that is derived and approached in more depth with detailed.</div>
+    <button class="btn-menu">Articles More.</button>
+</div>
 <ul class="articlelist">
     <li>
         <div class="name">WPF Code Rules</div>
