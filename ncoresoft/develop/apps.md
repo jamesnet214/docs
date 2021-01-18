@@ -1,6 +1,5 @@
 <h1>What if the WPF developer made a famous program?</h1>
-<div class="desc">
-    
+<div class="desc">    
     <div class="head-text">How would it feel if a WPF developer created a famous program that wasn't made with WPF? Check out these programs now, which are based on the elegant programming of WPF and C#. And of course it's open source.</div>
 </div>
 <ul class="applist">
@@ -18,8 +17,7 @@
     </li>
 </ul>
 <h1>We are making an interesting program. And it's open source.</h1>
-<div class="desc">
-    
+<div class="desc">    
     <div class="head-text">We are making various programs using dot-net technology such as WPF, Blazor, and Xamarin.</div>
 </div>
 <ul class="applist">
