@@ -1,12 +1,12 @@
 <menuarticle>
-  <h1>All research article</h1>
-  <div class="desc">It's a research paper to learn and organize a variety of knowledge that is derived and approached in more depth with detailed.</div>
+  <h1>All of our Research Articles</h1>
+  <div class="desc">These are research papers to learn and organize a variety of knowledge that is derived and approached in more depth.</div>
   <ul class="articlelist">
       <li>
           <div class="name">WPF Code Rules</div>
           <div class="left">
               <div class="info">
-                  WPF is a rule document based on rich experience and practices that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.                
+                  'WPF Code Rules' is a rule document based on rich experience and practices at WPF that enable you to successfully start and finish WPF projects in a variety of areas and tasks, from small to large projects.                 
               <ul class="tags">
                   <li>WPF</li>
                   <li>C#</li>
