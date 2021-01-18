@@ -19,8 +19,8 @@
     </li>
 </ul>
 <h1>We are making an interesting program. And it's open source.</h1>
-<div class="desc">
-    <button class="btn-menu">More Apps</button>
+<div class="desc">    
+    <a class="btn-menu" href="/develop/apps">More Apps</a>
     <div class="head-text">We are making various programs using dot-net technology such as WPF, Blazor, and Xamarin.</div>
 </div>
 <ul class="applist">
@@ -39,7 +39,7 @@
 </ul>
 <h1>All research article</h1>
 <div class="desc">
-    <button class="btn-menu">More Articles</button>
+    <a class="btn-menu" href="/develop/article">More Articles</a>
     <div class="head-text">It's a research paper to learn and organize a variety of knowledge that is derived and approached in more depth with detailed.</div>
 </div>
 <ul class="articlelist">
