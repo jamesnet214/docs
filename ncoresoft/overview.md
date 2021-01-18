@@ -1,7 +1,7 @@
 
 <h1>What if the WPF developer made a famous program?</h1>
 <div class="desc">
-    <button class="btn-menu">Opensource Apps More.</button>
+    <button class="btn-menu">Apps More.</button>
     <div class="head-text">How would it feel if a WPF developer created a famous program that wasn't made with WPF? Check out these programs now, which are based on the elegant programming of WPF and C#. And of course it's open source.</div>
 </div>
 <ul class="applist">
