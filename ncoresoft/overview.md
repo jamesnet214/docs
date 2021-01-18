@@ -1,7 +1,8 @@
 
 <h1>What if the WPF developer made a famous program?</h1>
-<div class="desc">How would it feel if a WPF developer created a famous program that wasn't made with WPF? Check out these programs now, which are based on the elegant programming of WPF and C#. And of course it's open source.
-<button class="btn-menu">Opensource Apps More.</button></div>
+<div class="desc">
+    <div class="head-text">How would it feel if a WPF developer created a famous program that wasn't made with WPF? Check out these programs now, which are based on the elegant programming of WPF and C#. And of course it's open source.</div>
+    <button class="btn-menu">Opensource Apps More.</button></div>
 <ul class="applist">
     <li>
         <img class="thumb" src="https://github.com/ncoresoftsource/docs/blob/main/ncoresoft/src/images/kakaotalk.png?raw=true">
