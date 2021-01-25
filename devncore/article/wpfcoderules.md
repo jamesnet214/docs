@@ -20,4 +20,6 @@
         <li>Elena.kim</li>
       </ul>
     </div>
+  
+  <img class="img-wpfcoderules" style="width: 300px;" src="https://github.com/devncore/docs/blob/main/devncore/src/images/favpng_books-vector.png?raw=true"/>
 <publicarticle>
