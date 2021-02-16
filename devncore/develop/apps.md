@@ -1,6 +1,6 @@
-<h1>What if the WPF developer made a famous program?</h1>
+<h1>What if the WPF developer remade existing famous programs?</h1>
 <div class="desc">    
-    <div class="head-text">How would it feel if a WPF developer created a famous program that wasn't made with WPF? Check out these programs now, which are based on the elegant programming of WPF and C#. And of course it's open source.</div>
+    <div class="head-text">How would it feel if a WPF developer remade existing famous programs that wasn't made with WPF? Check out these programs now, which are based on the elegant programming of WPF and C#. And of course, all of our programs are open source.</div>
 </div>
 <ul class="applist">
     <li>
@@ -16,21 +16,21 @@
         <a href="https://github.com">Demo</a><span class="sep">│</span><a href="https://github.com">GitHub</a>
     </li>
 </ul>
-<h1>We are making an interesting program. And it's open source.</h1>
+<h1>We are keep making interesting programs. And it's open source.</h1>
 <div class="desc">    
     <div class="head-text">We are making various programs using dot-net technology such as WPF, Blazor, and Xamarin.</div>
 </div>
 <ul class="applist">
     <li>
         <img class="thumb" src="https://github.com/ncoresoftsource/docs/blob/main/ncoresoft/src/images/ncorehelper.png?raw=true">
-        <div class="name">NcoreHelper</div>
-        <div class="info">Ncore Helper is a development-friendly tool studio tool based on WPF. Key features can analyze the dot-net assembly, load and edit a dot-net project, and edit the github markdown. Individual program extensions are also possible.</div>
+        <div class="name">DevNcore</div>
+        <div class="info">DevNcore is a development-friendly tool studio based on WPF. The main features of the program are the ability to analyze .Net assemblies, load and edit .Net projects, and edit the github markdown(README.md). You can also expand individual programs.</div>
         <a href="https://github.com">Demo</a><span class="sep">│</span><a href="https://github.com">GitHub</a>
     </li>
     <li>
         <img class="thumb" src="https://github.com/ncoresoftsource/docs/blob/main/ncoresoft/src/images/icommander.png?raw=true">
         <div class="name">iCommand WPF</div>
-        <div class="info">Ncore Helper is a development-friendly tool studio tool based on WPF. Key features can analyze the dot-net assembly, load and edit a dot-net project, and edit the github markdown. Individual program extensions are also possible.</div>
+        <div class="info">Explain about iCommand...</div>
         <a href="https://github.com">Demo</a><span class="sep">│</span><a href="https://github.com">GitHub</a>
     </li>
 </ul>
