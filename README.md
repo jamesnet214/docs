@@ -1,6 +1,7 @@
 # DevNcore Articles
 
 ## Overview
+DevNcore Articles는 TBD..
 
 ## Content
 - SQLite EntityFramework 
