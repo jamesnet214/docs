@@ -8,27 +8,17 @@ TBD...
 다음은 C#에서 JwtToken을 생성하는 방법입니다.
 
 ```csharp
-public string GenerateToken(string userId)
+public string GenerateToken(ApplicationUser user)
 {
-    var mySecret = "asdv234234^&%&^%&^hjsdfb2%%%";
-    var mySecurityKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(mySecret));
-
-    var myIssuer = "http://mysite.com";
-    var myAudience = "http://myaudience.com";
-
+    // generate token that is valid for 7 days
     var tokenHandler = new JwtSecurityTokenHandler();
+    var key = Encoding.ASCII.GetBytes(mySecret);
     var tokenDescriptor = new SecurityTokenDescriptor
     {
-        Subject = new ClaimsIdentity(new Claim[]
-        {
-    new Claim(ClaimTypes.NameIdentifier, userId.ToString()),
-        }),
+        Subject = new ClaimsIdentity(new[] { new Claim("id", user.Id.ToString()) }),
         Expires = DateTime.UtcNow.AddDays(7),
-        Issuer = myIssuer,
-        Audience = myAudience,
-        SigningCredentials = new SigningCredentials(mySecurityKey, SecurityAlgorithms.HmacSha256Signature)
+        SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
     };
-
     var token = tokenHandler.CreateToken(tokenDescriptor);
     return tokenHandler.WriteToken(token);
 }
