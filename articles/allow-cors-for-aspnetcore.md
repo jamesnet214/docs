@@ -1,0 +1,3 @@
+# ALLOW CORS for AspNetCore
+
+##
