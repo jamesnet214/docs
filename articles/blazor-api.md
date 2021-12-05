@@ -1,5 +1,4 @@
-## 블레이저 API 관려 Readme
+## 블레이저 API
 
-<br>
-
+TBD...
 
