@@ -9,3 +9,4 @@ DevNcore Articles는 TBD..
 - [브라우저 자동완성 정책 Auto Complete](articles/autocomplete.md)
 - [체인 메서드 Chain Method](articles/chainmethod.md)
 - [Single Page Application](articles/single-page-application.md)
+- [NetCore API에서 Cors 허용하기](articles/allow-cors-for-aspnetcore.md)
