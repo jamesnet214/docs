@@ -14,32 +14,33 @@
 
 ```C#
 public partial class NcoreDefaultGauge : UserControl
-  {
-      double cx;
-      double cy;
-      public NcoreDefaultGauge()
-      {
-          InitializeComponent();
-          cx = canvas.Width / 2;
-          cy = canvas.Height / 2;
-      }
-  }
+{
+    double cx;
+    double cy;
+    public NcoreDefaultGauge()
+    {
+        InitializeComponent();
+        cx = canvas.Width / 2;
+        cy = canvas.Height / 2;
+    }
+}
 ```
 
 3. 반지름, 시작각도(0) 끝각도(360) 값을 이용해 x1,y1 x2,y2 좌표를 얻어 DrawInfo 클래스를 만든 후    
-   정보들 담아줍니다.
+   정보들 담아주고 Shape를 상속받은 DrawShape클래스를 만든후 DrawShape클래스 내에서 DrawInfo 데이터를 가지고    
+   원 Geometry를 그려 준 후 Canvas의 Children에 넣어줍니다.
 ```C#
- public class DrawInfo
-    {      
-        public double XStart { get; set; }
-        public double YStart { get; set; }
-        public double XEnd { get; set; }
-        public double YEnd { get; set; }
-        public double ArcR { get; set; }
-        public double StartAngle { get; set; }
-        public double EndAngle { get; set; }
+public class DrawInfo
+{      
+    public double XStart { get; set; }
+    public double YStart { get; set; }
+    public double XEnd { get; set; }
+    public double YEnd { get; set; }
+    public double ArcR { get; set; }
+    public double StartAngle { get; set; }
+    public double EndAngle { get; set; }
 
-    }
+}
 ```
 
 ```C#
@@ -61,46 +62,47 @@ drawInfo.YEnd = cy + cy * endSin;
 drawInfo.ArcR = cx;
 drawInfo.StartAngle = startangle;
 drawInfo.EndAngle = endAngle;
-```
 
-4. Shape를 상속받은 DrawShape 클래스를 생성해 주고 DrawInfo 정보를 보내줍니다.
+DrawShape shape = new DrawShape(info);
+canvas.Children.Add(Shape);
+```
 
 ```C#
 public class DrawShape : Shape
+{
+
+    DrawInfo _DrawInfo = new DrawInfo();
+    protected override Geometry DefiningGeometry { get { return GetGeometry(); } }
+
+    public DrawShape(DrawInfo _drawInfo)
     {
-
-        DrawInfo _DrawInfo = new DrawInfo();
-        protected override Geometry DefiningGeometry { get { return GetGeometry(); } }
-
-        public DrawShape(DrawInfo _drawInfo)
-        {
-            _DrawInfo = _drawInfo;
-        }
-
-        private Geometry GetGeometry()
-        {
-            StreamGeometry geom = new StreamGeometry();
-            using (StreamGeometryContext ctx = geom.Open())
-            {
-                ctx.BeginFigure(
-                    new Point(_DrawInfo.XStart,
-                              _DrawInfo.YStart),
-                    true,   // Filled
-                    false);  // Closed
-                ctx.ArcTo(
-                    new Point(_DrawInfo.XArcEnd,
-                              _DrawInfo.YArcEnd),
-                    new Size(_DrawInfo.ArcR, _DrawInfo.ArcR),
-                    0.0,     // rotationAngle
-                    _DrawInfo.EndAngle - _DrawInfo.StartAngle > 180,   //그려지는 각도가 180도 넘는지 체크
-                    SweepDirection.Clockwise, //시계방향으로 그림
-                    true,    // isStroked
-                    false);
-            }
-
-            return geom;
-        }
+        _DrawInfo = _drawInfo;
     }
+
+    private Geometry GetGeometry()
+    {
+        StreamGeometry geom = new StreamGeometry();
+        using (StreamGeometryContext ctx = geom.Open())
+        {
+            ctx.BeginFigure(
+                new Point(_DrawInfo.XStart,
+                          _DrawInfo.YStart),
+                true,   // Filled
+                false);  // Closed
+            ctx.ArcTo(
+                new Point(_DrawInfo.XArcEnd,
+                          _DrawInfo.YArcEnd),
+                new Size(_DrawInfo.ArcR, _DrawInfo.ArcR),
+                0.0,     // rotationAngle
+                _DrawInfo.EndAngle - _DrawInfo.StartAngle > 180,   //그려지는 각도가 180도 넘는지 체크
+                SweepDirection.Clockwise, //시계방향으로 그림
+                true,    // isStroked
+                false);
+        }
+
+        return geom;
+    }
+}
 ```
 
 
