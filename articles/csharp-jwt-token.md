@@ -26,12 +26,14 @@ JWT는 3개의 구조로 이루어져 있는 Base64 형태의 암호화된 인�
 }
 
 </pre></td>
-        <td><pre>{
-  "sub": "1234567890",
-  "name": "John Doe",
-  "admin": true
+        <td>
+<pre>{
+    "sub": "1234567890",
+    "name": "John Doe",
+    "admin": true
 }</pre></td>
-        <td><pre>HMAC_SHA256(
+        <td>
+<pre>HMAC_SHA256(
     secret,
     base64urlEncoding(header) + '.' +
     base64urlEncoding(payload)
