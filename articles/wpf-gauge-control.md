@@ -9,3 +9,19 @@
 ```C#
 <Canvas x:Name="canvas" Width="150" Height="150"/>
 ```
+
+2. Canvas 가운데 좌표값을 전역변수에 저장 해둡니다.
+
+```C#
+public partial class NcoreDefaultGauge : UserControl
+  {
+      double cx;
+      double cy;
+      public NcoreDefaultGauge()
+      {
+          InitializeComponent();
+          cx = canvas.Width / 2;
+          cy = canvas.Height / 2;
+      }
+  }
+```
