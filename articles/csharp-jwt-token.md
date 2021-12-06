@@ -10,36 +10,28 @@ JWT는 3개의 구조로 이루어져 있는 Base64 형태의 암호화된 인�
 - Payload
 - Signiture
 
-
-
-<table>
-    <tr>
-        <th>Header</th>
-        <th>Payload</th>
-        <th>Signiture</th>
-    </tr>
-    <tr>
-        <td>
-<pre>{
+#### Header
+{
     "alg": "HS256",
     "typ": "JWT"
 }
 
-</pre></td>
-        <td>
-<pre>{
+#### Payload
+```
+{
     "sub": "1234567890",
     "name": "John Doe",
     "admin": true
-}</pre></td>
-        <td>
-<pre>HMAC_SHA256(
+}
+```
+#### Signiture
+```
+HMAC_SHA256(
     secret,
     base64urlEncoding(header) + '.' +
     base64urlEncoding(payload)
-)</pre></td>
-    </td>
-</table>
+)
+```
 
 ## JwtToken 생성
 다음은 C#에서 JwtToken을 생성하는 방법입니다.
