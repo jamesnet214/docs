@@ -120,5 +120,5 @@ public string ValidateToken(string token)
 
 ## 참고 문헌
 - [OAuth2와 JWT, 웹기반 SSO 인증](https://www.sauru.so/blog/basic-of-oauth2-and-jwt/)
-- [생성과 유효성체크 심플 소스코드](https://jasonwatmore.com/post/2021/06/02/net-5-create-and-validate-jwt-tokens-use-custom-jwt-middleware)
+- [.NET 5.0 - Create and Validate JWT Tokens + Use Custom JWT Middleware](https://jasonwatmore.com/post/2021/06/02/net-5-create-and-validate-jwt-tokens-use-custom-jwt-middleware)
 - [C#에서 JWTToken 생성 및 유효성 체크](https://www.c-sharpcorner.com/article/jwt-validation-and-authorization-in-net-5-0/)
