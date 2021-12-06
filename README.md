@@ -17,3 +17,4 @@ DevNcore Articles는 TBD..
 - [Blazor Injection]()
 - [Scaffolding]()
 - [OAuth 인증키발급]()
+- [Asp.Net 소셜 로그인](articles/asp-social-oauth.md)
