@@ -1,14 +1,23 @@
-# csharp-jwt-token
-이 문서는 C#에서 Jwt Token을 생성과 유효성 체크에 대한 내용을 다루고 있습니다.
+# JWT 이해 및 C#을 통한 구현방법
+### 목적
+본문은 **JWT**를 처음 접하거나 이것을 사용하기 위한 개념과 기술에 대해 전반적으로 설명합니다. 그리고 C#을 통한 JWT 구현 방법도 제공하고 있습니다.
 
-## Orverview
-TBD...
+### 내용
+- [JWT 구조](#jwt-구조)
+- [Header](#header)
+- [Payload](#payload)
+- [Signiture](#signiture)
+- [JWT 생성](#jwt-생성)
+- [JWT Validation 체크](#jwt-validation-)
 
 ## JWT 구조
 JWT는 3개의 구조로 이루어져 있는 Base64 형태의 암호화된 인증 체계 값입니다.
 - Header
 - Payload
 - Signiture
+
+![image](https://user-images.githubusercontent.com/52397976/144880256-9e3f3258-694b-444e-9690-c7e4da787067.png)
+
 
 #### Header
 ```
@@ -35,7 +44,7 @@ HMAC_SHA256(
 )
 ```
 
-## JwtToken 생성
+## JWT 생성
 다음은 C#에서 JwtToken을 생성하는 방법입니다.
 
 ```csharp
@@ -55,7 +64,7 @@ public string GenerateToken(ApplicationUser user)
 }
 ```
 
-## Validation 체크
+## JWT Validation 체크
 ```csharp
 public string ValidateToken(string token)
 {
