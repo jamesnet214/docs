@@ -48,6 +48,7 @@ public partial class NcoreDefaultGauge : UserControl
         <ctrls:NcoreDefaultGauge/>
     </Grid>
 </Window>
+```
 
 - NcoreDefaultGauge.xaml
 
