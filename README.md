@@ -20,3 +20,4 @@ DevNcore Articles는 TBD..
 - [Asp.Net 소셜 로그인](articles/asp-social-oauth.md)
 - [Azure 웹 서버 등록](articles/azure-partal)
 - [Blazor API](articles/blazor-api)
+- [Wpf 게이저 컨트롤 만들기](articles/wpf-gauge-control)
