@@ -6,6 +6,9 @@ TBD...
 
 ## JWT 구조
 JWT는 3개의 구조로 이루어져 있는 Base64 형태의 암호화된 인증 체계 값입니다.
+- Header
+- Payload
+- Signiture
 
 ## JwtToken 생성
 다음은 C#에서 JwtToken을 생성하는 방법입니다.
