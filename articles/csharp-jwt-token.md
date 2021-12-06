@@ -2,8 +2,11 @@
 이 문서는 C#에서 Jwt Token을 생성과 유효성 체크에 대한 내용을 다루고 있습니다.
 
 ## Orverview
-
 TBD...
+
+## JWT 구조
+JWT는 3개의 구조로 이루어져 있는 Base64 형태의 암호화된 인증 체계 값입니다.
+
 ## JwtToken 생성
 다음은 C#에서 JwtToken을 생성하는 방법입니다.
 
