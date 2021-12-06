@@ -15,12 +15,16 @@
 
 
 ### 내용
+- [URL-Safe](#url-safe)
 - [JWT 구조](#jwt-구조)
 - [헤더 Header](#header)
 - [페이로드 Payload](#payload)
 - [시그니처 Signiture](#signiture)
 - [JWT 생성 (Generate)](#jwt-생성)
 - [JWT 체크 (Validation)](#jwt-validation-체크)
+
+## URL-Safe
+TBD...
 
 ## JWT 구조
 JWT는 3개의 구조로 이루어져 있는 Base64 형태의 암호화된 인증 체계 값입니다.
