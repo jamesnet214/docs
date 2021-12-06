@@ -1,9 +1,11 @@
 # DevNcore Articles
 
-## Overview
-DevNcore Articles는 TBD..
+### 목적
+
 
 ## Content
+이 항목은 **devncore.org**에서 함께 포스팅 되고 있있습니다.
+- [The-Eaiest-Git](https://github.com/devncore/the-easiest-git)
 - [SQLite EntityFramework](articles/entityframework-sqlite.md)
 - [보안 취약점 Articlesvulnerability](articles/articlesvulnerability.md)
 - [브라우저 자동완성 정책 Auto Complete](articles/autocomplete.md)
