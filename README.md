@@ -13,7 +13,7 @@
 - [JWT](articles/csharp-jwt-token.md)
 - [체인 메서드 Chain Method](articles/chainmethod.md)
 - [SPA란? (Single Page Application)](articles/single-page-application.md)
-- [NetCore API에서 Cors 허용하기](articles/allow-cors-for-aspnetcore.md)
+- [AspNetCore CORS 크로스 도메인 정책](articles/allow-cors-for-aspnetcore.md)
 - [Database Schema](articles/database-schema.md)
 - [React Router Dom](articles/react-router-dom.md)
 - [Blazor Injection](articles/blazor-injection.md)
