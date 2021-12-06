@@ -123,3 +123,4 @@ public string ValidateToken(string token)
 - [.NET 5.0 - Create and Validate JWT Tokens + Use Custom JWT Middleware](https://jasonwatmore.com/post/2021/06/02/net-5-create-and-validate-jwt-tokens-use-custom-jwt-middleware)
 - [Create And Validate JWT Token In .NET 5.0
 ](https://www.c-sharpcorner.com/article/jwt-validation-and-authorization-in-net-5-0/)
+- [ASP.NET Core 3.1 - JWT Authentication Tutorial with Example API](https://jasonwatmore.com/post/2019/10/11/aspnet-core-3-jwt-authentication-tutorial-with-example-api)
