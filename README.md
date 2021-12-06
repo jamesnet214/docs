@@ -16,7 +16,7 @@ DevNcore Articles는 TBD..
 - [React Router Dom]()
 - [Blazor Injection]()
 - [Scaffolding]()
-- [OAuth 인증키발급]()
+- [OAuth Google 인증키발급](acticales/oauth-google.md)
 - [Asp.Net 소셜 로그인](articles/asp-social-oauth.md)
 - [Azure 웹 서버 등록](articles/azure-partal)
 - [Blazor API](articles/blazor-api)
