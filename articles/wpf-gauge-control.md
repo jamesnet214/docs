@@ -26,10 +26,25 @@ public partial class NcoreDefaultGauge : UserControl
   }
 ```
 
-3. 반지름, 시작각도(0) 끝각도(360) 값을 이용해 x1,y1 x2,y2 좌표를 얻습니다.
+3. 반지름, 시작각도(0) 끝각도(360) 값을 이용해 x1,y1 x2,y2 좌표를 얻어 DrawInfo 클래스를 만든 후    
+   정보들 담아줍니다.
+```C#
+ public class DrawInfo
+    {      
+        public double XStart { get; set; }
+        public double YStart { get; set; }
+        public double XEnd { get; set; }
+        public double YEnd { get; set; }
+        public double ArcR { get; set; }
+        public double StartAngle { get; set; }
+        public double EndAngle { get; set; }
+
+    }
+```
 
 ```C#
-int start_anegle = 0, int end_angle = 360;
+int start_angle = 0, end_angle = 360;
+DrawInfo drawInfo = new DrawInfo();
 
 double startCos = (double)Math.Cos(start_angle * Math.PI / 180);
 double startSin = (double)Math.Sin(start_angle * Math.PI / 180);
@@ -37,11 +52,55 @@ double startSin = (double)Math.Sin(start_angle * Math.PI / 180);
 double endCos = (double)Math.Cos(end_angle * Math.PI / 180);
 double endSin = (double)Math.Sin(end_angle * Math.PI / 180);
 
-double xStart = cx + cx * startCos;
-double yStart = cy + cy * startSin;
+drawInfo.XStart = cx + cx * startCos;
+drawInfo.YStart = cy + cy * startSin;
 
-double xEnd = cx + cx * endCos;
-double yEnd = cy + cy * endSin;
+drawInfo.XEnd = cx + cx * endCos;
+drawInfo.YEnd = cy + cy * endSin;
+
+drawInfo.ArcR = cx;
+drawInfo.StartAngle = startangle;
+drawInfo.EndAngle = endAngle;
+```
+
+4. Shape를 상속받은 DrawShape 클래스를 생성해 주고 DrawInfo 정보를 보내줍니다.
+
+```C#
+public class DrawShape : Shape
+    {
+
+        DrawInfo _DrawInfo = new DrawInfo();
+        protected override Geometry DefiningGeometry { get { return GetGeometry(); } }
+
+        public DrawShape(DrawInfo _drawInfo)
+        {
+            _DrawInfo = _drawInfo;
+        }
+
+        private Geometry GetGeometry()
+        {
+            StreamGeometry geom = new StreamGeometry();
+            using (StreamGeometryContext ctx = geom.Open())
+            {
+                ctx.BeginFigure(
+                    new Point(_DrawInfo.XStart,
+                              _DrawInfo.YStart),
+                    true,   // Filled
+                    false);  // Closed
+                ctx.ArcTo(
+                    new Point(_DrawInfo.XArcEnd,
+                              _DrawInfo.YArcEnd),
+                    new Size(_DrawInfo.ArcR, _DrawInfo.ArcR),
+                    0.0,     // rotationAngle
+                    _DrawInfo.EndAngle - _DrawInfo.StartAngle > 180,   //그려지는 각도가 180도 넘는지 체크
+                    SweepDirection.Clockwise, //시계방향으로 그림
+                    true,    // isStroked
+                    false);
+            }
+
+            return geom;
+        }
+    }
 ```
 
 
