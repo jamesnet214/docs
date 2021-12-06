@@ -6,7 +6,7 @@
 ## Content
 이 항목은 **devncore.org**에서 함께 포스팅 되고 있있습니다.
 - [The-Eaiest-Git](https://github.com/devncore/the-easiest-git)
-- [SQLite EntityFramework](articles/entityframework-sqlite.md)
+- [SQLite E.F](articles/entityframework-sqlite.md)
 - [보안 취약점 Articlesvulnerability](articles/articlesvulnerability.md)
 - [브라우저 자동완성 정책 Auto Complete](articles/autocomplete.md)
 - [로컬 인증서 만들기 mkcert](/articles/mkcert.md)
