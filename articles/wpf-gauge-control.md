@@ -60,11 +60,11 @@ drawInfo.XEnd = cx + cx * endCos;
 drawInfo.YEnd = cy + cy * endSin;
 
 drawInfo.ArcR = cx;
-drawInfo.StartAngle = startangle;
-drawInfo.EndAngle = endAngle;
+drawInfo.StartAngle = start_angle;
+drawInfo.EndAngle = end_angle;
 
-DrawShape shape = new DrawShape(info);
-canvas.Children.Add(Shape);
+DrawShape shape = new DrawShape(drawInfo);
+canvas.Children.Add(shape);
 ```
 
 ```C#
@@ -90,8 +90,8 @@ public class DrawShape : Shape
                 true,   // Filled
                 false);  // Closed
             ctx.ArcTo(
-                new Point(_DrawInfo.XArcEnd,
-                          _DrawInfo.YArcEnd),
+                new Point(_DrawInfo.XEnd,
+                          _DrawInfo.YEnd),
                 new Size(_DrawInfo.ArcR, _DrawInfo.ArcR),
                 0.0,     // rotationAngle
                 _DrawInfo.EndAngle - _DrawInfo.StartAngle > 180,   //그려지는 각도가 180도 넘는지 체크
