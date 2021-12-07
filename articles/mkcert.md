@@ -26,7 +26,7 @@ Windows 운영체제인 경우 Chocolatey 패키지 관리자를 먼저 설치�
   [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; 
   iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
   ```
-- #### Chocolatey 설치 확인
+  설치가 끝났으면 확인.
   ```
   choco -v
   ```
