@@ -27,4 +27,7 @@
 - [ ] [Blazor API](articles/blazor-api.md)
 - [ ] [Wpf 게이지 컨트롤 만들기](articles/wpf-gauge-control.md)
 - [x] [Wpf 원 그리기](articles/wpf-circle.md)
-</br >
+
+
+**비 체크항목**  
+제목 변경이 필요함
