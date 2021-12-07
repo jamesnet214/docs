@@ -19,7 +19,7 @@ Windows 운영체제인 경우 Chocolatey 패키지 관리자를 먼저 설치�
 <img src="https://user-images.githubusercontent.com/52397976/145036063-6f6f83c2-a1b2-41fb-bfe4-d9383697b6a2.png" width="600"/>
 
 - #### PowerShell (관리자 모드) 
-  관리자 모드에서 아래 소스코드를 실행합니다.
+  관리자 모드에서 아래 소스코드를 실행합니다.  
   
   ```
   Set-ExecutionPolicy Bypass -Scope Process -Force; 
