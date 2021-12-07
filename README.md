@@ -10,7 +10,7 @@
 - [EF Sqlite 마이그레이션 만들기](articles/entityframework-sqlite.md)
 - [보안 취약점 Articlesvulnerability](articles/articlesvulnerability.md)
 - [브라우저 자동완성 정책 Auto Complete](articles/autocomplete.md)
-- [로컬 인증서 만들기 mkcert](/articles/mkcert.md)
+- [mkcert 로컬 인증서 만들기](/articles/mkcert.md)
 - [JWT](articles/csharp-jwt-token.md)
 - [체인 메서드 Chain Method](articles/chainmethod.md)
 - [SPA란? (Single Page Application)](articles/single-page-application.md)
