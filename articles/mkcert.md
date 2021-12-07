@@ -14,12 +14,18 @@
 
 ### Windows OS
 Windows 운영체제인 경우 Chocolatey 패키지 관리자를 먼저 설치합니다.
-[Official](https://chocolatey.org/)
+> Windows 소프트웨어용 시스템 수준의 명령줄 패키지 관리자 및 설치 프로그램 입니다.
 
-Windows PowerShell (관리자 모드에서 설치)
-```powershell
-Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
-```
+<img src="https://user-images.githubusercontent.com/52397976/145036063-6f6f83c2-a1b2-41fb-bfe4-d9383697b6a2.png" width="600"/>
+
+- #### PowerShell (관리자 모드) 
+  관리자 모드에서 아래 소스코드를 실행합니다.
+  
+  ```
+  Set-ExecutionPolicy Bypass -Scope Process -Force; 
+  [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; 
+  iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+  ```
 
 ## Install
 
