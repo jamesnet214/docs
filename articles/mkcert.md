@@ -29,7 +29,7 @@ Windows 운영체제인 경우 Chocolatey 패키지 관리자를 먼저 설치�
 
 ### Chocolatey 설치 확인
 ```
-
+choco -v
 ```
 
 ## Install
