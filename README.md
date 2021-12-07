@@ -7,6 +7,8 @@
 이 항목은 **devncore.org**에서 함께 포스팅 되고 있있습니다.
 - [The-Easiest-Git](https://github.com/devncore/the-easiest-git)
 - [The-Easiest-Blender](https://github.com/devncore/the-easiest-blender)
+- [The-Easiest-Markdown](https://github.com/devncore/the-easiest-markdown)
+- [The-Easiest-React](https://github.com/devncore/the-easiest-react)
 - [EF Sqlite 마이그레이션 만들기](articles/entityframework-sqlite.md)
 - [보안 취약점 Articlesvulnerability](articles/articlesvulnerability.md)
 - [브라우저 자동완성 정책 Auto Complete](articles/autocomplete.md)
