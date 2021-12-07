@@ -26,4 +26,5 @@
 - [Azure 웹 서버 등록](articles/azure-portal.md)
 - [Blazor API](articles/blazor-api.md)
 - [Wpf 게이지 컨트롤 만들기](articles/wpf-gauge-control.md)
+- [Wpf 원 그리기](articles/wpf-circle.md)
 </br >
