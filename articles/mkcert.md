@@ -30,10 +30,18 @@ Windows 운영체제인 경우 Chocolatey 패키지 관리자를 먼저 설치�
   ```
   choco -v
   ```
+  
+  패키지 (mkcert) 설치
+  ```
+  choco install mkcert
+  ```
 
-## Install
+## 인증서 발급하기
 
-- Step 1. Install: Chocoletley
-- Step 2. Install: `choco install mkcert`
-- Step 3. Install: `install mkcert`
-- Step 4. Install: `mkcert localhost`
+```
+install mkcert
+```
+
+```
+mkcert localhost
+```
