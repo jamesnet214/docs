@@ -27,6 +27,11 @@ Windows 운영체제인 경우 Chocolatey 패키지 관리자를 먼저 설치�
   iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
   ```
 
+### Chocolatey 설치 확인
+```
+
+```
+
 ## Install
 
 - Step 1. Install: Chocoletley
