@@ -31,7 +31,7 @@ Windows 운영체제인 경우 Chocolatey 패키지 관리자를 먼저 설치�
   choco -v
   ```
   
-  패키지 [mkcert](https://github.com/FiloSottile/mkcert) 설치
+  다음, [mkcert](https://github.com/FiloSottile/mkcert) 패키지 설치
   ```
   choco install mkcert
   ```
