@@ -37,7 +37,10 @@ double x2 = Math.Sin(endRadian) * r;
 double y2 = Math.Cos(endRadian) * r;
 ```
 
-이어질 두개의 
+이어질 두개의 좌표를 구했습니다.
+
+<img src="https://user-images.githubusercontent.com/68521148/145227901-0dd26880-6cc0-4005-921d-bf6d1e929e41.png" width="400" height="400"></img>
+
 
 
 
