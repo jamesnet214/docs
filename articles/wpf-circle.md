@@ -25,12 +25,19 @@ startRadian = 0도 * Math.PI / 180
 endRadian = 360도 * Math.PI / 180
 ```
 
-최종 C# 코드는
+최종 C# 코드
 
 ```C#
+//0도 지점 x, y 좌표
+double x1 = Math.Sin(startRadian) * r;
+double y2 = Math.Cos(startRadian) * r;
+
+//360도 지점 x, y 좌표
+double x2 = Math.Sin(endRadian) * r;
+double y2 = Math.Cos(endRadian) * r;
 ```
 
-
+이어질 두개의 
 
 
 
