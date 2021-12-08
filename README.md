@@ -21,7 +21,7 @@
 - [ ] [React-Router-Dom 패키지 사용법](articles/react-router-dom.md)
 - [ ] [인젝션이란? (Blazor Injection)](articles/blazor-injection.md)
 - [ ] [스캐폴딩이란? (Scaffolding)](articles/scaffolding.md)
-- [ ] [OAuth 인증키발급-Google](articles/oauth-google.md)
+- [ ] [OAuth 인증키발급 Ver.Google](articles/oauth-google.md)
 - [ ] [Asp.Net 소셜 로그인](articles/asp-social-oauth.md)
 - [ ] [Azure 웹 서버 등록](articles/azure-portal.md)
 - [ ] [Blazor API](articles/blazor-api.md)
