@@ -45,3 +45,6 @@ install mkcert
 ```
 mkcert localhost
 ```
+
+## 참고자료
+- [How to configure https (SSL) locally?](https://www.mariokandut.com/how-to-setup-https-ssl-in-localhost-react/)
