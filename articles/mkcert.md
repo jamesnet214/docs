@@ -47,7 +47,7 @@ SSL 인증서 생성하기
 mkcert localhost
 ```
 
-<img https://user-images.githubusercontent.com/52397976/145216640-5d8beb54-14a1-489e-a34d-338488a03f8e.png" width="400"/>
+<img src="https://user-images.githubusercontent.com/52397976/145216640-5d8beb54-14a1-489e-a34d-338488a03f8e.png" width="400"/>
 
 
 ## 참고자료
