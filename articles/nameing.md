@@ -2,6 +2,7 @@
 
 네이밍과 표기법에 관한 정보
 
+---
 ## Overview
 - [파스칼 표기법](#파스칼-표기법)
 - [카멜 표기법](#카멜-표기법)
@@ -10,7 +11,11 @@
 - [변수명, 함수 파라미터](#변수-및-함수-파라미터명)
 - [인터페이스명](#인터페이스명)
 - [지역변수 멤버변수](#지역변수와-멤버변수)
-- [변수명](#Boolean-변수속성함수)
+- [Boolean명](#Boolean-변수속성함수)
+- [UI 구성요소 접두사](#UI-구성요소-접두사)
+- [네임스페이스명](#네임스페이스명)
+- [파일명](#파일명)
+---
 
 ## 파스칼 표기법
 > 파스칼 표기법이란? </br>
@@ -18,6 +23,7 @@
 ```
 DataModel
 ```
+<br />
 
 ## 카멜 표기법
 > 카멜 표기법이란? </br>
@@ -26,6 +32,7 @@ DataModel
 ```
 dataModel
 ```
+<br />
 
 ## 클래스명
 > 파스칼 표기법
@@ -34,6 +41,7 @@ public class DataModel
 {
 }
 ```
+<br />
 
 ## 함수(Method)명
 > 파스칼 표기법
@@ -42,6 +50,7 @@ void GetData(string name)
 {
 }
 ```
+<br />
 
 ## 변수 및 함수 파라미터명
 > 카멜 표기법 </br>
@@ -55,6 +64,7 @@ void GetData(string name)
     string myName = name;
 }
 ```
+<br />
 
 ## 인터페이스명
 > 파스칼 표기법, 접두사 I 를 포함하여 파스칼 표기법을 사용
@@ -63,6 +73,7 @@ public interface IMyName
 {
 }
 ```
+<br />
 
 ## 지역변수와 멤버변수
 > 카멜 표기법
@@ -80,13 +91,21 @@ public class DataModel
     }
 }
 ```
+<br />
 
 ## Boolean 변수,속성,함수
-> is 또는 유사한 접두사를 사용한다.
+> is 또는 유사한 접두사를 사용한다. </br>
+> 부정적인 변수이름은 피한다.
+```
+private bool isCoin = true;    // 정상적인사용
 
+private bool isError = ture;   // 잘못된사용
+```
+<br />
 
-
-- ### `UI 구성요소 접두사 적용`
+## UI 구성요소 접두사
+> 적당한 접두사를 사용하여 다른 변수들과 구븐 할 수 있어야 한다. </br>
+> 
 | Control | Prefix | Control | Prefix | Control | Prefix |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 | Label | lbl | ListBox | lst | Image | img |
@@ -96,3 +115,14 @@ public class DataModel
 | ImageButton | imb | CheckBoxList | cbl | Validators | val |
 | Hyperlink | hlk | RadioButton | rdo | DropDownList | ddl |
 | RadioButtonList | rbl |
+<br />
+
+## 네임스페이스명
+> 네임스페이스명은 표준 패턴을 따라야 한다.</br>
+> EX) <회사명>.<제품명>.<최상위모듈>.<하위모듈> 
+<br />
+
+## 파일명
+> 파스칼 표기법 </br>
+> 파일명은 클래스명과 같아야한다. </br>
+
