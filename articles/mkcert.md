@@ -26,12 +26,12 @@ Windows 운영체제인 경우 Chocolatey 패키지 관리자를 먼저 설치�
   [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; 
   iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
   ```
-  설치 완료 후 확인하기.
+  설치 완료 후 확인방법
   ```
   choco -v
   ```
   
-  패키지 (mkcert) 설치
+  패키지 [mkcert](https://github.com/FiloSottile/mkcert) 설치
   ```
   choco install mkcert
   ```
