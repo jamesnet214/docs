@@ -2,7 +2,7 @@
 [DevNcore Team](https://devncore.org)
 
 ### 목적
-본문은 **MkCert** API를 통한 로컬 인증서 발급 방법을 설명합니다. 
+본문은 **[mkcert](https://github.com/FiloSottile/mkcert)** 를 통한 로컬 인증서 발급 방법을 설명합니다. 
 > 아주 간단하게, 빠르고 편리하게 localhost SSL 인증서를 발급받을 수 있습니다.
 
 ### 지원 운영체제
@@ -26,29 +26,34 @@ Windows 운영체제인 경우 Chocolatey 패키지 관리자를 먼저 설치�
   [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; 
   iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
   ```
-  설치 완료 후 확인방법
+  > 공식 [홈페이지](https://chocolatey.org/install)에서도 설치 주소를 확인할 수 있습니다.
+  
+  설치가 잘 되었는지 확인하는 방법은 다음과 같습니다.
   ```
   choco -v
   ```
   
-  다음, [mkcert](https://github.com/FiloSottile/mkcert) 패키지 설치
+  [mkcert](https://github.com/FiloSottile/mkcert) 패키지 설치
   ```
   choco install mkcert
   ```
+  > 알고 계셨나요? [mkcert](https://github.com/FiloSottile/mkcert)은 무료 오픈소스입니다.
 
 ## 인증서 발급하기
 이제 원하는 위치에서 SSL 인증서를 생성할 수 있습니다. 
-> Windows 운영체제인 경우 명령프롬프트 창 등에서 사용할 수 있습니다.
+> mkcert 기능은 cmd, terminal, node 등의 콘솔 사용이 가능합니다.
 <img src="https://user-images.githubusercontent.com/52397976/145218140-170cee55-bdc2-40ee-a252-4e21ccb1a488.png" width="400"/>
 
+- #### 콘솔 애플리케이션 (관리자 모드)
 
-
-- 로컬 환경에서 신뢰할 수 있는 CA 만들기
+  1. 로컬 환경에서 신뢰할 수 있는 CA 생성   
+  
   ```
   mkcert -install
   ```
 
-- SSL 인증서 생성하기
+  2. SSL 인증서 생성
+  3. 
   ```
   mkcert localhost
   ```
