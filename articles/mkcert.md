@@ -39,15 +39,15 @@ Windows 운영체제인 경우 Chocolatey 패키지 관리자를 먼저 설치�
 ## 인증서 발급하기
 이제 원하는 위치에서 SSL 인증서를 생성할 수 있습니다. 
 
-로컬 환경에서 신뢰할 수 있는 CA 만들기
-```
-mkcert -install
-```
+1. 로컬 환경에서 신뢰할 수 있는 CA 만들기
+  ```
+  mkcert -install
+  ```
 
-SSL 인증서 생성하기
-```
-mkcert localhost
-```
+2. SSL 인증서 생성하기
+  ```
+  mkcert localhost
+  ```
 
 <img src="https://user-images.githubusercontent.com/52397976/145216640-5d8beb54-14a1-489e-a34d-338488a03f8e.png" width="400"/>
 
