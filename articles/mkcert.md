@@ -43,12 +43,12 @@ Windows 운영체제인 경우 Chocolatey 패키지 관리자를 먼저 설치�
 
 
 
-1. 로컬 환경에서 신뢰할 수 있는 CA 만들기
+- 로컬 환경에서 신뢰할 수 있는 CA 만들기
   ```
   mkcert -install
   ```
 
-2. SSL 인증서 생성하기
+- SSL 인증서 생성하기
   ```
   mkcert localhost
   ```
