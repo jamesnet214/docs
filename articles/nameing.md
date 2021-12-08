@@ -125,6 +125,9 @@ private bool isError = ture;   // 잘못된사용
 ## 파일명
 > 파스칼 표기법 </br>
 > 파일명은 클래스명과 같아야한다. </br>
+```
+Class명 => HellowWord,  File명 => HelloWorld.cs
+```
 
 ## 지시자
 > 지시자와 괄호 앞뒤에는 한 칸씩 공간을 남긴다.
