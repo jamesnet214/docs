@@ -28,7 +28,7 @@ Windows 운영체제인 경우 Chocolatey 패키지 관리자를 먼저 설치�
   ```
   > 공식 [홈페이지](https://chocolatey.org/install)에서도 설치 주소를 확인할 수 있습니다.
   
-  설치가 잘 되었는지 확인하는 방법은 다음과 같습니다.
+  설치 확인
   ```
   choco -v
   ```
@@ -46,20 +46,29 @@ Windows 운영체제인 경우 Chocolatey 패키지 관리자를 먼저 설치�
 
 - #### 콘솔 애플리케이션 (관리자 모드)
 
-  1. 로컬 환경에서 신뢰할 수 있는 CA 생성   
-  
+  로컬 환경에서 신뢰할 수 있는 CA 생성     
   ```
   mkcert -install
   ```
 
-  2. SSL 인증서 생성
-  3. 
+  SSL 인증서 생성  
   ```
   mkcert localhost
   ```
-
-<img src="https://user-images.githubusercontent.com/52397976/145216640-5d8beb54-14a1-489e-a34d-338488a03f8e.png" width="400"/>
-
+  #### 생성 완료    
+  아래와 같이 물리적인 2개의 로컬 인증서가 생성됩니다.
+  
+  | pem           | key.pem           |
+  |:-------------:|:-----------------:|
+  | localhost.pem | localhost-key.pem |
+  
+  <img src="https://user-images.githubusercontent.com/52397976/145220936-81f6196b-a242-496d-bd64-ffc242675953.png" width="300"/>
+  
+  <br/>
+  
+  #### 주의 사항
+  이 SSL 인증서는 로컬 환경 전용으로 생성되 인증서입니다. 
+  그렇기 때문에 새로운 환경에서는 `.gitignore`를 통해 예외를 두고 관리하도록 합니다.
 
 ## 참고자료
 - [How to configure https (SSL) locally?](https://www.mariokandut.com/how-to-setup-https-ssl-in-localhost-react/)
