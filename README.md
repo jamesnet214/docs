@@ -28,6 +28,7 @@
 - [ ] [Wpf 게이지 컨트롤 만들기](articles/wpf-gauge-control.md)
 - [x] [Wpf 원 그리기](articles/wpf-circle.md)
 - [ ] [네이밍 표기법](articles/nameing.md)
+- [ ] [Producer-Consumer 패턴이란?](articels/Producer-Consumer.md)
 
 **비 체크항목**  
 제목 변경이 필요함
