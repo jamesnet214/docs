@@ -38,7 +38,7 @@ Windows 운영체제인 경우 Chocolatey 패키지 관리자를 먼저 설치�
 
 ## 인증서 발급하기
 이제 원하는 위치에서 SSL 인증서를 생성할 수 있습니다. 
-
+> Windows 운영체제인 경우 명령프롬프트 창 등에서 사용할 수 있습니다.
 <img src="https://user-images.githubusercontent.com/52397976/145218140-170cee55-bdc2-40ee-a252-4e21ccb1a488.png" width="400"/>
 
 
