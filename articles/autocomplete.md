@@ -3,7 +3,7 @@ AutoComplete 기능
 ## 기능 제거
 jQuery를 통한 `autocomplete off` 처리
 
-```
+```jsx
 <script src="./script/jquery.min.js"></script>
 <script>
     $(document).ready(function(){
