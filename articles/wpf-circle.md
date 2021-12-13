@@ -16,13 +16,13 @@ Cos@: b / r => b(x좌표): Con@ * r
 
 위 공식에서 Sin, Cos 와 a, b 위치를 바꾸어 x, y 좌표를 구한 후    
 원은 360도. 원을 그리려면 0도와 360도 지점 좌표를 구해 Shape로 그려주면 되는데
-세타(각도) 값을 각도법에서 호도법으로 변환해 넣어줘야 합니다.
+세타(각도) 값을 호도법에서 각도법으로 변환해 넣어줘야 합니다.
 
 **Math.PI = 3.14159265...** 
 
 ```
-startRadian = 0도 * Math.PI / 180
-endRadian = 360도 * Math.PI / 180
+startAngle = 0도 * Math.PI / 180
+endAngle = 360도 * Math.PI / 180
 ```
 
 최종 C# 코드
@@ -37,11 +37,9 @@ double x2 = Math.Sin(endRadian) * r;
 double y2 = Math.Cos(endRadian) * r;
 ```
 
-이어질 두개의 좌표를 구했습니다.
-
 <img src="https://user-images.githubusercontent.com/68521148/145227901-0dd26880-6cc0-4005-921d-bf6d1e929e41.png" width="400" height="400"></img>
 
-
+위에서 이어질 두개의 포인트 좌표, 시작 각도, 끝 각도를 구했고 그려질 원의 지름을 임의로 정해줍니다.
 
 
 
