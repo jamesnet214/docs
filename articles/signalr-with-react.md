@@ -43,3 +43,69 @@ app.UseEndpoints(endpoints =>
 ```
 var connection = new signarR.HubConnectionBuilder();
 ```
+
+
+TBD...
+
+(이미지 1) - AspNetCore API 프로젝트 선택
+
+(이미지 2) - 프로젝트 이름 AspNetCore
+
+(이미지 3) - 추가정보 확인
+
+(이미지 4) - 프로젝트 솔루션
+
+(이미지 5) Add > Client side library
+
+(이미지 6) 라이브러리 입력 및 특정파일 선택 (.js 추출)
+
+파일 추가
+`Hubs/ChatHub.cs`
+```
+using Microsoft.AspNetCore.SignalR;
+
+namespace SignalRCore.Hubs
+{
+    public class ChatHub : Hub
+    {
+        public async Task SendMessage(string user, string message)
+        {
+            // 접속중인 모든 클라이언트에 일괄적으로 메시지를 보낼 수 있습니다.
+            await Clients.All.SendAsync("ReceiveMessage", user, message);
+        }
+    }
+}
+```
+
+시그널R 서비스 추가
+```
+public void ConfigureServices(IServiceCollection services)
+{
+    ...
+    services.AddSignalR();
+}
+```
+
+Endpoints 허브 추가
+```
+public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+{
+    ...
+    app.UseEndpoints(endpoints =>
+    {
+        endpoints.MapHub<chatHub>("/chatHub");
+        endpoints.MapControllers();
+    });
+}
+```
+
+크로스 도메인을 허용할 때
+```
+app.UseCors(builder =>
+{
+    builder.WaitOrigins("https://localhost:4936")
+        .AllowAnyHeader()
+        .AllowAnyMethod()
+        .AllowCredentials();
+});
+```
