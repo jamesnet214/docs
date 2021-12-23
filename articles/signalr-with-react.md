@@ -12,6 +12,7 @@ SignalR은 AspNetCore를 통해 제공되며 기존 .NET Framework용 버전도 
 
 
 ** Create Hub**
+
 ```
 public class ChatHub : Hub
 {
@@ -23,13 +24,13 @@ public class ChatHub : Hub
 ```
 
 **ConfigureServices**
+
 ```
 services.AddSignalR();
 ```
 
-```
-
 **Configure**
+
 ```
 app.UseEndpoints(endpoints =>
 {
@@ -40,6 +41,7 @@ app.UseEndpoints(endpoints =>
 ## Create client scripts
 
 ****chat.js
+    
 ```
 var connection = new signarR.HubConnectionBuilder();
 ```
@@ -61,6 +63,7 @@ TBD...
 
 파일 추가
 `Hubs/ChatHub.cs`
+    
 ```
 using Microsoft.AspNetCore.SignalR;
 
@@ -107,5 +110,40 @@ app.UseCors(builder =>
         .AllowAnyHeader()
         .AllowAnyMethod()
         .AllowCredentials();
+});
+```
+
+ 
+`chatHub.js`    
+```
+"use strict";
+
+var connection = new signalR.HubConnectionBuilder().withUrl("/chatHub").build();
+
+//Disable the send button until connection is established.
+document.getElementById("sendButton").disabled = true;
+
+connection.on("ReceiveMessage", function (user, message) {
+    var li = document.createElement("li");
+    document.getElementById("messagesList").appendChild(li);
+    // We can assign user-supplied strings to an element's textContent because it
+    // is not interpreted as markup. If you're assigning in any other way, you 
+    // should be aware of possible script injection concerns.
+    li.textContent = `${user} says ${message}`;
+});
+
+connection.start().then(function () {
+    document.getElementById("sendButton").disabled = false;
+}).catch(function (err) {
+    return console.error(err.toString());
+});
+
+document.getElementById("sendButton").addEventListener("click", function (event) {
+    var user = document.getElementById("userInput").value;
+    var message = document.getElementById("messageInput").value;
+    connection.invoke("SendMessage", user, message).catch(function (err) {
+        return console.error(err.toString());
+    });
+    event.preventDefault();
 });
 ```
