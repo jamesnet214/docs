@@ -1,9 +1,5 @@
 # Single Page Application
 
-##
-
-##
-
 ## SPA가 생겨난 배경
 TBD..
 
