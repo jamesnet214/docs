@@ -25,3 +25,8 @@ const init = (async () => {
 
 init();
 ```
+
+1. GET
+2. POST
+3. DELETE
+4. PUT
