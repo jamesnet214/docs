@@ -2,4 +2,4 @@
 
 <br>
 
-## Googole 로그인 인증
+## Google 로그인 인증
