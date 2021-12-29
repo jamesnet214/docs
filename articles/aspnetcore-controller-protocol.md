@@ -44,7 +44,12 @@ public async Task<IActionResult> Users()
 
 
 ## Post
+```
 
+```
 ## Put
 
 ## Delete
+
+## References
+- [code-maze](https://code-maze-com/net-core-web-development-part6/)
