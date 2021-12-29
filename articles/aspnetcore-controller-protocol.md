@@ -1,5 +1,27 @@
 ## AspNetCore Controller
 
+## Repository
+
+```
+public interface IUserRepository
+{
+    IEnumerable<User> GetUsers();
+}
+```
+
+```
+public class UserRepository : RepositoryBase<User>, IUserRepository
+{
+    public UserRepository(SomeContext someContext)
+        :base(someContext)
+    {
+        return FindAll()
+            .OrderBy(ow => ow.Name)
+            .ToList();
+    }
+}
+```
+
 ## Get
 ```
 
@@ -8,7 +30,7 @@ public async Task<IActionResult> Users()
 {
     try 
     {
-        var users = getUsers();
+        var users = _repository.User.GetUsers();
         _logger.LogInfo("Returned all users from database.");
         return Ok(owners);
     }
