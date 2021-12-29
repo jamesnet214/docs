@@ -9,6 +9,7 @@
 | (Json Web Token, JWT) |
 | Header, Payload, Signiture | 
 
+<br>
 
 ### 내용
 - [URL-Safe](#url-safe)
@@ -19,8 +20,12 @@
 - [JWT 생성 (Generate)](#jwt-생성)
 - [JWT 체크 (Validation)](#jwt-validation-체크)
 
+<br>
+
 ## URL-Safe
 TBD...
+
+<br>
 
 ## JWT 구조
 JWT는 3개의 구조로 이루어져 있는 Base64 형태의 암호화된 인증 체계 값입니다.
@@ -28,11 +33,6 @@ JWT는 3개의 구조로 이루어져 있는 Base64 형태의 암호화된 인�
 | Header | Payload | Signiture |
 |:---:|:---:|:---:|
 | 헤더 | 페이로드 | 시그니쳐 | 
-
-
-
-
-
 
 #### Header
 ```
@@ -50,6 +50,7 @@ JWT는 3개의 구조로 이루어져 있는 Base64 형태의 암호화된 인�
     "admin": true
 }
 ```
+
 #### Signiture
 ```
 HMAC_SHA256(
@@ -58,6 +59,8 @@ HMAC_SHA256(
     base64urlEncoding(payload)
 )
 ```
+
+<br>
 
 ## JWT 생성
 다음은 C#에서 JwtToken을 생성하는 방법입니다.
@@ -78,6 +81,8 @@ public string GenerateToken(ApplicationUser user)
     return tokenHandler.WriteToken(token);
 }
 ```
+
+<br>
 
 ## JWT Validation 체크
 ```csharp
@@ -113,6 +118,8 @@ public string ValidateToken(string token)
     }
 }
 ```
+
+<br>
 
 ## 참고 문헌
 - [OAuth2와 JWT, 웹기반 SSO 인증](https://www.sauru.so/blog/basic-of-oauth2-and-jwt/)
