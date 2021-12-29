@@ -1,4 +1,4 @@
-# AspNetCore Controller Protocols
+# AspNetCore Controller
 
 ## Get
 ```
