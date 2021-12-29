@@ -1,24 +1,24 @@
 # JWT 이해 및 C#을 통한 구현방법
 > **JWT**에 대한 전반적인 개념과 기술에 대해 설명합니다. 그리고 C#을 통한 JWT 구현 방법도 제공하고 있습니다.
 
-### JSON 웹 토큰 (Json Web Token, JWT)
+<br>
+
+## 내용
+- [JSON 웹 토큰](#url-safe)
+- [URL-Safe](#url-safe)
+- [JWT 구조](#jwt-구조)
+- [JWT 생성 (Generate)](#jwt-생성)
+- [JWT 체크 (Validation)](#jwt-validation-체크)
+
+<br>
+
+## JSON 웹 토큰 (Json Web Token, JWT)
 
 | ![image](https://user-images.githubusercontent.com/52397976/144888529-fbe149fa-9af7-4f98-96bc-246fd3b04d76.png) |
 |:---:|
 | JSON 웹 토큰 |
 | (Json Web Token, JWT) |
 | Header, Payload, Signiture | 
-
-<br>
-
-### 내용
-- [URL-Safe](#url-safe)
-- [JWT 구조](#jwt-구조)
-- [헤더 Header](#header)
-- [페이로드 Payload](#payload)
-- [시그니처 Signiture](#signiture)
-- [JWT 생성 (Generate)](#jwt-생성)
-- [JWT 체크 (Validation)](#jwt-validation-체크)
 
 <br>
 
