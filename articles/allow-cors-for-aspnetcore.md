@@ -37,5 +37,6 @@ builder.Services.AddCors(options =>
 
 app.UseCors(MyAllowSpecificOrigins);
 ```
-최종적으로 `app.UseCors(MyAllowSpecificOrigins);`를 통해 지정된 도메인의 API 연결을 특별하게 허용할 수가 있습니다.
-TBD...
+최종적으로 `app.UseCors(MyAllowSpecificOrigins);`를 통해 지정된 도메인의 API 연결을 특별하게 허용할 수 있습니다.
+
+> CORS와 관련된 정책, 기술들은 SSO(Single Sign On)인증방식 또는 외부 앱(Web, App 등)과의 프로토콜에 있어 핵심적인 정책입니다.
