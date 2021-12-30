@@ -37,5 +37,5 @@ builder.Services.AddCors(options =>
 
 app.UseCors(MyAllowSpecificOrigins);
 ```
-
+최종적으로 `app.UseCors(MyAllowSpecificOrigins);`를 통해 지정된 도메인의 API 연결을 특별하게 허용할 수가 있습니다.
 TBD...
