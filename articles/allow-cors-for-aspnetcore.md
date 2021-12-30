@@ -37,3 +37,5 @@ builder.Services.AddCors(options =>
 
 app.UseCors(MyAllowSpecificOrigins);
 ```
+
+TBD...
