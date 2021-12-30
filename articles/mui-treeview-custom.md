@@ -1,6 +1,8 @@
 # MUI TreeView Customizing
 MUI TreeView을 통한 커스터마이징을 **Functional Component** 방식으로 설명합니다.
 
+TreeView는 React에서 다양하게 활용되는 컴포넌트입니다. 특히 메뉴, 권한 등의 Hierachy 구조
+
 ## 컴포넌트
 **Hierachy 데이터**를 기준으로 컴포넌트가 설계되었습니다.
 ```
@@ -26,3 +28,7 @@ MUI TreeView는 기본적으로 3개의 아이콘을 확장할 수 있도록 프
 | defaultCollapseIcon | 하위 자식 노드 영역을 숨기는 Collapse 기능 |
 | defaultExpandIcon | 하위 자식 노드 영역을 펼치는 Expand 기능 |
 | defaultEndIcon | 더이상 하위 자식 노드 영역이 없을 때 대체되는 아이콘 |
+
+```
+public
+```
