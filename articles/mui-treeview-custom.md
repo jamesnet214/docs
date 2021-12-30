@@ -18,3 +18,10 @@ export default function DevNcoreTreeView(props) {
 }
 ```
 
+## 아이콘
+MUI TreeView는 기본적으로 3개의 아이콘을 확장할 수 있도록 프로퍼티로 제공합니다.
+| 이름 | 설명 |
+|:----|:-----|
+| defaultCollapseIcon | 하위 자식 노드 영역을 숨기는 Collapse 기능 |
+| defaultExpandIcon | 하위 자식 노드 영역을 펼치는 Expand 기능 |
+| defaultEndIcon | 더이상 하위 자식 노드 영역이 없을 때 대체되는 아이콘 |
