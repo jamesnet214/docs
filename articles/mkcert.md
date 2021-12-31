@@ -72,3 +72,4 @@ Windows 운영체제인 경우 Chocolatey 패키지 관리자를 먼저 설치�
 
 ## 참고자료
 - [How to configure https (SSL) locally?](https://www.mariokandut.com/how-to-setup-https-ssl-in-localhost-react/)
+- [How to Setup HTTPS Locally with create-react-app](https://www.freecodecamp.org/news/how-to-set-up-https-locally-with-create-react-app/)
