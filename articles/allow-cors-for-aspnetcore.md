@@ -16,7 +16,7 @@ public class AccountController : ControllerBase
 ```
 **아직 Cors 프로필이 없다면** Startup.cs 파일의 Configs 설정 부분에서 Proxy 관련 설정을 추가합니다.
 
-```
+```csharp
 // startup.cs
 
 var MyAllowSpecificOrigins = "_devncoreOrigins";
