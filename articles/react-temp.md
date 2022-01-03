@@ -1,40 +1,25 @@
 # React Portal Framework
 
 ## 내용
-- [x] 1. Markdown View
-- [x] 2. Environment
+- [x] 1. 환경설정(Environment)
+- [x] 2. 로컬포트 설정
+- [x] 3. SPA
+- [x] 4. 정적 페이지
+- [x] 5. index.js
+- [x] 6. Portal
+- [x] 7. Route
 
-### 1. Markdown View
-가장 먼저 Markdown 뷰어를 구현합니다.
+### 1. Environment
+React에서는 **환경정보**를 **Environment** 파일 형식으로 관리합니다. 아래는 각 환경 별 파일 이름 규칙입니다.
 
-#### 1.1. Install packeages
-uiw사의 React markdown 패키지를 설치합니다.
-```
-npm install @uiw/react-md-editor;
-```
-
-#### 1.2. Create component
-```
-// root/src/components/md/MarkdownViewer.jsx
-
-import React from "react";
-import MDEditor from "@uiw/react-md-editor";
-
-export default function MarkdownView(props) {
-    const { mdName } props;
-    const [markdown, setMarkdown] = React.useState('');
-        .then(r) => r.text())
-        .then(text => setPost(text);
-    return <MDEditor.Markdown source={markdown}/>
-}
-```
-
-### 2. Create Environment
 ```
 .env.development
+.env.test
 .env.production
 ```
-로컬 포트 설정
+
+
+### 2. 로컬 포트 설정
 ```
 PORT=3000
 ```
