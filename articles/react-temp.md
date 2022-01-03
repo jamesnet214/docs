@@ -1,8 +1,10 @@
-# React Portal Framework
+# React Portal Framework (RPF)
+이 아티클에서는 RPF 프레임워크를 소개하고 개발 방법에 대한 설명을 다루고 있습니다. 
 
+리액트의 전반적인 소개는 여기 [The Easiest React](https://github.com/devncore/the-easiest-react)에서 보실 수 도 있습니다.
 ## 내용
 - [x] 1. 환경설정(Environment)
-- [x] 2. 로컬포트 설정
+- [x] 2. 포트 설정
 - [x] 3. SPA
 - [x] 4. 정적 페이지
 - [x] 5. index.js
@@ -17,14 +19,17 @@ React에서는 **환경정보**를 **Environment** 파일 형식으로 관리합
 .env.test
 .env.production
 ```
-그리고 각각의 .env 파일은 빌드 과정에서 자동으로 적용됩니다.
+그리고 각각의 .env 파일은 빌드 과정에서 자동으로 매핑됩니다.
 | 개발 | 테스트 | 운영 배포 |
 |:---:|:---:|:---:|
 | Development | Test | Production |
 | npm run start | npm run test | npm run deploy | 
 
-### 2. 로컬 포트 설정
+### 2. 포트 설정
+개발단계에서 포트를 지정할 수 있습니다.
+
 ```
+// .env.development
 PORT=3000
 ```
 
