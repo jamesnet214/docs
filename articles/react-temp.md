@@ -11,8 +11,8 @@
 - [x] 6. Portal
 - [x] 7. Route
 
-### 1. Environment
-React에서는 **환경정보**를 **Environment** 파일 형식으로 관리합니다. 아래는 각 환경 별 파일 이름 규칙입니다.
+## 1. Environment
+React는 환경정보를 **Environment** 파일 형식으로 관리합니다. 아래는 각 환경 별 파일 이름 규칙입니다.
 
 ```
 .env.development
