@@ -40,9 +40,11 @@ React는 SPA 단일 페이지 애플리케이션 구조로서 다음 파일을 �
 ```
 public/index.html
 ```
-- 기준이 되는 이 파일의 위치는 public (react 구조에서 유일하게 정적 파일경로를 허용하는 루트) 안에 포함되어있어야 합니다.
-- index.html 파일은 기본적인 html 구조를 포함하고 있으며 **body** 태그 안에 React 객체를 대체할 약속된 DOM 영역을 포함합니다.
-#### React Render를 위한 `id="root"` Element
+기준이 되는 이 파일(index.html)의 위치는 **public** 안에 포함되어있어야 합니다.
+> react 구조에서 유일하게 정적 파일경로를 허용하는 루트
+
+**index.html**은 기본적인 Html 구조를 갖고 있으며 **body** 안에 React 객체를 대체할 약속된 DOM 영역을 포함하고 있습니다.
+
 ```
 <body>
     <div id="root"></div>
