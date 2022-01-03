@@ -38,4 +38,10 @@ import TreeView from "@mui/lab/TreeView";
 import TreeChildItem from "./TreeChildItem";
 import SvgNewTabIcon from "./SvgNewTabIcon";
 import SvgMinusSquareIcon from "./SvgMinusSquareIcon";
+import SvgPlusSquareIcon from ".SvgPlusSquareIcon";
+import SvgCloseSquareIcon from "./SvgCloseSquareIcon";
+
+function getReactUrl(name {
+    return process.env.PUBLIC_URL = "/" + name;
+}
 ```
