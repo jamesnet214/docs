@@ -6,10 +6,9 @@
 - [x] 1. 환경설정(Environment)
 - [x] 2. 포트 설정
 - [x] 3. SPA
-- [x] 4. 정적 페이지
-- [x] 5. index.js
-- [x] 6. Portal
-- [x] 7. Route
+- [x] 4. ReactDOM
+- [x] 5. Portal
+- [x] 6. Route
 
 ## 1. Environment
 React는 환경정보를 **Environment** 파일 형식으로 관리합니다. 아래는 각 환경 별 파일 이름 규칙입니다.
@@ -25,7 +24,7 @@ React는 환경정보를 **Environment** 파일 형식으로 관리합니다. �
 | Development | Test | Production |
 | npm run start | npm run test | npm run deploy | 
 
-### 2. 포트 설정
+## 2. 포트 설정
 개발단계에서 포트를 지정할 수 있습니다.
 
 ```
@@ -33,7 +32,12 @@ React는 환경정보를 **Environment** 파일 형식으로 관리합니다. �
 PORT=3000
 ```
 
-### 3. Portal
+## 3. SPA (Single Page Application)
+
+## 4. ReactDOM 
+- index.js
+
+## 5. Portal
 Route를 관리하는 메인격인 페이지입니다.
 
 react-router 패키지 설치
