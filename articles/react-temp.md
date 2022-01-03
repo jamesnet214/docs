@@ -17,7 +17,11 @@ React에서는 **환경정보**를 **Environment** 파일 형식으로 관리합
 .env.test
 .env.production
 ```
-
+그리고 각각의 .env 파일은 빌드 과정에서 자동으로 적용됩니다.
+| 개발 | 테스트 | 운영 배포 |
+|:---:|:---:|:---:|
+| Development | Test | Production |
+| npm run start | npm run test | npm run deploy | 
 
 ### 2. 로컬 포트 설정
 ```
