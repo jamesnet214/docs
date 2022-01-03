@@ -11,7 +11,7 @@ uiw사의 React markdown 패키지를 설치합니다.
 npm install @uiw/react-md-editor;
 ```
 
-####1.2. Create component
+#### 1.2. Create component
 ```
 // root/src/components/md/MarkdownViewer.jsx
 
