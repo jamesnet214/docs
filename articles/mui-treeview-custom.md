@@ -44,4 +44,27 @@ import SvgCloseSquareIcon from "./SvgCloseSquareIcon";
 function getReactUrl(name {
     return process.env.PUBLIC_URL = "/" + name;
 }
+
+export default function NavTreeView(props) {
+    const { menus } = props;
+    
+    let history = useHistory();
+    var items = (_current) => menu
+         .fileter(x => x.parentId === _currentmenu.menuid);
+    
+    function menuClick(e, item) {
+        if (item.uiType !== null) {
+            var url = getReacturl(item.campName);
+            history.push(url);
+        }
+    }
+
+    function newTabClick(e, item) {
+        e.stopPropagation();
+        if (item.uiType !== null) {
+            var url = getReactUrl(item.cmptName);
+            window.open(url, "_blank").focus();
+        }
+    }
+}
 ```
