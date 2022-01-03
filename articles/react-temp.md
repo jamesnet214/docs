@@ -33,11 +33,20 @@ PORT=3000
 ```
 
 ## 3. SPA (Single Page Application)
-> SPA에 대한 자세한 설명은 [여기](https://github.com/devncore/docs/articles/single-page-application)에서 확인하실 수 있습니다.
+> SPA에 대한 자세한 설명은 [여기](https://github.com/devncore/docs/articles/single-page-application)에서 확인하실 수 있습니다.  
 React는 SPA 단일 페이지 애플리케이션 구조로서 다음 파일을 기점으로 웹이 동작됩니다.
 ```
 public/index.html
 ```
+기준이 되는 이 파일의 위치는 public (react 구조에서 유일하게 정적 파일경로를 허용하는 루트) 안에 포함되어있어야 합니다.
+
+index.html 파일은 기본적인 html 구조를 포함하고 있으며 **body** 태그 안에 React 객체를 대체할 약속된 DOM 영역을 포함해야 합니다.
+
+```
+<body>
+    <div id="root"></div>
+</body>
+``` 
 
 ## 4. ReactDOM 
 - index.js
