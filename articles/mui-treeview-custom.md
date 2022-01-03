@@ -66,5 +66,29 @@ export default function NavTreeView(props) {
             window.open(url, "_blank").focus();
         }
     }
+
+    function initLabelTemplate(item) {
+        return (
+            <Grid container>
+                <Grid item xs width="calc(100% - 100px)">
+                    <Typography noWrap
+                        margin="2px 0px 0px 2px"
+                        variant="subtitle2"
+                        children={item.menuName}/>
+                </Grid>
+                <Grid item minWidth={20}>
+                    {(item.uiType !== null) ? 
+                        <IconButton
+                            children={<SvgNewTabIcon/>}
+                            onClick={(e) => newTabClick(e, item)}
+                            size="small"
+                            color="primary"
+                            component="span"/>
+                        : null
+                    }
+                </Grid>
+            </Grid>
+        );
+    }
 }
 ```
