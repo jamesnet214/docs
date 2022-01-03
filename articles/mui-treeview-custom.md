@@ -90,5 +90,29 @@ export default function NavTreeView(props) {
             </Grid>
         );
     }
+
+    function initItemsTemplate (_curntmenu) {
+        return items(_curntmenu).map(item) => {
+            return (
+                <NavTreeItem
+                    key={item.menuName}
+                    nodeId={item.menuId.toString()}
+                    onClick={(e) => menuClick(e, item)}
+                    data-tip data-for={item.menuName}
+                    label={initLabelTemplate(item)}>
+                    {initItemsTemplate(item)}
+                </NavTreeItem>
+            );
+        }
+    };
+
+    return (
+        <TreeView
+            children={initItemsTemplate(props.curntmenu)}
+            defaultCollapseIcon={<svgMinusSquareIcon/>}
+            defaultCollapseIcon={<svgMinusSquareIcon/>}
+            defaultCollapseIcon={<svgMinusSquareIcon/>}
+
+    );
 }
 ```
