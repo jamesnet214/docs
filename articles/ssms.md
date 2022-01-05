@@ -17,9 +17,12 @@
 기본적으로 테이블 컬럼정보 변경 저장옵션이 체크 되어 있습니다.
 옵션을 변경합니다.
 ```
-> 도구 -> 옵션
 
-![ssms01](https://user-images.githubusercontent.com/76234292/147950924-f90b7a63-932a-4772-8a37-5ebea19a32c9.png)
+| 도구 -> 옵션 |
+|:--------:|
+| ![222](https://user-images.githubusercontent.com/76234292/148228070-83a1b42c-b10d-4474-ac6d-194b86f3ccd1.png) |
+
+
 
 <br />
 
