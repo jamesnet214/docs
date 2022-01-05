@@ -9,9 +9,7 @@
 
 | 디자인 변경 오류 |
 |:---|
-| ![111](https://user-images.githubusercontent.com/76234292/148226320-5d1d1528-4cd5-49fb-ac00-57eef6e4ac6e.png) |
-
-<br />
+| ![333](https://user-images.githubusercontent.com/76234292/148228790-8551f75b-ff8b-4650-a204-67fe8bd531b7.png) |
 
 ```
 기본적으로 테이블 컬럼정보 변경 저장옵션이 체크 되어 있습니다.
@@ -21,10 +19,6 @@
 | 도구 -> 옵션 |
 |:--------:|
 | ![222](https://user-images.githubusercontent.com/76234292/148228070-83a1b42c-b10d-4474-ac6d-194b86f3ccd1.png) |
-
-
-
-<br />
 
 | 변경 전 | 변경 후 |
 |:--------:|:------:|
