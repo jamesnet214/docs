@@ -31,6 +31,7 @@
 - [x] [IIS 배포환경설정](articles/iis-deployment.md)
 - [x] [Swagger UI설정](articles/swagger-ui.md)
 - [x] [CORS 도메인 정책](articles/cors-domain.md) 
+- [x] [로컬 프록시 연결 설정](articles/local-proxy.md) 
 
 **비 체크항목**  
 제목 변경이 필요함
