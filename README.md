@@ -30,6 +30,7 @@
 - [ ] [Producer-Consumer 패턴이란?](articles/producer-consumer.md)
 - [x] [IIS 배포환경설정](articles/iis-deployment.md)
 - [x] [Swagger UI설정](articles/swagger-ui.md)
+- [x] [CORS 도메인 정책](articles/cors-domain.md) 
 
 **비 체크항목**  
 제목 변경이 필요함
