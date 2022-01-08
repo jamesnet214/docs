@@ -1,9 +1,20 @@
 # C# StreamReader
 
 
-File
+Assembly Resource File
 ```
+private T DeserializeObject<T>(string resName)
+{
+    var assembly = Assembly.GetExecutingAssembly();
+    var resourceName = resName;
 
+    using (Stream stream = assembly.GetManifestResourceStream(resourceName))
+    using (StreamReader reader = new StreamReader(stream))
+    {
+        string result = reader.ReadToEnd();
+        return JsonSerializer.Deserialize<T>(result);
+    }
+}
 ```
 
 URL
