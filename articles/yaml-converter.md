@@ -7,22 +7,15 @@
 - using YamlDotNet.Serialization.NamingConventions;
 
 ### YAML파일 C# 변환하기
+```
 
-``` C#
-var webRequest = WebRequest.Create(@"https://raw.githubusercontent.com/devncore/devncore-official/main/data/menus/articles.yml");
+```
+var deserializer = new DeserializerBuilder()
+           .WithNamingConvention(CamelCaseNamingConvention.Instance)
+           .Build();
 
-using (var response = webRequest.GetResponse())
-using (var content = response.GetResponseStream())
-using (var reader = new StreamReader(content))
-{
-    var strContent = reader.ReadToEnd();
+var result = deserializer.Deserialize<List<ArticleMenuModel>>(strContent);
 
-    var deserializer = new DeserializerBuilder()
-               .WithNamingConvention(CamelCaseNamingConvention.Instance)
-               .Build();
-
-    var result = deserializer.Deserialize<List<ArticleMenuModel>>(strContent);
-}
 ```
 
 ### C# 정보 YAML 변환하기
