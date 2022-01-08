@@ -6,7 +6,13 @@
 - using YamlDotNet.Serialization;
 - using YamlDotNet.Serialization.NamingConventions;
 
-### YAML파일 C# 변환하기
+| Nuget 설치 | Yaml Using |
+|:----------:|:----------:|
+| ![image](https://user-images.githubusercontent.com/76234292/148646402-19d302c2-30ce-47e7-9c31-1da014fc550e.png) | ![yamlusing](https://user-images.githubusercontent.com/76234292/148657700-34fc264c-61e9-479c-b334-78d426375542.PNG)
+
+<br />
+
+### Yaml 파일 C# 변환하기
 ```
 var deserializer = new DeserializerBuilder()
            .WithNamingConvention(CamelCaseNamingConvention.Instance)
@@ -16,11 +22,11 @@ var result = deserializer.Deserialize<List<ArticleMenuModel>>(strContent);
 
 ```
 
-### C# 정보 YAML 변환하기
+### C# List Yaml 변환하기
 
 ```C#
 string yaml;
-List<ArticleMenuModel> datas;
+List<Model> datas;
 
 var serializer1 = new SerializerBuilder()
     .WithNamingConvention(CamelCaseNamingConvention.Instance)
