@@ -8,8 +8,6 @@
 
 ### YAML파일 C# 변환하기
 ```
-
-```
 var deserializer = new DeserializerBuilder()
            .WithNamingConvention(CamelCaseNamingConvention.Instance)
            .Build();
