@@ -6,7 +6,7 @@
 - using YamlDotNet.Serialization;
 - using YamlDotNet.Serialization.NamingConventions;
 
-## YAML파일 C# 변환하기
+### YAML파일 C# 변환하기
 
 ``` C#
 var webRequest = WebRequest.Create(@"https://raw.githubusercontent.com/devncore/devncore-official/main/data/menus/articles.yml");
@@ -25,7 +25,7 @@ using (var reader = new StreamReader(content))
 }
 ```
 
-## C# 정보 YAML 변환하기
+### C# 정보 YAML 변환하기
 
 ```C#
 string yaml;
