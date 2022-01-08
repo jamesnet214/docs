@@ -33,7 +33,8 @@
 - [x] [CORS 도메인 정책](articles/cors-domain.md) 
 - [x] [로컬 프록시 연결 설정](articles/local-proxy.md) 
 - [ ] [Client Cookie](articles/client-cookie.md)
-- [ ] [YAML파일 Converter](articles/yaml-converter.md)
+- [ ] [YAML파일 Converter C#](articles/yaml-converter.md)
+- [ ] [StreamReader C#](streamReader-c#.md)
 
 **비 체크항목**  
 제목 변경이 필요함
