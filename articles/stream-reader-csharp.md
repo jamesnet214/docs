@@ -15,11 +15,5 @@ using (var content = response.GetResponseStream())
 using (var reader = new StreamReader(content))
 {
     var strContent = reader.ReadToEnd();
-
-    var deserializer = new DeserializerBuilder()
-               .WithNamingConvention(CamelCaseNamingConvention.Instance)
-               .Build();
-
-    var result = deserializer.Deserialize<List<ArticleMenuModel>>(strContent);
 }
 ```
