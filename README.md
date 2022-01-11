@@ -1,8 +1,6 @@
 # DevNcore Articles
 
-### 목적
-
-## Content
+### Content
 이 항목은 **devncore.org**에서 함께 포스팅 되고 있습니다.
 - [x] [The-Easiest-Git](https://github.com/devncore/the-easiest-git)
 - [x] [The-Easiest-Blender](https://github.com/devncore/the-easiest-blender)
