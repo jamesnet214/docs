@@ -1,7 +1,7 @@
 ## react-usecallback
 
 #### 기본적인 useCallback
-```
+```jsx
 export default function Exam(props) {
     const [text, setText] = React.useState("");
     const [name, setName] = React.useState("react");
