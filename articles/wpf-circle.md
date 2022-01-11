@@ -1,11 +1,17 @@
-# WPF 원그리기
+## WPF Circle 그리기
+이 리포지토리는 WPF에서 삼각함수를 사용해 x, y 좌표를 구한 후 원을 그리는 방법을 설명하는 Article입니다.
 
-삼각함수를 사용해 x, y 좌표를 구한 후 원을 그리는 방법을 알아봅시다.
-
-<br>
+<a href="https://github.com/devncore/devncore"><strong>이 글의 Contributors »</strong></a>
+  
+| Star | License | Activity |
+|:----:|:-------:|:--------:|
+| <a href="https://github.com/devncore/wpf-code-rules/stargazers"><img src="https://img.shields.io/github/stars/devncore/wpf-code-rules" alt="Github Stars"></a> | <img src="https://img.shields.io/github/license/devncore/wpf-code-rules" alt="License"> | <a href="https://github.com/devncore/wpf-code-rules/pulse"><img src="https://img.shields.io/github/commit-activity/m/devncore/wpf-code-rules" alt="Commits-per-month"></a> |
 
 ## 삼각함수 공식
-<img src="https://user-images.githubusercontent.com/68521148/145054110-4aaf0d61-41d9-4711-ae24-b535efa27ebb.png" width="400" height="400"></img>
+
+| Image |
+|:-----:|
+| <img src="https://user-images.githubusercontent.com/68521148/145054110-4aaf0d61-41d9-4711-ae24-b535efa27ebb.png"></img> |
 
 **@ = 각도, r = 반지름, a = 높이, b = 밑변**
 
