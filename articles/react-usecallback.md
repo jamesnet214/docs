@@ -19,4 +19,4 @@ export default function Exam(props) {
 }
 ```
 
-**Effect** 안에서 사용되는 함수를 `useCallback`으로 한번 감싸고 함수의 의존성(name)을 추가합니다. 그리고 Effect에서는 함수의 변경 여부를 판단하여 **의존성 값이 변경되었을 때만 호출(Callback)** 할 수 있습니다.
+**Effect** 안에서 사용되는 함수를 `useCallback`으로 한번 감싸고 함수의 의존성(name)을 추가합니다. 그리고 Effect에서는 함수의 변경 여부를 판단하여 **의존성 값이 변경되었을때만 호출(Callback)** 할 수 있습니다.
