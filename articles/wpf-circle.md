@@ -9,7 +9,7 @@
 
 ## 삼각함수 공식
 
-| Image |
+| 참고 이미지 |
 |:-----:|
 | <img src="https://user-images.githubusercontent.com/68521148/145054110-4aaf0d61-41d9-4711-ae24-b535efa27ebb.png"></img> |
 
