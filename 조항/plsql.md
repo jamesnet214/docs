@@ -12,9 +12,15 @@ PL/SQL 은 오라클 데이터베이스 버전7, 타임스텐인메모리 데이
 - PL/SQL 프로그램의 종류는 크게 Procedure, Function, Trigger 로 나누어 진다.
 
 ## PL/SQL Block 구조
-
-
-
-
+| 영역 | 설명|
+|:---:|:---:|
+| DECLARE (선언부) | PL/SQL에서 사용하는 모든 변수나 상수를 선언하는 부분, DECLARE로 시작하며 변수나 상수, 커서등을 선언 |
+| BEGIN (실행부) | 절차적 형식으로 SQL문을 실행할 수 있도록 절차적 언어의 요소인 제어문, 반복문, 함수 정의 등 로직을 기술할 수 있는 부분, BEGIN으로 시작 |
+| EXCEPTION (예외처리부) | PL/SQL 문이 실행중에 에러가 발생하는 경우 예외사항이라하고 이를 해결하기 위한 문장을 기술하는 부분 |
+| END (실행문 종료) | PL/SLQ문 종료선언|
 
 ## 변수선언
+블록내 변수 사용시 DECLARE 선언부에서 변수선언, 변수명 뒤에는 데이터 타입을 기술
+
+- 기본문법
+dentifier [CONSTANT] datatype [NOT NULL] [:=[DEFAULT expression];
