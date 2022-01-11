@@ -38,3 +38,10 @@ export default function Nodes(props) {
     return <Item fetchData={fetchData}/>
 }
 ```
+
+#### UseRef
+```jsx
+const [count, setCount] = React.useState(0);
+const latestCount = useRef(count);
+// latestCount.current
+```
