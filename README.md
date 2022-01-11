@@ -37,4 +37,4 @@
 - [ ] [StreamReader C#](articles/stream-reader-csharp.md)
 - [ ] [Git Branch](articles/git-branch.md)
 - [ ] [PL/SQL](articles/plsql.md)
-- [ ] [React + Typescript](react-typescript.md)
+- [ ] [Typescript](articles/typescript.md)
