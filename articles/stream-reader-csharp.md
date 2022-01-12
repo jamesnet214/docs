@@ -1,8 +1,7 @@
 # C# StreamReader
 
-
-Assembly Resource File
-```
+### Assembly Resource File
+```csharp
 private T DeserializeObject<T>(string resName)
 {
     var assembly = Assembly.GetExecutingAssembly();
@@ -17,8 +16,8 @@ private T DeserializeObject<T>(string resName)
 }
 ```
 
-URL
-```
+### URL
+```csharp
 var webRequest = WebRequest.Create(@"https://raw.githubusercontent.com/devncore/devncore-official/main/data/menus/articles.yml");
 
 using (var response = webRequest.GetResponse())
