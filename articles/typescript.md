@@ -16,5 +16,6 @@
 TypeScript는 ES5, ES6 자바스크립트 표준을 포함하는 상위 스크립트입니다.
 
 | ES5 | ES6 | TypeScript |
+|:----:|:----:|:----:|
 | ECMAScript5 | ECMAScript6 | Microsoft TypeScript |
 
