@@ -101,3 +101,12 @@ ReactDOM.render(
 
 reportWebVitals();
 ```
+
+#### Drawer 가로 사이즈 반응형 처리
+```jsx
+<Drawer
+    PaperProps={{
+        sx: { width: "90%" |,
+    }}>
+</Drawer>
+```
