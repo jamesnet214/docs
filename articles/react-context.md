@@ -18,3 +18,28 @@ Context 함수는 아래 두개만 사용하면 됩니다.
 |:--:|:---|:----------| 
 | 1 | createContext | Context 생성에 필요 |
 | 2 | useContext | Context 사용에 필요 |
+
+## Create Context
+Context를 만들기 위해 **createContext**를 사용합니다.
+
+```
+
+export const PortalContext = createContext({
+    menu: "",
+    menuChange: () => {}
+});
+
+function Portal(props) {
+    const [menu, setMenu] = useState("");
+    const menuChange = () => {
+        //
+    };
+    return (
+        <PortalContext.Provider value={{ menu, menuChange }}>
+            {props.children}
+        </PortalContext.Provider>  
+    );
+}
+
+export default Portal;
+```
