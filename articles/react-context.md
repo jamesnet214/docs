@@ -10,3 +10,11 @@
 React는 일반적으로 컴포넌트 모듈화가 수직적으로 빈번하게 생겨납니다.
 
 그렇기 때문에 여러 컴포넌트 간의 props 연결을 Context를 통해 해결할 수 있습니다.
+
+## Context 함수
+Context 함수는 아래 두개만 사용하면 됩니다.
+
+| - | Function | Info |
+|:--:|:---|:----------| 
+| 1 | createContext | Context 생성에 필요 |
+| 2 | useContext | Context 사용에 필요 |
