@@ -1,5 +1,16 @@
 ## React Context
 
+이 리포지토리는 React Context에 대해 기술한 리포지토리입니다. <br />
+이 리포지토리는 DevNcore팀이 관리하고 있습니다.  
+
+<a href="https://github.com/devncore/devncore"><strong>더 알아보기 »</strong></a>
+ 
+| Star | License | Activity |
+|:----:|:-------:|:--------:|
+| <a href="https://github.com/devncore/docs/stargazers"><img src="https://img.shields.io/github/stars/devncore/docs" alt="Github Stars"></a> | <img src="https://img.shields.io/github/license/devncore/docs" alt="License"> | <a href="https://github.com/devncore/docs/pulse"><img src="https://img.shields.io/github/commit-activity/m/devncore/docs" alt="Commits-per-month"></a> |
+
+<br />
+
 #### Context란?
 **Context**는 하위 자식 컴포넌트에서 상위 부모 컴포넌트의 props를 다이렉트로 접근하기 위한 기술입니다.
 
