@@ -19,6 +19,7 @@
 - [Interface](#Interface)
 - [Type Alias](#Type-Alias)
 - [Generics](#Generics)
+- [기본문법](#기본문법)
 
 <br />
 
@@ -94,6 +95,8 @@ const params = MyParams(10);
 ```
 
 ## 기본문법
+
+TBD ...
 
 기본 타입
 타입스크립트는 다양한 기본 타입을 제공합니다.
