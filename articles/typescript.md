@@ -48,3 +48,18 @@ let name: string = "Son";
 // TypeScript에서는 에러!
 let name: string = 4936;
 ```
+
+## Interface
+
+TBD...
+
+## Type Alias
+
+TBD...
+
+## Generics
+
+TBD...
+
+
+
