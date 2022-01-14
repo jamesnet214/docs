@@ -50,16 +50,38 @@ let name: string = 4936;
 ```
 
 ## Interface
+인터페이스는 일반적으로 타입 체크를 위해 사용되며 typealias와 유사한 기능을 하며 여러가지 타입을 갖는 프로퍼티로 이루어진 새로운 타입을 정의합니다.
+export를 사용하여 외부 파일에서도 사용할 수 있다.
 
-TBD...
+```typescript
+export interface Person {
+	name: string;
+  	age: number;
+  	address: string;
+}
+```
 
 ## Type Alias
+인터페이스와 비슷한 동작을 하지만 default값을 지정할 수 있다는 점이 다르며 Type Alias는 extends 나 implements가 될 수 없기에 상속을 통해 확장이 필요하다면 Type Alias 보다 인터페이스가 유리합니다.
 
-TBD...
+```typescript
+type Person {
+	name: string;
+  	age: number;
+  	address: string;
+}
+```
 
 ## Generics
+Generics은 타입스크립트에서 함수, 클래스, interface, type을 정의하는 시점에 매개변수나 반환값의 타입을 선언하기 어려운 경우 사용 합니다.
+< T > 는 컨벤션이며 제네릭에 해당하는 타입에는 어떤 타입이라도 들어올 수 있으며 Myparams는 인수 타입에 의해(number) 타입 매개변수가 결정됩니다.
 
-TBD...
+``` typescript
+function MyParams<T>(param: T) {
+	return {param}
+}
 
+const params = MyParams(10);
+```
 
 
