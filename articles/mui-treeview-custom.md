@@ -1,7 +1,20 @@
-# MUI TreeView Customizing
+## MUI TreeView Customizing
+
+이 리포지토리는 MUI TreeView Customizing에 대해 기술한 리포지토리입니다. <br />
+이 리포지토리는 DevNcore팀이 관리하고 있습니다.  
+
+<a href="https://github.com/devncore/devncore"><strong>더 알아보기 »</strong></a>
+ 
+| Star | License | Activity |
+|:----:|:-------:|:--------:|
+| <a href="https://github.com/devncore/docs/stargazers"><img src="https://img.shields.io/github/stars/devncore/docs" alt="Github Stars"></a> | <img src="https://img.shields.io/github/license/devncore/docs" alt="License"> | <a href="https://github.com/devncore/docs/pulse"><img src="https://img.shields.io/github/commit-activity/m/devncore/docs" alt="Commits-per-month"></a> |
+
+<br />
+
 MUI TreeView을 통한 커스터마이징을 **Functional Component** 방식으로 설명합니다.
 
 TreeView는 React에서 다양하게 활용되는 컴포넌트입니다. 특히 메뉴, 권한 등의 Hierachy 구조
+
 
 ## 컴포넌트
 **Hierachy 데이터**를 기준으로 컴포넌트가 설계되었습니다.
