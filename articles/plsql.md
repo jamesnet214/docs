@@ -1,4 +1,15 @@
-# PL/SQL
+## PL/SQL
+
+이 리포지토리는 PL/SQL에 대해 기술한 리포지토리입니다. <br />
+이 리포지토리는 DevNcore팀이 관리하고 있습니다.  
+
+<a href="https://github.com/devncore/devncore"><strong>더 알아보기 »</strong></a>
+ 
+| Star | License | Activity |
+|:----:|:-------:|:--------:|
+| <a href="https://github.com/devncore/docs/stargazers"><img src="https://img.shields.io/github/stars/devncore/docs" alt="Github Stars"></a> | <img src="https://img.shields.io/github/license/devncore/docs" alt="License"> | <a href="https://github.com/devncore/docs/pulse"><img src="https://img.shields.io/github/commit-activity/m/devncore/docs" alt="Commits-per-month"></a> |
+
+<br />
 
 ## PL/SQL 이란?
 PL/SQL 은 상용 관계형 데이터베이스 시스템인 오라클 DBMS에서 SQL 언어를 확장하기 위해 사용하는 컴퓨터 프로그래밍 언어 중 하나이다.
