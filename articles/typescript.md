@@ -44,20 +44,28 @@ TypeScript는 ES5, ES6 자바스크립트 표준을 포함하는 상위 스크�
 |:----:|:----:|:----:|
 | ECMAScript5 | ECMAScript6 | Microsoft TypeScript |
 
-## Type
+## Type 지정
 TypeScript는 기존 JavaScript와 달리 Type을 사용할 수 있습니다.
+타입스크립트는 일반 변수, 매개 변수(Parameter), 객체 속성(Property) 등에 : TYPE과 같은 형태로 타입을 지정할 수 있습니다.
 
-#### 변수선언 with 타입
+#### Typescript
 
-```
-let name = "Son";
+```typescript
 let name: string = "Son";
+let count: int = 12345;
 ```
-이와 같이 타입을 지정할 경우 잘못된 값을 할당하면 에러를 반환합니다.
+
+#### Javascript
+
+```javascript
+let name = "Son";
+let name: 12345;
 ```
-// TypeScript에서는 에러!
-let name: string = 4936;
-```
+
+## Type 에러
+Javascript 에서는 에러가 나오지 않지만 Typescript 에서는 컴파일을 하기전에 코드 작성시점에서 에러가 발생합니다.
+
+
 
 ## Interface
 인터페이스는 일반적으로 타입 체크를 위해 사용되며 typealias와 유사한 기능을 하며 여러가지 타입을 갖는 프로퍼티로 이루어진 새로운 타입을 정의합니다.
