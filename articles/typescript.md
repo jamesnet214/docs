@@ -44,6 +44,23 @@ TypeScript는 ES5, ES6 자바스크립트 표준을 포함하는 상위 스크�
 |:----:|:----:|:----:|
 | ECMAScript5 | ECMAScript6 | Microsoft TypeScript |
 
+## Type 정보
+- Boolean
+- Number
+- String
+- Array
+- Tuple
+- Enum
+- Any
+- Void
+- Null
+- Undefined
+- Never
+- Object
+- Type assertions
+- let
+
+
 ## Type 지정
 TypeScript는 기존 JavaScript와 달리 Type을 사용할 수 있습니다.
 타입스크립트는 일반 변수, 매개 변수(Parameter), 객체 속성(Property) 등에 : TYPE과 같은 형태로 타입을 지정할 수 있습니다.
@@ -52,7 +69,7 @@ TypeScript는 기존 JavaScript와 달리 Type을 사용할 수 있습니다.
 
 ```typescript
 let name: string = "Son";
-let count: int = 12345;
+let count: number = 12345;
 ```
 
 #### Javascript
@@ -64,7 +81,11 @@ let name: 12345;
 
 ## Type 에러
 Javascript 에서는 에러가 나오지 않지만 Typescript 에서는 컴파일을 하기전에 코드 작성시점에서 에러가 발생합니다.
+> 오류문구: 'int ' 이름을 찾을 수 없습니다. 
 
+```typescript
+let count: int = 12345;
+```
 
 
 ## Interface
