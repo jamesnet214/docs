@@ -1,7 +1,7 @@
 ## WPF Circle 그리기
 이 리포지토리는 WPF에서 삼각함수를 사용해 x, y 좌표를 구한 후 원을 그리는 방법을 설명하는 Article입니다.
 
-<a href="https://github.com/devncore/devncore"><strong>이 글의 Contributors »</strong></a>
+<a href="https://github.com/devncore/devncore"><strong>더 알아보기 »</strong></a>
   
 | Star | License | Activity |
 |:----:|:-------:|:--------:|
