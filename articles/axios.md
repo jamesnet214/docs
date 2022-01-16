@@ -1,6 +1,23 @@
 ## Axios
 
-Sync (await)
+## 동기식 처리
+
+```
+const url = "/api/users";
+
+getUsers() {
+    axios.get(url)
+        .then(response) => {
+            const res = response.data;
+            console.log("res:", res);    
+        })
+        .catch((error) => {
+            console.log("err", error);
+        });
+}
+```
+
+Async (await)
 ```
 async function getUserInfo() {
     const result = null;
