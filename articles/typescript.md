@@ -1,7 +1,6 @@
 ## TypeScript
   
 이 리포지토리는 TypeScript 기술을 활용하는데 필요한 설명을 다루는 Article입니다. <br />
-이 리포지토리는 DevNcore팀이 관리하고 있습니다.  
 
 <a href="https://github.com/devncore/devncore"><strong>더 알아보기 »</strong></a>
   
