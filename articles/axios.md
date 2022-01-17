@@ -1,4 +1,4 @@
-## React AXIOS 
+## Axios for React
 
 이 리포지토리는 React axios를 통한 API 호출방법을 소개합니다. <br />
 
