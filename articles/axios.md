@@ -10,6 +10,9 @@
 
 ## 동기식 처리
 Axios는 동기식 메서드를 체인 메서드 방식으로 제공합니다.
+
+#### GET 방식 (Standard)
+파라메터가 없는 기본 GET 방식의 API를 호출하는 기본 구문입니다.
 ```jsx
 const url = "/api/users";
 axios.get(url)
