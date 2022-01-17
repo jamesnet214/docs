@@ -15,11 +15,10 @@
 서버는 유니크한 ID를 가진 `Resource` 가 있으며 클라이언트는 `Resource`에 요청을 보내고 이러한 `Resource` 를 URI 라고 합니다.
  
 #### Method
-서버에 요청을 보내기 위한 방식으로 GET, POST, PUT, PATCH, DELETE가 있습니다. CRUD 연산 중에서 처리를 위한 연산에 맞는 Method를 사용하여 서버에 요청을 보내야 합니다.
- 
+서버에 요청을 보내기 위한 방식으로 GET, POST, PUT, PATCH, DELETE가 있으며 CRUD 처리를 위해 연산에 맞는 Method를 사용하여 서버에 요청을 보냅니다.
 
 #### Representation of Resource
-클라이언트와 서버가 데이터를 주고받는 형태로 json, xml, text, rss 등이 있습니다. 최근에는 Key, Value를 활용하는 json을 주로 사용합니다.
+클라이언트와 서버가 데이터를 주고받는 형태로는 json, xml, text, rss 등이 있으며 주로 Key, Value를 활용하는 json을 사용합니다.
 
 <br />
 
