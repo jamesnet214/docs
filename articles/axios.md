@@ -4,15 +4,14 @@
 Axios는 동기식 메서드를 체인 메서드 방식으로 제공합니다.
 ```jsx
 const url = "/api/users";
-getUsers() {
-    axios.get(url)
-        .then(response) => {
-            const res = response.data;
-            console.log("res:", res);    
-        })
-        .catch((error) => {
-            console.log("err", error);
-        });
+axios.get(url)
+    .then(response) => {
+        const res = response.data;
+        console.log("res:", res);    
+    })
+    .catch((error) => {
+        console.log("err", error);
+    });
 }
 ```
 
