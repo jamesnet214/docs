@@ -45,3 +45,24 @@ app.listen(port, () => console.log(`Listening on port ${port}`));
 ```
 node ./server/server.js
 ```
+
+## 프록시 연결
+#### npm 설치
+```
+npm install http-proxy-middleware
+```
+#### setupProxy.js
+파일명과 위치는 약속된 경로와 이름입니다. (http-proxy-middleware) 
+```jsx
+const { createProxyMiddleware } = require("http-proxy-middleware");
+
+module.exports = function(app) {
+    app.use(
+        "/api",
+        createProxyMiddleware({
+            target: "http://localhost:5000",
+            changeOrigin: true,
+        })
+    );
+};
+```
