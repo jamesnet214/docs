@@ -12,7 +12,6 @@ axios.get(url)
     .catch((error) => {
         console.log("err", error);
     });
-}
 ```
 
 Async (await)
