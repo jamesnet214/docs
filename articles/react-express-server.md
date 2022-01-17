@@ -14,6 +14,8 @@ node 환경에서 로컬 서비스를 만들기 위한 서버 모듈인 `express
 npm install express
 ```
 
+## Express 구조
+
 #### 서비스 (index.js)
 ```jsx
 const express = require("express");
@@ -28,4 +30,18 @@ router.get("/", function(req, res) {
 
 #### 서버 (server.js)
 ```jsx
+const express = require("express");
+const app = express();
+const api = require("./routes/index");
+
+app.use("/api", api);
+
+const port = 5000;
+app.listen(port, () => console.log(`Listening on port ${port}`));
+```
+
+#### node 서버 구동
+(src 폴더를 기준으로 합니다.)
+```
+node ./server/server.js
 ```
