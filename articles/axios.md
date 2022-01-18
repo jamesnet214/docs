@@ -8,6 +8,14 @@
 |:----:|:-------:|:--------:|
 | <a href="https://github.com/devncore/docs/stargazers"><img src="https://img.shields.io/github/stars/devncore/docs" alt="Github Stars"></a> | <img src="https://img.shields.io/github/license/devncore/docs" alt="License"> | <a href="https://github.com/devncore/docs/pulse"><img src="https://img.shields.io/github/commit-activity/m/devncore/docs" alt="Commits-per-month"></a> |
 
+#### React REST API 사용 방법
+| Fatch | Axios | Ajax |
+|:-----:|:------:|:----:|
+| Image | Image | Image |
+| -     | Data 속성을 사용하며 내부적으로 Data를 Json으로 자동 변환합니다. | - |
+
+
+
 ## 동기식 처리
 Axios는 동기식 메서드를 체인 메서드 방식으로 제공합니다.
 
