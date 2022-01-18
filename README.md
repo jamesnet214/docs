@@ -47,3 +47,4 @@
 - [ ] [PL/SQL](articles/plsql.md)
 - [ ] [Typescript](articles/typescript.md)
 - [ ] [Rest API](articles/rest-api.md)
+- [ ] [React Developer Tools](articles/react-developer-tools.md)
