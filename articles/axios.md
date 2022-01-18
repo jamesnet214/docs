@@ -1,4 +1,4 @@
-## Axios for React
+## Axios For React
 
 이 리포지토리는 React axios를 통한 API 호출방법을 소개합니다. <br />
 
@@ -8,7 +8,32 @@
 |:----:|:-------:|:--------:|
 | <a href="https://github.com/devncore/docs/stargazers"><img src="https://img.shields.io/github/stars/devncore/docs" alt="Github Stars"></a> | <img src="https://img.shields.io/github/license/devncore/docs" alt="License"> | <a href="https://github.com/devncore/docs/pulse"><img src="https://img.shields.io/github/commit-activity/m/devncore/docs" alt="Commits-per-month"></a> |
 
-#### React REST API 사용 방법
+<br />
+
+### Axios 란?
+Axios는 브라우저, Node.js를 위해서 만들어진 Promise API를 활요하는 HTTP 비동기 통신 라이브러리 입니다.
+
+<br />
+
+### Axios 특징
+- Axios는 운영환경에 따라서 브라우저간 XMLHttpRequest 객체 또는 Node.js의 HTTP API를 사용한다.
+- Promise(ES6) API를 사용
+- 요청(Request) 응답 (reply)을 JSON 형태로 자동 변경
+
+<br />
+
+### Axios HTTP Methods
+
+| 메소드 |     설명    | 기본사용코드 |
+|:------:|:----------:|:------------:| 
+| GET    | 데이터 조회 | axios.get(url,[,config])        |
+| POST   | 데이터 생성 | axios.post(url, data[, config]) |
+| PUT    | 데이터 수정 | axios.put(url, data[, config])  |
+| DELETE | 데이터 삭제 | axios.delete(url[, config])     |
+
+<br />
+
+### React REST API 사용 방법
 | Fatch | Axios | Ajax |
 |:-----:|:------:|:----:|
 | Image | Image | Image |
