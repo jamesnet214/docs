@@ -14,7 +14,17 @@
 | Image | Image | Image |
 | -     | Data 속성을 사용하며 내부적으로 Data를 Json으로 자동 변환합니다. | - |
 
-
+## 응답 스키마
+axios는 아래처럼 응답 스키마를 json 형식으로 반환합니다.
+```
+{
+    data: {},
+    status: 200,
+    statusText: "OK",
+    headers: {},
+    config: {},
+    request: {}
+}
 
 ## 동기식 처리
 Axios는 동기식 메서드를 체인 메서드 방식으로 제공합니다.
