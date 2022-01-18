@@ -1,6 +1,6 @@
-## React Spread
+## JavaScript Spread
 
-이 리포지토리는 React Spread 사용 방법에 대한 리포지토리입니다. <br />
+이 리포지토리는 JavaScript Spread 사용 방법에 대한 리포지토리입니다. <br />
 
 <a href="https://github.com/devncore/devncore"><strong>더 알아보기 »</strong></a>
  
