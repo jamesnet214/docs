@@ -15,6 +15,7 @@
 
 <br />
 
+1. 사용방법
 ```
 const arr1 = [1, 2, 3];
 const arr2 = [4, 5, 6];
@@ -23,14 +24,35 @@ const arrWrap = [...arr1, ...arr2, ...arr3];
 
 console.log(arrWrap); // [1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
-위처럼 사용하면 됩니다.
 
 <br />
 
+2. 배열 아무곳에나 전개연산자를 추가할 수 있습니다.
 ```
 const arr = [4, 5, 6];
 const arrWrap = [1, 2, 3, ...arr, 7, 8, 9]
 
 console.log(arrWrap); // [1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
-위처럼 배열 아무곳에나 전개연산자를 추가할 수 있습니다.
+
+<br />
+
+3. 객체에서도 동일합니다.
+```
+const objA = {a:1, b:2};
+const objB = {...objA};
+
+console.log(objB); //{a:1, b:2}
+```
+
+<br />
+
+4. 객체 특정 값 변경하기
+```
+const objA = {a:1, b:2, c:3};
+const objB = {...objA, b: 4};
+
+console.log(objB); //{a:1, b:4, c:3}
+```
+
+
