@@ -44,7 +44,29 @@ axios.get(url)
     });
 ```
 
-Async (await)
+## 비동기식 처리
+
+```jsx
+async function fetchData(text, url, count) {
+    await axios.get(url + "?count=" + count)
+        .then(res => {
+            const d = res.data;
+            setUsers(d);
+            console.log(":" + text, d);
+        })
+        .catch(error => {
+            console.log("err:", error); 
+        });
+}
+
+React.useEffect(async () => {
+    console.log("start!");
+    fetchData("first", "/api/test1", 10000);
+    fetchData("second", "/api/test2", 500);
+    console.log("end!");
+});
+```
+
 ```jsx
 async function getUserInfo() {
     const result = null;
