@@ -1,6 +1,6 @@
 ## JavaScript Spread
 
-이 리포지토리는 JavaScript Spread 사용 방법에 대한 리포지토리입니다. <br />
+이 리포지토리는 JavaScript Spread연산자 사용 방법에 대한 리포지토리입니다. <br />
 
 <a href="https://github.com/devncore/devncore"><strong>더 알아보기 »</strong></a>
  
@@ -54,5 +54,32 @@ const objB = {...objA, b: 4};
 
 console.log(objB); //{a:1, b:4, c:3}
 ```
+
+5. 객체 더 깊은 값 변경
+```
+const object = {
+a: {
+    b: {
+        target: 123,
+        c: "cc"
+        },
+    d: "dd"
+e: "ee"
+}
+
+//target데이터만 변경
+
+const newObject = {
+...object,
+a: {
+    ...object.a,
+    b: {
+    ...object.a.b,
+    target: 456
+    }
+}
+}
+```
+
 
 
