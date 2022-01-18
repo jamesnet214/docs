@@ -31,7 +31,7 @@ axios는 아래처럼 응답 스키마를 json 형식으로 반환합니다.
 Axios는 동기식 메서드를 체인 메서드 방식으로 제공합니다.
 
 #### GET 방식 (Standard)
-- 파라메터가 없는 기본 GET 방식의 API를 호출하는 구문입니다.
+- 파라미터가 없는 기본 GET 방식의 API를 호출하는 구문입니다.
 ```jsx
 const url = "/api/users";
 axios.get(url)
@@ -44,7 +44,7 @@ axios.get(url)
     });
 ```
 
-- 파라메터가 있는 GET 방식의 API를 호출하는 구문입니다.
+- 파라미터가 있는 GET 방식의 API를 호출하는 구문입니다.
 ```jsx
 const url = "/api/users";
 const data = {
