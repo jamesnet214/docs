@@ -52,6 +52,7 @@ app.UseCors(MyAllowSpecificOrigins);
 > CORS와 관련된 정책, 기술들은 SSO(Single Sign On)인증방식 또는 외부 앱(Web, App 등)과의 프로토콜에 있어 핵심적인 정책입니다.
 
 ## 한번에 Cors 허용하기
+특정 URL의 크로스 도메인 제한 여부를 한번에 허용할 수도 있습니다.
 ```
 app.UseCors(builder => {
     builder.WithOrigins("https://localhost:3000")
