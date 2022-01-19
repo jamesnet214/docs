@@ -23,7 +23,7 @@
 
 > npm install universal-cookie
 
-```react
+```javascript
 import Cookies from 'universal-cookie';
 
 const cookies = new Cookies();
