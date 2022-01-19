@@ -24,7 +24,21 @@
 - Visual Studio Mac
 
 ## HttpGet
-HttpGet Attribute를 통해 Get 타입의 프로토콜 메서드를 선언할 수 있습니다.
+HttpGet 어트리뷰트(Attribute)를 통해 Get 타입의 프로토콜 메서드를 구현합니다. 그리고 해당 어트리뷰트(HttpGetAttribute)의 실제 구현된 구조체는 다음과 같습니다.
+```csharp
+using Microsoft.AspNetCore.Mvc.Routing;
+namespace Microsoft.AspNetCore.Mvc
+{
+    public class HttpGetAttribute : HttpMethodAttribute
+    {
+        public HttpGetAttribute();
+        public HttpGetAttribute(string template);
+    }
+}
+```
+HttpGet (HttpGetAttribute) 어트리뷰트는 `string` template 값을 API 이름으로 정의할 수 있으며 값이 없을 경우 해당 컨트롤러(Controller)의 기본(Default) GET API로 동작됩니다.
+
+다음은 HttpGet 어트리뷰트를 사용하여 GET API 메서드를 만드는 최소한의 코드입니다.
 ```csharp
 [HttpGet("users")]
 public async Task<IActionResult> Users()
