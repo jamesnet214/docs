@@ -33,7 +33,7 @@
 - [ ] [Blazor API](articles/blazor-api.md)
 - [ ] [Wpf 게이지 컨트롤 만들기](articles/wpf-gauge-control.md)
 - [x] [Wpf 원 그리기](articles/wpf-circle.md)
-- [ ] [네이밍 표기법](articles/nameing.md)
+- [ ] [네이밍 표기법](articles/naming.md)
 - [ ] [Producer-Consumer 패턴이란?](articles/producer-consumer.md)
 - [x] [IIS 배포환경설정](articles/iis-deployment.md)
 - [x] [Swagger UI설정](articles/swagger-ui.md)
