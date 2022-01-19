@@ -17,7 +17,6 @@
 - [x] [The-Easiest-Markdown](https://github.com/devncore/the-easiest-markdown)
 - [x] [The-Easiest-React](https://github.com/devncore/the-easiest-react)
 - [ ] [EF Sqlite 마이그레이션 만들기](articles/entityframework-sqlite.md)
-- [x] [보안 취약점 Articlesvulnerability](articles/articlesvulnerability.md)
 - [x] [브라우저 자동완성 정책 Auto Complete](articles/autocomplete.md)
 - [x] [로컬 인증서 만들기 (mkcert)](/articles/mkcert.md)
 - [x] [JWT](articles/csharp-jwt-token.md)
