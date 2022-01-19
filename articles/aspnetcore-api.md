@@ -11,12 +11,13 @@
 <br />
 
 ## 내용
-- [프로젝트 생성](#프로젝트-생성)
+- [준비](#준비)
 - [Router](#Router)
 - [HttpGet](#HttpGet)
 - [RepositoryBase](#RepositoryBase)
 
-## 프로젝트 생성
+## 준비
+#### 프로젝트 생성
 프로젝트 생성은 Microsoft Docs(구 MSDN)에서 제공하는 자습서를 [참고](https://microsoft.com)해주시기 바랍니다. 프로젝트 생성 방법에 대해 아주 상세하게 설명되어 있습니다.
 #### 제공 환경
 - Visual Studio
@@ -40,26 +41,23 @@ namespace Microsoft.AspNetCore.Mvc
 ```
 HttpGet (HttpGetAttribute) 어트리뷰트는 `string` template 값을 API 이름으로 정의할 수 있으며 값이 없을 경우 해당 컨트롤러(Controller)의 기본(Default) GET API로 동작됩니다.
 
+#### GET Default
 다음은 HttpGet 어트리뷰트를 사용하여 GET API 메서드를 만드는 최소한의 코드입니다.
 
-#### GET Default
 ```csharp
 [HttpGet("users")]
-public async Task<IActionResult> Users()
+public IActionResult Users()
 {
-    try 
-    {
-        var users = _repository.User.GetUsers();
-        _logger.LogInfo("Returned all users from database.");
-        return Ok(owners);
-    }
-    catch (Exception)
-    {
-        _logger.LogError($"Something went wrong inside GetUsers action: {ex.Message}");
-        return StatusCode(500, "Internal server error");
-    }
+    string[] users = new string[] 
+    { 
+        "Son",
+        "Salah",
+        "Neymar"         
+    };
+    return Ok(users);
 }
 ```
+API 메서드의 리턴 타입은 IActionResult 인터페이스를 사용하는 것이 일반적인 선택입니다.
 
 ## RepositoryBase
 
@@ -83,6 +81,26 @@ public class UserRepository : RepositoryBase<User>, IUserRepository
 }
 ```
 
+
+## GET
+
+```csharp
+[HttpGet("users")]
+public async Task<IActionResult> Users()
+{
+    try 
+    {
+        var users = _repository.User.GetUsers();
+        _logger.LogInfo("Returned all users from database.");
+        return Ok(owners);
+    }
+    catch (Exception)
+    {
+        _logger.LogError($"Something went wrong inside GetUsers action: {ex.Message}");
+        return StatusCode(500, "Internal server error");
+    }
+}
+```
 
 ## Post
 ```
