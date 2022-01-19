@@ -25,10 +25,6 @@
 
 ```javascript
 import Cookies from 'universal-cookie';
-
 const cookies = new Cookies();
-
-const cookies = new Cookies();
-    
 const token = cookies.get('portal.authentication.session');
 ``` 
