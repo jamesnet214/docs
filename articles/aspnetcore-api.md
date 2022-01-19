@@ -12,6 +12,8 @@
 
 ## 내용
 - [프로젝트 생성](#프로젝트-생성)
+- [Router](#Router)
+- [HttpGet](#HttpGet)
 - [RepositoryBase](#RepositoryBase)
 
 ## 프로젝트 생성
@@ -20,6 +22,26 @@
 - Visual Studio
 - Visual Studio Code
 - Visual Studio Mac
+
+## HttpGet
+HttpGet Attribute를 통해 Get 타입의 프로토콜 메서드를 선언할 수 있습니다.
+```csharp
+[HttpGet("users")]
+public async Task<IActionResult> Users()
+{
+    try 
+    {
+        var users = _repository.User.GetUsers();
+        _logger.LogInfo("Returned all users from database.");
+        return Ok(owners);
+    }
+    catch (Exception)
+    {
+        _logger.LogError($"Something went wrong inside GetUsers action: {ex.Message}");
+        return StatusCode(500, "Internal server error");
+    }
+}
+```
 
 ## RepositoryBase
 
@@ -39,26 +61,6 @@ public class UserRepository : RepositoryBase<User>, IUserRepository
         return FindAll()
             .OrderBy(ow => ow.Name)
             .ToList();
-    }
-}
-```
-
-## Get
-```
-
-[HttpGet("users")]
-public async Task<IActionResult> Users()
-{
-    try 
-    {
-        var users = _repository.User.GetUsers();
-        _logger.LogInfo("Returned all users from database.");
-        return Ok(owners);
-    }
-    catch (Exception)
-    {
-        _logger.LogError($"Something went wrong inside GetUsers action: {ex.Message}");
-        return StatusCode(500, "Internal server error");
     }
 }
 ```
