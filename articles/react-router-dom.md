@@ -126,3 +126,20 @@ React.useEffect(() => {
     // some!!
 }, [id]);
 ```
+
+#### useHistory(5.3.0) > useNavigate(6.2.1)
+react-router-dom 6.2.1 버전에선 useHistory가 useNavigate로 변경 되었습니다.
+
+- 5.3.0(기존)
+```jsx
+import { useHistory } from "react-router-dom";
+const history = useHistory();
+history.push(`/users/${userId`); 
+```
+
+- 6.2.1(변경)
+```jsx
+import { useNavigate } from "react-router-dom";
+const navigate = useNavigate();
+navigate(`/users/${userId`); 
+```
