@@ -83,6 +83,22 @@ ReactDOM.render(
 
 Route의 매칭에 여부에 의해 해당 컴포넌트가 보여지게 됩니다. 그리고 브라우저를 통해 전달받은 `url` 값을 사용할 수도 있습니다.
 
+#### 파라미터(Parameter) 정의
+화면 `URL`과 함께 파라미터 변수를 전달받기 위해 Route에서 기존 path에 `/:id`를 추가합니다.
 ```jsx
-1
+<Route path="/users/:id" component={<Users/>}/>
 ``` 
+___앞으로는 users와 함께 :id 값을 보내야 합니다.___
+
+올바른 URL은 앞으로 이렇게 될 것입니다.
+> https://example.com/users/2022
+
+___리엑트에서는 어떻게 이동할까요?___
+
+기존 페이지 이동 방법인 useHistory를 사용합니다.
+
+```jsx
+const userId = "";
+history.push(`/users/${userId`);
+```
+크게 다른 점은 없지만 `/users/` path에 이어서 `id` 파라미터 값이 오도록 합니다. 
