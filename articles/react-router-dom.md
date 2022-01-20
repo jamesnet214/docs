@@ -18,7 +18,7 @@
 React는 하나의 단일 페이지(Single Page Application)를 구성하기 때문에 페이지 이동 시 기존 웹 방식의 `localhost.href`를 사용하는 것은 썩 좋은 방법은 아닙니다.
  
 #### 기존 방식 살펴보기
-```
+```jsx
 window.location.href = "/users";
 ```
 기존 정적(Static) 방식으로 페이지를 이동시킬 경우 불필요한 Refresh가 일어나며 React는 내부적으로 앱을 새로 시작하게 됩니다.
@@ -26,7 +26,7 @@ window.location.href = "/users";
 
 #### React 방식 살펴보기
 > 실제 정적 페이지를 찾는 것이 아닙니다.
-```
+```jsx
 history.push("/users");
 ```
 이 코드는 앞서 살펴본 location.href 방식과 동일한 기능(새로기침) 처럼 동작합니다. 하지만 실제로는 새로고침이 일어나지 않으며 **Route 컴포넌트**를 통해 해당 영역이 스위칭 되며, 마치 화면이 이동된 것 처럼 보여지는 것입니다. 
@@ -35,8 +35,10 @@ ___그렇다면 Router를 통한 화면 스위칭을 어떻게 해야 할까요?
 
 Route 컴포넌트를 통해 손쉽게 경로 규칙을 만들 수 있습니다.
 
-> Route 컴포넌트는 `react-router` 라이브러리에 포함되어 있습니다.
-```
+## 화면 스위칭 (Route)
+Route 컴포넌트는 `react-router` 라이브러리에 포함되어 있습니다.
+
+```jsx
 import { Route } from "react-router";
 ```
 
@@ -44,11 +46,43 @@ ___이제 Route를 통해 화면 스위칭을 구성해볼까요?___
 
 index.js를 통해 DOM 객체가 로드(Render) 되는 메인 중심 페이지에서 Route 규칙을 만들도록 합니다.
 
+#### Route 주요 속성들
+| 속성 | 설명 |
+|:----|:----|
+| path | 컴포넌트와 매칭되는 `url`을 정의합니다. |
+| component |`url`과 `path`가 일치할 경우 보여지는 컴포넌트를 정의합니다. |
+
 #### Route 규칙 만들기
-```
+```jsx
 <Switch>
     <Route path="/users" component={<Users/>}/>
     <Route path="/orders" component={<Orders/>}/>
 </Switch>
 ```
-> 사실 반드시 Switch를 통해 그룹으로 묶지 않아도 됩니다. 그리고 Switch를 사용하지 않는 대신 exact 속성을 사용해서 각각의 url과 컴포넌트 화면을 매칭시킬 수도 있습니다.  하지만 일반적으로는 Switch를 사용하는 것이 편한 방법입니다.
+사실 반드시 Switch를 통해 그룹으로 묶는 것은 아닙니다. Switch를 사용하지 않는 대신 exact 속성을 통해서도 각각의 url과 컴포넌트 화면을 매칭시킬 수도 있습니다. 
+
+> 하지만 일반적으로 대부분의 상황에서는 Switch를 사용하는 것이 편합니다.
+
+이제 마지막으로 라우터를 허용하는 영역을 **BrowserRouter**를 통해 감싸주어야 합니다. 
+
+이 영역의 범위를 선택하는 기준은 다양하지만 관행적으로 보통 index.js 파일에서 메인 컴포넌트 전체를 감싸도록 하는 것이 일반적입니다.
+
+#### BrowserRouter 추가하기
+```jsx
+ReactDOM.render(
+    <BrowserRouter>
+        <Portal/>
+    </BrowserRouter>,
+    document.getElementById("root");
+);
+```
+> 하지만 BrowserRouter는 Route를 감싸줄수만 있다면 어느 위치에 존재해도 상관은 없습니다.
+
+## 파라미터 넘겨받기 (match)
+자식 컴포넌트의 생사(생명주기)는 이제부터 Router의 스위칭 역활에 달렸습니다.
+
+Route의 매칭에 여부에 의해 해당 컴포넌트가 보여지게 됩니다. 그리고 브라우저를 통해 전달받은 `url` 값을 사용할 수도 있습니다.
+
+```jsx
+1
+``` 
