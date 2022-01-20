@@ -33,8 +33,10 @@ history.push("/users");
 
 ___그렇다면 Router를 통한 화면 스위칭 정책은 어떻게 해야 할까요?___
 
-#### Route 규칙
+#### Route 규칙 만들기
 ```
-<Route path="/users" component={<Users/>}/>
-<Route path="/orders" component={<Orders/>}/>
+<Switch>
+    <Route path="/users" component={<Users/>}/>
+    <Route path="/orders" component={<Orders/>}/>
+</Switch>
 ```
