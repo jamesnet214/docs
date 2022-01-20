@@ -47,4 +47,4 @@
 - [ ] [Rest API](articles/rest-api.md)
 - [ ] [React Developer Tools](articles/react-developer-tools.md)
 - [ ] [Axios](articles/axios.md)
-- [ ] [RoutedEvent](acticles/routedevent.md)
+- [ ] [RoutedEvent](articles/routedevent.md)
