@@ -17,7 +17,7 @@
 ## 페이지 이동 (History)
 React는 하나의 단일 페이지(Single Page Application)를 구성하기 때문에 페이지 이동 시 기존 웹 방식의 `localhost.href`를 사용하는 것은 썩 좋은 방법은 아닙니다.
  
-#### 기존 페이지 이동 방식
+#### 기존 방식 살펴보기
 ```
 window.location.href = "/users";
 ```
