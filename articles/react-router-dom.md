@@ -35,10 +35,14 @@ ___그렇다면 Router를 통한 화면 스위칭을 어떻게 해야 할까요?
 
 Route 컴포넌트를 통해 손쉽게 경로 규칙을 만들 수 있습니다.
 
-Route 컴포넌트는 `react-router` 라이브러리에 포함되어 있습니다.
+> Route 컴포넌트는 `react-router` 라이브러리에 포함되어 있습니다.
 ```
 import { Route } from "react-router";
 ```
+
+___이제 Route를 통해 화면 스위칭을 구성해볼까요?___
+
+index.js를 통해 DOM 객체가 로드(Render) 되는 메인 중심 페이지에서 Route 규칙을 만들도록 합니다.
 
 #### Route 규칙 만들기
 ```
@@ -47,3 +51,4 @@ import { Route } from "react-router";
     <Route path="/orders" component={<Orders/>}/>
 </Switch>
 ```
+> 사실 반드시 Switch를 통해 그룹으로 묶는 것은 아닙니다. Switch를 사용하지 않는 대신 exact 속성을 통해서도 각각의 url과 컴포넌트 화면을 매칭시킬 수도 있습니다. 하지만 일반적으로는 Switch를 사용하는 것이 편한 방법입니다.
