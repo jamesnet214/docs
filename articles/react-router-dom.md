@@ -133,7 +133,7 @@ React.useEffect(() => {
 }, [id]);
 ```
 
-## 버전 
+## 버전 이슈
 #### useHistory(5.3.0) > useNavigate(6.2.1)
 react-router-dom 6.2.1 버전에선 useHistory가 useNavigate로 변경 되었습니다.
 
