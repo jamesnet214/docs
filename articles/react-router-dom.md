@@ -117,3 +117,10 @@ const Users = (props) => {
 
 export default Users;
 ```
+
+#### Effect Hook 활용
+```jsx
+React.useEffect(() => {
+    // some!!
+}, [id]);
+```
