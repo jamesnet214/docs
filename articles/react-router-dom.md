@@ -23,3 +23,18 @@ window.location.href = "/users";
 ```
 기존 정적(Static) 방식으로 페이지를 이동시킬 경우 불필요한 Refresh가 일어나며 React는 내부적으로 앱을 새로 시작하게 됩니다.
 > React는 SPA 방식인 관계로 새로고침(F5)이 일어나는 순간 모든 것을 새롭게 시작합니다.
+
+#### React 방식 살펴보기
+> 실제 정적 페이지를 찾는 것이 아닙니다.
+```
+history.push("/users");
+```
+이 코드는 앞서 살펴본 location.href 방식과 동일한 기능(새로기침) 처럼 동작합니다. 하지만 실제로는 새로고침이 일어나지 않으며 **Route 컴포넌트**를 통해 해당 영역이 스위칭 되며, 마치 화면이 이동된 것 처럼 보여지는 것입니다. 
+
+___그렇다면 Router를 통한 화면 스위칭 정책은 어떻게 해야 할까요?___
+
+#### Route 규칙
+```
+<Route path="/users" component={<Users/>}/>
+<Route path="/orders" component={<Orders/>}/>
+```
