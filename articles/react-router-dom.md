@@ -51,4 +51,4 @@ index.js를 통해 DOM 객체가 로드(Render) 되는 메인 중심 페이지�
     <Route path="/orders" component={<Orders/>}/>
 </Switch>
 ```
-> 사실 반드시 Switch를 통해 그룹으로 묶는 것은 아닙니다. Switch를 사용하지 않는 대신 exact 속성을 통해서도 각각의 url과 컴포넌트 화면을 매칭시킬 수도 있습니다. 하지만 일반적으로는 Switch를 사용하는 것이 편한 방법입니다.
+> 사실 반드시 Switch를 통해 그룹으로 묶지 않아도 됩니다. 그리고 Switch를 사용하지 않는 대신 exact 속성을 사용해서 각각의 url과 컴포넌트 화면을 매칭시킬 수도 있습니다.  하지만 일반적으로는 Switch를 사용하는 것이 편한 방법입니다.
