@@ -95,10 +95,17 @@ ___앞으로는 users와 함께 :id 값을 보내야 합니다.___
 
 ___리엑트에서는 어떻게 이동할까요?___
 
-기존 페이지 이동 방법인 useHistory를 사용합니다.
+변함 없이 useHistory를 사용합니다.
 
 ```jsx
 const userId = "";
 history.push(`/users/${userId`);
 ```
 크게 다른 점은 없지만 `/users/` path에 이어서 `id` 파라미터 값이 오도록 합니다. 
+
+#### 컴포넌트에서 파라미터 받기
+이제 `URL`이 변경될때마다 함께 포함된 파라미터 값을 전달받는 방법을 확인해보겠습니다.
+
+```
+const { page } = props.match.params;
+```
