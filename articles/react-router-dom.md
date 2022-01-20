@@ -10,8 +10,11 @@
 
 ## 내용
 - [React Router Dom 이란?](#react-router-dom-이란)
-- [페이지 이동](#페이지-이동-history)
-- [화면 스위칭](#화면-스위칭-route)
+- [페이지 이동 (History](#페이지-이동-history)
+- [화면 스위칭 (Route)](#화면-스위칭-route)
+- [파라미터 넘겨받기 (Match)](#파라미터-넘겨받기-match)
+- [Effect Hook 활용](#effect-hook-활용)
+- [버전 이슈](#버전-이슈)
 
 ## React Router Dom 이란?
 - 페이지의 로딩 없이 페이지에 필요한 컴포넌트를 불러와 렌더링하여 보여주는 것
@@ -123,13 +126,14 @@ const Users = (props) => {
 export default Users;
 ```
 
-#### Effect Hook 활용
+## Effect Hook 활용
 ```jsx
 React.useEffect(() => {
     // some!!
 }, [id]);
 ```
 
+## 버전 
 #### useHistory(5.3.0) > useNavigate(6.2.1)
 react-router-dom 6.2.1 버전에선 useHistory가 useNavigate로 변경 되었습니다.
 
