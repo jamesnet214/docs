@@ -106,7 +106,7 @@ history.push(`/users/${userId`);
 #### 컴포넌트에서 파라미터 받기
 이제 `URL`이 변경될때마다 함께 포함된 파라미터 값을 전달받는 방법을 확인해보겠습니다.
 
-#### 컴포넌트
+#### 파라미터(Parameter) 추출
 ```jsx
 const Users = (props) => {
     const { id } = props.match.params;
