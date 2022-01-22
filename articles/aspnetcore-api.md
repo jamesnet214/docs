@@ -14,6 +14,7 @@
 - [준비](#준비)
 - [Router](#Router)
 - [HttpGet](#HttpGet)
+- [HttpPost](#HttpPost)
 - [RepositoryBase](#RepositoryBase)
 
 ## 준비
