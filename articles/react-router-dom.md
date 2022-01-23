@@ -87,9 +87,9 @@ ReactDOM.render(
 > 하지만 BrowserRouter는 Route를 감싸줄수만 있다면 어느 위치에 존재해도 상관은 없습니다.
 
 ## 파라미터 넘겨받기 (match)
-자식 컴포넌트의 생사(생명주기)는 이제부터 Router의 스위칭 역활에 달렸습니다.
+자식 컴포넌트의 생사(생명주기)는 이제부터 Router의 스위칭 역할에 달렸습니다.
 
-Route의 매칭에 여부에 의해 해당 컴포넌트가 보여지게 됩니다. 그리고 브라우저를 통해 전달받은 `url` 값을 사용할 수도 있습니다.
+Route의 매칭 여부에 의해 해당 컴포넌트가 보여지게 됩니다. 그리고 브라우저를 통해 전달받은 `url` 값을 사용할 수도 있습니다.
 
 #### 파라미터(Parameter) 정의
 화면 `URL`과 함께 파라미터 변수를 전달받기 위해 Route에서 기존 path에 `/:id`를 추가합니다.
@@ -129,7 +129,7 @@ export default Users;
 ## Effect Hook 활용
 ```jsx
 React.useEffect(() => {
-    // some!!
+    // something!!
 }, [id]);
 ```
 
