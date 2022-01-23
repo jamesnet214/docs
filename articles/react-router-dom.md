@@ -83,7 +83,7 @@ ReactDOM.render(
     document.getElementById("root");
 );
 ```
-> 하지만 BrowserRouter는 Route를 감싸줄수만 있다면 어느 위치에 존재해도 상관은 없습니다.
+하지만 BrowserRouter는 Route를 감싸줄수만 있다면 어느 위치에 존재해도 상관은 없습니다.
 
 ## 파라미터 넘겨받기 (match)
 자식 컴포넌트의 생사(생명주기)는 이제부터 Router의 스위칭 역할에 달렸습니다.
