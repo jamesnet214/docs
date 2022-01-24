@@ -41,6 +41,25 @@ npm install axios
 
 <br />
 
+### Axios 응답제어
+
+- .then <br />
+비동기 통신이 성공했을 경우 .then() 콜백을 인자로 받아 결과값 처리가 가능합니다.
+
+- .catch <br />
+catch() 를 통해 오류를 처리합니다. error 객체에서는 오류에 대한 주요 정보를 확인할 수 있습니다.
+
+```javascript
+axios.get('/test')
+    .catch(function (error) {
+        console.log(error.response.status);
+    }
+```
+
+
+
+
+
 ### React REST API 사용 방법
 | Fatch | Axios | Ajax |
 |:-----:|:------:|:----:|
