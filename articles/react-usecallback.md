@@ -10,7 +10,25 @@
 
 <br />
 
-#### 기본적인 useCallback
+### useCallback 이란?
+useCallback 은 특정 함수를 새로 만들지 않고 재사용하고 싶을때 사용합니다.
+useCallback은 콜백의 메모이제이션된 버전을 반환하며 메모이제이션된 버전은 콜백의 의존성이 변경되었을 때에만 변경됩니다. 이것은, 불필요한 렌더링을 방지하기 위해 참조의 동일성에 의존적인 최적화된 자식 컴포넌트에 콜백을 전달할 때 유용합니다.
+
+<br />
+
+### useCallback 기본
+
+```jsx
+const memoizedCallback = useCallback(
+  () => {
+    doSomething(a, b);
+  },
+  [a, b],
+);
+```
+
+
+#### useCallback 사용예시
 ```jsx
 export default function Exam(props) {
     const [text, setText] = React.useState("");
