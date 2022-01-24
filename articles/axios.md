@@ -22,6 +22,14 @@ Axios는 브라우저, Node.js를 위해서 만들어진 Promise API를 활요�
 
 <br />
 
+### Axios 설치정보
+
+```javascript
+npm install axios
+```
+
+<br />
+
 ### Axios HTTP Methods
 
 | 메소드 |     설명    | 기본사용코드 |
