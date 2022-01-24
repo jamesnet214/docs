@@ -15,6 +15,9 @@
 
 ### 설치방법
 
+| 다운로드 | Chrome 추가 |
+|:-:|:-:|
+| ![developer_1](https://user-images.githubusercontent.com/76234292/150791610-707b7917-2c90-46c0-9757-c47a2cc7ada3.PNG)  | ![developer_2](https://user-images.githubusercontent.com/76234292/150791768-2d245647-1a42-4d0f-94fb-a2ae2d0886a4.PNG) |
 
 
 
