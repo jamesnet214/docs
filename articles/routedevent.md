@@ -10,10 +10,18 @@
 
 <br />
 
-## RoutedEvent 란?
+### RoutedEvent 란?
 RoutedEvent를 통해 Control에 대한 이벤트를 처리를 할 때 이벤트를 발생시킨 개체와 관계된 상위 요소를 호출할 수 있는 이벤트 형식입니다. 
 이벤트를 발생시킨 개체부터 루트에 도달 할 때까지 상위 요소로 가는경로를 버블링(Bubbling) 이라하며 터널링(Tunneling)이라고 합니다.
 이벤트 라우팅은 어떤 이벤트가 컨트롤의 하위 또는 상위로 전달되는 것 을 이야기하며 WPF에서 광범위하게 이용되는 방법입니다.
+
+<br />
+
+### RoutedEvent 처리순서도
+
+| 이벤트 처리순서도|
+|:-:|
+| ![image](https://user-images.githubusercontent.com/76234292/150774551-45e7b3ca-1677-41b8-9f33-f90616587e3c.png) |
 
 <br />
 
@@ -26,6 +34,7 @@ RoutedEvent를 통해 Control에 대한 이벤트를 처리를 할 때 이벤트
 
 #### Directed
 Object가 Event를 발생 시키고 직접 처리하는 방식 입니다.
+소스 요소 자체만 응답으로 처리기 호출이 가능합니다.
 
 <br />
 
