@@ -13,6 +13,8 @@
 ### React Developer Tools 란?
 **`React Developer Tools`** 는 확장 프로그램으로써 Chrome, Firefox 개발자 도구에서 React Component Tree 를 검사가 가능하여 React 웹 사이트의 Component를 쉽게 탐색 할 수 있습니다.
 
+<br />
+
 ### 설치방법
 
 | 다운로드 | Chrome 추가 |
@@ -23,6 +25,7 @@
 |:----------------:|:--------:|:------------------:|
 | ![developer_5](https://user-images.githubusercontent.com/76234292/150793225-d96d70a6-3616-47d8-a742-7def36d72b16.PNG)  |  ![디벨로퍼6](https://user-images.githubusercontent.com/76234292/150793363-85addde0-cd07-47ac-a84e-6c3b63fc4b08.PNG) | ![디벨로퍼5](https://user-images.githubusercontent.com/76234292/150793379-6063e067-f4c1-4862-95a7-6984d3884bd1.PNG) |
 
+<br />
 
 ### 사용방법
 
