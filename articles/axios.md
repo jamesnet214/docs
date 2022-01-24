@@ -65,6 +65,21 @@ catch() 를 통해 오류를 처리합니다. error 객체에서는 오류에 �
 
 <br />
 
+### React HTTP요청 Config 옵션
+
+| 옵션         | 설명                                                           |
+|:------------:|:-------------------------------------------------------------:|
+| Method       | 요청시 사용할 요청 메서드, 기본값은 get                         |
+| URL          | axios 요청에 사용될 서버의 URL 정보                             |
+| BaseURL      | axios 인스턴스 생성시 인스턴스의 기본 URL 값을 정할 수 있는 속성 |
+| Headers      | 헤더정보를 수정하여 보낼 때 사용                                |
+| Params       | HTTP 요청에 붙일 URL 파라미터                                   |
+| Data         | HTTP 요청시 body 에 보낼 데이터                                 |
+| Timeout      | HTTP 요청을 보내고 응답을 받기까지의 제한 시간 설정              | 
+| ResponseType | 서버로부터 어떤 데이터 형식으로 응답받을지 설정 기본값은 json     |
+
+<br />
+
 ### React REST API 사용 방법
 | Fatch | Axios | Ajax |
 |:-----:|:------:|:----:|
