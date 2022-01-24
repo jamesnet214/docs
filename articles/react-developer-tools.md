@@ -29,8 +29,8 @@
 
 ### 사용방법
 
-| 개발자도구 Components Highlight 체크 | 컴포넌트 렌더링 디버깅 화면 |
+| 개발자도구 Components Highlight 체크 | 렌더링 디버깅 화면 |
 |:-----------------------------------:|:----------:|
-| ![디벨로퍼10](https://user-images.githubusercontent.com/76234292/150794878-3746d113-b54c-4d0c-9a8c-6a925efc2559.PNG)  | ![디벨로퍼11](https://user-images.githubusercontent.com/76234292/150794903-f38d6e08-f7b0-4a72-9700-84fa4aea1026.png) |
+| ![developer_7](https://user-images.githubusercontent.com/76234292/150795254-a16eb2e4-216f-407d-8630-319976cb6044.PNG)  | ![디벨로퍼11](https://user-images.githubusercontent.com/76234292/150794903-f38d6e08-f7b0-4a72-9700-84fa4aea1026.png) |
 
 
