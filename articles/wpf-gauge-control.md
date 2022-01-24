@@ -36,11 +36,79 @@ public partial class NcoreDefaultGauge : UserControl
 
 <br />
 
-3. 반지름, 시작각도(0), 끝각도(360) 값을 이용해 원의 시작점좌표와 끝점좌표를 구한 후 DrawInfo 클래스에 저장합니다.
+3. 반지름, 시작각도(0), 끝각도(360) 값을 이용해 원의 시작점 좌표와 끝점 좌표를 구합니다.
+```C#
+public partial class NcoreDefaultGauge : UserControl
+{
+    double cx;
+    double cy;
+    public NcoreDefaultGauge()
+    {
+        InitializeComponent();
+        cx = canvas.Width / 2;
+        cy = canvas.Height / 2;
+        
+        double start_angle = 0, end_angle = 359.99999;
+        DrawInfo drawInfo = new DrawInfo();
+
+        double startCos = (double)Math.Cos(start_angle * Math.PI / 180);
+        double startSin = (double)Math.Sin(start_angle * Math.PI / 180);
+
+        double endCos = (double)Math.Cos(end_angle * Math.PI / 180);
+        double endSin = (double)Math.Sin(end_angle * Math.PI / 180);
+
+        drawInfo.XStart = cx + cx * startCos;
+        drawInfo.YStart = cy + cy * startSin;
+
+        drawInfo.XEnd = cx + cx * endCos;
+        drawInfo.YEnd = cy + cy * endSin;
+
+        drawInfo.ArcR = cx;
+        drawInfo.StartAngle = start_angle;
+        drawInfo.EndAngle = end_angle;
+    }
+}
+```
 
 <br />
 
-4. 앞서 만든 DrawInfo 데이터를 이용하여 DrawShape 클래스 내에서 Geometry를 그려 준 후 Canvas의 Children에 추가합니다.
+4. 앞서 저장한 DrawInfo 데이터를 이용하여 DrawShape 클래스 내에서 Geometry를 그려 준 후 Canvas의 Children에 추가합니다.
+```C#
+public partial class NcoreDefaultGauge : UserControl
+{
+    double cx;
+    double cy;
+    public NcoreDefaultGauge()
+    {
+        InitializeComponent();
+        cx = canvas.Width / 2;
+        cy = canvas.Height / 2;
+        
+        double start_angle = 0, end_angle = 359.99999;
+        DrawInfo drawInfo = new DrawInfo();
+
+        double startCos = (double)Math.Cos(start_angle * Math.PI / 180);
+        double startSin = (double)Math.Sin(start_angle * Math.PI / 180);
+
+        double endCos = (double)Math.Cos(end_angle * Math.PI / 180);
+        double endSin = (double)Math.Sin(end_angle * Math.PI / 180);
+
+        drawInfo.XStart = cx + cx * startCos;
+        drawInfo.YStart = cy + cy * startSin;
+
+        drawInfo.XEnd = cx + cx * endCos;
+        drawInfo.YEnd = cy + cy * endSin;
+
+        drawInfo.ArcR = cx;
+        drawInfo.StartAngle = start_angle;
+        drawInfo.EndAngle = end_angle;
+        
+        DrawShape shape = new DrawShape(drawInfo);
+        shape.Fill = Brushes.Pink;
+        canvas.Children.Add(shape);
+    }
+}
+```
 
 <br />
 
@@ -107,9 +175,6 @@ using WpfGaugeExam.DrawHelper;
 
 namespace WpfGaugeExam.Controls
 {
-    /// <summary>
-    /// NcoreDefaultGauge.xaml에 대한 상호 작용 논리
-    /// </summary>
     public partial class NcoreDefaultGauge : UserControl
     {
         double cx;
