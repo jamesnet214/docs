@@ -15,7 +15,7 @@
 AspNetCore API 컨트롤러에서 외부 API를 호출해야 합니다.
 
 #### 외부 GET API 호출 예
-```chsarp
+```csharp
 var response = client.GetAsync("https://github.com/login/auth/access_token");
 response.Wait();
 ```
