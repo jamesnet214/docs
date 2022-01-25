@@ -205,6 +205,9 @@ v6부터는 Redirect가 사라지고 Routes안에 Route를 넣어 줍니다. 그
 </Routes>
 ```
 
+### react-router-config > useRoutes
+기존 react-router-config 가 사라지고 useRoutes 로 사용합니다.
+
 
 
 
