@@ -166,6 +166,8 @@ const navigate = useNavigate();
 navigate(`/users/${userId`); 
 ```
 
+<br />
+
 ### StaticRouter Import 정보변경
 
 ```jsx
@@ -176,10 +178,19 @@ import { StaticRouter } from 'react-router-dom';
 import { StaticRouter } from 'react-router-dom/server';
 ```
 
+<br />
+
 ### exact 속성제거
 기존에는 해당 Url에만 접근하기 위해서는 exact 를 사용하였지만 v6 부터는 매칭규칙으로 바뀌어 기본적으로 exact의 기능이 들어간다. 
-
 > category 로 시작되는 모든 라우팅 매칭
-> <Route path='category/*' />
+
+```jsx
+Route path='category/*'
+```
+
+
+
+
+
 
 
