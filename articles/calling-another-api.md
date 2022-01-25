@@ -1,6 +1,6 @@
-## AspNetCore Controller에서 외부 API 호출 방법
+## AspNetCore 컨트롤러에서 외부 API 호출 방법
 
-이 리포지토리는 AspNetCore Controller에서 외부 API를 호추ㄹ하는 방법을 소개합니다.
+이 리포지토리는 AspNetCore 컨트롤러에서 외부 API를 호출하는 방법을 소개합니다.
 
 <a href="https://github.com/devncore/devncore"><strong>더 알아보기 »</strong></a>
  
