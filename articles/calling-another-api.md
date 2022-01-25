@@ -8,56 +8,16 @@
 |:----:|:-------:|:--------:|
 | <a href="https://github.com/devncore/docs/stargazers"><img src="https://img.shields.io/github/stars/devncore/docs" alt="Github Stars"></a> | <img src="https://img.shields.io/github/license/devncore/docs" alt="License"> | <a href="https://github.com/devncore/docs/pulse"><img src="https://img.shields.io/github/commit-activity/m/devncore/docs" alt="Commits-per-month"></a> |
 
-<br />
+클라이언트는 CORS(크로스 도메인 제한) 정책 때문에 외부에서 제공되는 API 사용이 불가능한 경우가 있습니다. 만약 여러분이 API 서버의 소유자라면 CORS 정책을 허용하도록 하거나 클라이언트에서 프록시 서버를 두어 해결할 것입니다.
 
-외부 클라이언트로 부터 크로스도메인(CORS) 정책을 허용하기 위해서는 각각의 컨트롤러에 **EnableCors** 어트리뷰트가 추가되어야 합니다.
+하지만 클라이언트 배포환경이 별도의 프록시 포트를 열 수 없는 환경이라면 어떻게 해야할까요?
 
-## 컨트롤러
-**EnableCors 어트리뷰트를 추가합니다.** 어트리뷰트 선언 부분의 이름은 반드시 필수(Require)로 입력합니다.
+AspNetCore API 컨트롤러에서 외부 API를 호출해야 합니다.
 
-```csharp
-[ApiController]
-[EnableCors("MyPolicy")]
-[Route("api/[controller]")]
-public class AccountController : ControllerBase
-{
-
-}
+#### 외부 GET API 호출 예
+```chsarp
+var response = client.GetAsync("https://github.com/login/auth/access_token");
+response.Wait();
 ```
-**아직 Cors 프로필이 없다면** Startup.cs 파일의 Configs 설정 부분에서 Proxy 관련 설정을 추가합니다.
 
-```csharp
-// startup.cs
-
-var MyAllowSpecificOrigins = "_devncoreOrigins";
-
-...
-
-builder.Services.AddCors(options => 
-{
-    options.AddPolicy(name: MyAllowSpecificOrigins,
-        builder => 
-        {
-            builder.WithOrigins("https://devncore.org",
-                "https://cbt.devncore.org");
-        });
-});
-
-...
-
-app.UseCors(MyAllowSpecificOrigins);
-```
-최종적으로 `app.UseCors(MyAllowSpecificOrigins);`를 통해 지정된 도메인의 API 연결을 특별하게 허용할 수 있습니다.
-
-> CORS와 관련된 정책, 기술들은 SSO(Single Sign On)인증방식 또는 외부 앱(Web, App 등)과의 프로토콜에 있어 핵심적인 정책입니다.
-
-## 한번에 Cors 허용하기
-특정 URL의 크로스 도메인 제한 여부를 한번에 허용할 수도 있습니다.
-```
-app.UseCors(builder => {
-    builder.WithOrigins("https://localhost:3000")
-        .AllowAnyHeader()
-        .AllowAnyMethod()
-        .AllowCredentials();
-}
-```
+이와 같이 서버 컨트롤러 영역에서 다시한번 웹 API를 호출하여 중간 연결고리를 만들어야 합니다.
