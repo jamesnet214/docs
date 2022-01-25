@@ -193,17 +193,17 @@ Route path='category/*'
 ### Redirect 제거
 v6부터는 Redirect가 사라지고 Routes안에 Route를 넣어 줍니다. 그리고 기존 Redirect는 Route 아래 element 속성에 Navigate로 replace속성과 to="url" 속성을 넣어 redirect의 기능을 사용합니다.
 
-'''jsx
+```jsx
 <Switch>
   <Redirect exact patch="/" to="login" />
 </Switch>
-'''
+```
 
-'''jsx
+```jsx
 <Routes>
   <Route path="/" element={<Navigate replace to="/login"/>} />
 </Routes>
-'''
+```
 
 
 
