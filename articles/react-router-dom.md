@@ -134,7 +134,7 @@ React.useEffect(() => {
 
 ## React Router v5 -> v6 버전 변경정보
 
-#### Switch -> Routes
+### Switch -> Routes
 Switch문이 Routes 로 변경 되었습니다. 
 
 **Version 5**
@@ -153,7 +153,7 @@ Switch문이 Routes 로 변경 되었습니다.
 
 <br />
 
-#### useHistory > useNavigate
+### useHistory > useNavigate
 useHistory가 useNavigate로 변경 되었습니다.
 
 **Version 5**
