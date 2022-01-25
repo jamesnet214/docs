@@ -169,3 +169,16 @@ import { useNavigate } from "react-router-dom";
 const navigate = useNavigate();
 navigate(`/users/${userId`); 
 ```
+
+### StaticRouter Import 정보변경
+
+**Version 5**
+```jsx
+import { StaticRouter } from 'react-router-dom';
+```
+
+**Version 6**
+```jsx
+import { StaticRouter } from 'react-router-dom/server';
+```
+
