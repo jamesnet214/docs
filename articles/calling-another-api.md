@@ -21,3 +21,20 @@ response.Wait();
 ```
 
 이와 같이 서버 컨트롤러 영역에서 다시한번 웹 API를 호출하여 중간 연결고리를 만들어야 합니다.
+
+POST 형식 호출도 크게 다르지 않습니다.
+
+#### 외부 POST API 호출 예
+```csharp
+HttpClient client = new HttpClient();
+
+var values = new Dictionary<string, string>
+{
+    { "code": "000000" },
+    { "key", "111111" }
+}
+
+var content = new FormUrlEncodedContent(values);
+var response = await client.PostAsync("https://github.com/login/auth/access_token", content);
+var responseString = await response.Content.ReadStringAsync();
+```
