@@ -136,15 +136,15 @@ React.useEffect(() => {
 
 #### Switch -> Routes
 
+**Version 5**
 ```jsx
-v5
 <Switch>
   <Route ... />
 </Switch>
 ```
 
+**Version 6**
 ```jsx
-v6
 <Routes>
   <Route ... />
 </Routes>
@@ -155,15 +155,15 @@ v6
 #### useHistory > useNavigate
 react-router-dom 6.2.1 버전에선 useHistory가 useNavigate로 변경 되었습니다.
 
+**Version 5**
 ```jsx
-v5
 import { useHistory } from "react-router-dom";
 const history = useHistory();
 history.push(`/users/${userId`); 
 ```
 
+**Version 6**
 ```jsx
-v6
 import { useNavigate } from "react-router-dom";
 const navigate = useNavigate();
 navigate(`/users/${userId`); 
