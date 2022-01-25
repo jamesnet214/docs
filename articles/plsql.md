@@ -54,9 +54,22 @@ variable_name date := to_date('01-01-2005 14:20:23', 'DD-MM-YYYY hh24:mi:ss');
 ```
 
 - 예외
-코드 실행 중의 오류인 예외는 두 종류가 있다: 사용자 정의 예외, 미리 정의된 예외.
+코드 실행 중의 오류인 예외는 두 종류가 있습니다. 사용자 정의 예외, 미리 정의된 예외
 ```SQL
 RAISE <exception name>;
+```
+
+- 조건문
+코드 부분은 IF-THEN-ELSIF 구조로 되어 있습니다.
+
+```SQL
+IF x = 1 THEN
+   sequence_of_statements_1;
+ELSIF x = 2 THEN
+   sequence_of_statements_2;
+ELSE
+   sequence_of_statements_3;
+END IF;
 ```
 
 <br />
