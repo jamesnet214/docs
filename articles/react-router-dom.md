@@ -178,11 +178,8 @@ import { StaticRouter } from 'react-router-dom/server';
 
 ### exact 속성제거
 기존에는 해당 Url에만 접근하기 위해서는 exact 를 사용하였지만 v6 부터는 매칭규칙으로 바뀌어 기본적으로 exact의 기능이 들어간다. 
-v6 부터는 url 하위경로에 * 을 사용한다.
 
 > category 로 시작되는 모든 라우팅 매칭
+> <Route path='category/*' />
 
-'''jsx
-<Route path='category/*' />
-'''
 
