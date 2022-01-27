@@ -25,3 +25,12 @@ DevNcore.org에서 사용중인 GitHub API 목록입니다.
 
 - Client ID
 - Client secrets
+
+#### 토큰 발급 방법(사진 첨부 예정)
+1. 우측 상단 프로필에서 **Settings** 클릭
+2. 좌측 하단 **Developer settings** 클릭
+3. **Personal access tokens** 클릭
+4. 우측 상단 **Generate new token** 클릭
+5. **Note** 토큰의 이름을 입력하고 **Select scopes** 허가할 권한을 체크후 하단 **Generate token**을 클릭한다.
+6. 토큰 생성 **(토큰은 최초 한번만 보여지므로 복사 후 안전한 곳에 저장)**
+
