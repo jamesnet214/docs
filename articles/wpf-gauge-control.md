@@ -242,6 +242,55 @@ namespace WpfGaugeExam.Models
 
 > **DrawShape.cs**  
 
-TBD...
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Media;
+using WpfGaugeExam.Models;
+using System.Windows.Shapes;
+
+namespace WpfGaugeExam.DrawHelper
+{
+    public class DrawShape : Shape
+    {
+
+        DrawInfo _DrawInfo = new DrawInfo();
+        protected override Geometry DefiningGeometry { get { return GetGeometry(); } }
+
+        public DrawShape(DrawInfo _drawInfo)
+        {
+            _DrawInfo = _drawInfo;
+        }
+
+        private Geometry GetGeometry()
+        {
+            StreamGeometry geom = new StreamGeometry();
+            using (StreamGeometryContext ctx = geom.Open())
+            {
+                ctx.BeginFigure(
+                    new Point(_DrawInfo.XStart,
+                              _DrawInfo.YStart),
+                    true,   // Filled
+                    false);  // Closed
+                ctx.ArcTo(
+                    new Point(_DrawInfo.XEnd,
+                              _DrawInfo.YEnd),
+                    new Size(_DrawInfo.ArcR, _DrawInfo.ArcR),
+                    0.0,     // rotationAngle
+                    _DrawInfo.EndAngle - _DrawInfo.StartAngle > 180,   //그려지는 각도가 180도 넘는지 체크
+                    SweepDirection.Clockwise, //시계방향으로 그림
+                    true,    // isStroked
+                    false);
+            }
+
+            return geom;
+        }
+    }
+}
+```
 
 ![image](https://user-images.githubusercontent.com/68521148/144867890-8ac87c23-662c-4a29-ad32-d70ff3d48fae.png)
