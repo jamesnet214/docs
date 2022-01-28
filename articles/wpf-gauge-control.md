@@ -49,7 +49,7 @@ public partial class NcoreDefaultGauge : UserControl
         cy = canvas.Height / 2;
         
         double start_angle = 0, end_angle = 359.99999;
-        DrawInfo drawInfo = new DrawInfo();
+        DrawInfo drawInfo = new();
 
         double startCos = (double)Math.Cos(start_angle * Math.PI / 180);
         double startSin = (double)Math.Sin(start_angle * Math.PI / 180);
@@ -83,9 +83,9 @@ public partial class NcoreDefaultGauge : UserControl
         InitializeComponent();
         cx = canvas.Width / 2;
         cy = canvas.Height / 2;
-        
+
         double start_angle = 0, end_angle = 359.99999;
-        DrawInfo drawInfo = new DrawInfo();
+        DrawInfo drawInfo = new();
 
         double startCos = (double)Math.Cos(start_angle * Math.PI / 180);
         double startSin = (double)Math.Sin(start_angle * Math.PI / 180);
@@ -102,9 +102,11 @@ public partial class NcoreDefaultGauge : UserControl
         drawInfo.ArcR = cx;
         drawInfo.StartAngle = start_angle;
         drawInfo.EndAngle = end_angle;
-        
-        DrawShape shape = new DrawShape(drawInfo);
-        shape.Fill = Brushes.Pink;
+
+        DrawShape shape = new(drawInfo)
+        {
+            Fill = Brushes.Pink
+        };
         canvas.Children.Add(shape);
     }
 }
@@ -122,10 +124,8 @@ public partial class NcoreDefaultGauge : UserControl
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:WpfGaugeExam"
         xmlns:ctrls="clr-namespace:WpfGaugeExam.Controls"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        mc:Ignorable="d" Height="450" Width="800">
     <Grid>
         <ctrls:NcoreDefaultGauge/>
     </Grid>
@@ -142,9 +142,7 @@ public partial class NcoreDefaultGauge : UserControl
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:WpfGaugeExam.Controls"
-             mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
+             mc:Ignorable="d">
     <Grid>
         <Canvas x:Name="canvas" Width="150" Height="150"/>
     </Grid>
@@ -157,21 +155,10 @@ public partial class NcoreDefaultGauge : UserControl
 
 ```csharp
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
-using WpfGaugeExam.Models;
 using WpfGaugeExam.DrawHelper;
+using WpfGaugeExam.Models;
 
 namespace WpfGaugeExam.Controls
 {
@@ -186,7 +173,7 @@ namespace WpfGaugeExam.Controls
             cy = canvas.Height / 2;
 
             double start_angle = 0, end_angle = 359.99999;
-            DrawInfo drawInfo = new DrawInfo();
+            DrawInfo drawInfo = new();
 
             double startCos = (double)Math.Cos(start_angle * Math.PI / 180);
             double startSin = (double)Math.Sin(start_angle * Math.PI / 180);
@@ -204,12 +191,15 @@ namespace WpfGaugeExam.Controls
             drawInfo.StartAngle = start_angle;
             drawInfo.EndAngle = end_angle;
 
-            DrawShape shape = new DrawShape(drawInfo);
-            shape.Fill = Brushes.Pink;
+            DrawShape shape = new(drawInfo)
+            {
+                Fill = Brushes.Pink
+            };
             canvas.Children.Add(shape);
         }
     }
 }
+
 ```
 
 <br />
@@ -217,12 +207,6 @@ namespace WpfGaugeExam.Controls
 > **DrawInfo.cs**
 
 ```csharp
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace WpfGaugeExam.Models
 {
     public class DrawInfo
@@ -243,46 +227,38 @@ namespace WpfGaugeExam.Models
 > **DrawShape.cs**  
 
 ```csharp
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Media;
-using WpfGaugeExam.Models;
 using System.Windows.Shapes;
+using WpfGaugeExam.Models;
 
 namespace WpfGaugeExam.DrawHelper
 {
     public class DrawShape : Shape
     {
-
-        DrawInfo _DrawInfo = new DrawInfo();
+        DrawInfo DrawInfo = new();
         protected override Geometry DefiningGeometry { get { return GetGeometry(); } }
 
         public DrawShape(DrawInfo _drawInfo)
         {
-            _DrawInfo = _drawInfo;
+            DrawInfo = _drawInfo;
         }
 
         private Geometry GetGeometry()
         {
-            StreamGeometry geom = new StreamGeometry();
+            StreamGeometry geom = new();
             using (StreamGeometryContext ctx = geom.Open())
             {
                 ctx.BeginFigure(
-                    new Point(_DrawInfo.XStart,
-                              _DrawInfo.YStart),
-                    true,   // Filled
+                    new Point(DrawInfo.XStart, DrawInfo.YStart),
+                    true,    // Filled
                     false);  // Closed
                 ctx.ArcTo(
-                    new Point(_DrawInfo.XEnd,
-                              _DrawInfo.YEnd),
-                    new Size(_DrawInfo.ArcR, _DrawInfo.ArcR),
+                    new Point(DrawInfo.XEnd, DrawInfo.YEnd),
+                    new Size(DrawInfo.ArcR, DrawInfo.ArcR),
                     0.0,     // rotationAngle
-                    _DrawInfo.EndAngle - _DrawInfo.StartAngle > 180,   //그려지는 각도가 180도 넘는지 체크
-                    SweepDirection.Clockwise, //시계방향으로 그림
+                    DrawInfo.EndAngle - DrawInfo.StartAngle > 180,   //그려지는 각도가 180도 넘는지 체크
+                    SweepDirection.Clockwise, //시계방향
                     true,    // isStroked
                     false);
             }
