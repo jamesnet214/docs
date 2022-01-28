@@ -12,10 +12,10 @@
 
 ### Content
 이 항목은 **devncore.org**에서 함께 포스팅 되고 있습니다.
-- [x] [The-Easiest-Git](https://github.com/devncore/the-easiest-git)
-- [x] [The-Easiest-Blender](https://github.com/devncore/the-easiest-blender)
-- [x] [The-Easiest-Markdown](https://github.com/devncore/the-easiest-markdown)
-- [x] [The-Easiest-React](https://github.com/devncore/the-easiest-react)
+- [x] [Guide to Git](https://github.com/devncore/guide-to-git)
+- [x] [Guide to Blender](https://github.com/devncore/guide-to-blender)
+- [x] [Guide to Markdown](https://github.com/devncore/guide-to-markdown)
+- [x] [Guide to React](https://github.com/devncore/guide-to-react)
 - [ ] [EF Sqlite 마이그레이션 만들기](articles/entityframework-sqlite.md)
 - [x] [브라우저 자동완성 정책 Auto Complete](articles/autocomplete.md)
 - [x] [로컬 인증서 만들기 (mkcert)](/articles/mkcert.md)
