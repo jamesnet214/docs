@@ -19,6 +19,8 @@ DevNcore.org에서 사용중인 GitHub API 목록입니다.
 | 1 | GET | /login/oauth/authorize | Code 반환 |
 | 2 | POST | /login/oauth/access_token | Access 토큰 반환 |
 
+https://docs.github.com/en/rest/reference/issues#list-issue-comments
+
 ### GitHub API 토큰
 
 #### GitHub OAuth 필요정보
