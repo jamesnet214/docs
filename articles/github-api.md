@@ -21,6 +21,10 @@ DevNcore.org에서 사용중인 GitHub API 목록입니다.
 
 https://docs.github.com/en/rest/reference/issues#list-issue-comments
 
+
+
+
+<!-- 아래 내용은 토큰 발급 관련해서 따로 문서 만들면 좋을 것 같음! -->
 ### GitHub API 토큰
 
 #### GitHub OAuth 필요정보
