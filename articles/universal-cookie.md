@@ -22,3 +22,10 @@ npm install universal-cookie
 ```
 import Cookies from "universal-cookie";
 ```
+
+## SET
+TBD...
+## GET
+TBD...
+## REMOVE
+TBD...
