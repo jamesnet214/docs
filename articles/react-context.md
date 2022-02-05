@@ -47,3 +47,6 @@ function Portal(props) {
 
 export default Portal;
 ```
+
+## Use Context
+하위 자식 컴포넌트에서 **useContext**를 사용합니다.
