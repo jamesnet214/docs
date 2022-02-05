@@ -27,6 +27,8 @@ Context 함수는 아래 두개만 사용하면 됩니다.
 Context를 만들기 위해 **createContext**를 사용합니다.
 
 ```
+import { createContext, useState } from 'react'
+import Children from './Children';
 
 export const PortalContext = createContext({
     menu: "",
@@ -34,13 +36,13 @@ export const PortalContext = createContext({
 });
 
 function Portal(props) {
-    const [menu, setMenu] = useState("");
+    const [menu, setMenu] = useState("테스트");
     const menuChange = () => {
         //
     };
     return (
         <PortalContext.Provider value={{ menu, menuChange }}>
-            {props.children}
+            <Children/>
         </PortalContext.Provider>  
     );
 }
@@ -52,11 +54,16 @@ export default Portal;
 하위 자식 컴포넌트에서 **useContext**를 사용합니다.
 
 ```
+import { useContext } from 'react'
+import { PortalContext } from './Portal';
+
 function Children(props) {
     const portal = useContext(PortalContext)
    
     return (
+          //'테스트' 출력
           <div>{portal.menu}</div>
+          //'부모 menuChange 메서드 호출'
           <button onClick={portal.menuChange}>테스트 버튼</button>
     );
 }
