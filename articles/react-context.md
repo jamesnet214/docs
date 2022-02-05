@@ -57,6 +57,7 @@ function Children(props) {
    
     return (
           <div>{portal.menu}</div>
+          <button onClick={portal.menuChange}>테스트 버튼</button>
     );
 }
 ```
