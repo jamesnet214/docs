@@ -16,7 +16,7 @@
 <br />
 
 1. 사용방법
-```
+```jsx
 const arr1 = [1, 2, 3];
 const arr2 = [4, 5, 6];
 const arr3 = [7, 8, 9];
@@ -28,7 +28,7 @@ console.log(arrWrap); // [1, 2, 3, 4, 5, 6, 7, 8, 9]
 <br />
 
 2. 배열 아무곳에나 전개연산자를 추가할 수 있습니다.
-```
+```jsx
 const arr = [4, 5, 6];
 const arrWrap = [1, 2, 3, ...arr, 7, 8, 9]
 
@@ -38,7 +38,7 @@ console.log(arrWrap); // [1, 2, 3, 4, 5, 6, 7, 8, 9]
 <br />
 
 3. 객체에서도 동일합니다.
-```
+```jsx
 const objA = {a:1, b:2};
 const objB = {...objA};
 
@@ -48,7 +48,7 @@ console.log(objB); //{a:1, b:2}
 <br />
 
 4. 객체 특정 값 변경하기
-```
+```jsx
 const objA = {a:1, b:2, c:3};
 const objB = {...objA, b: 4};
 
@@ -56,7 +56,7 @@ console.log(objB); //{a:1, b:4, c:3}
 ```
 
 5. 객체 더 깊은 값 변경
-```
+```jsx
 const object = {
 a: {
     b: {
