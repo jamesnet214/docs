@@ -26,7 +26,7 @@ Context 함수는 아래 두개만 사용하면 됩니다.
 ## Create Context
 Context를 만들기 위해 **createContext**를 사용합니다.
 
-```
+```jsx
 import { createContext, useState } from 'react'
 import Children from './Children';
 
@@ -53,7 +53,7 @@ export default Portal;
 ## Use Context
 하위 자식 컴포넌트에서 **useContext**를 사용합니다.
 
-```
+```jsx
 import { useContext } from 'react'
 import { PortalContext } from './Portal';
 
