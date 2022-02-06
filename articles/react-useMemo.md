@@ -28,7 +28,7 @@ useMemo 를 사용하여 이를 해결할 수 있습니다.
 ### UseMemo UseCallback 차이점
 useMemo는 메모이제이션 된 값을 반환하고 useCallback은 메모이제이션 된 콜백을 반환합니다. 여기서 콜백을 반환 한다는 것은 콜백 함수를 메모리에 올려놓고 사용한다는 의미입니다.
 react 공식 문서에서도 인정하듯이, 아래의 두 식은 같습니다.    
-`useMemo((...)=>fn, deps) === useCallback(fn, deps)`
+`useMemo((...) => fn, deps) === useCallback(fn, deps)`
 
 <br />
 
