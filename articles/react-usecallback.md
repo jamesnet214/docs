@@ -75,3 +75,43 @@ const latestCount = useRef(count);
 ```
 
 * * *
+
+#### useCallback 테스트 코드
+
+**SmartHome.js**
+```JSX
+import React, { useState, useCallback } from "react";
+
+
+export default function SmartHome() {
+  const [bedOn, setBedOn] = useState(false);
+  const [kitchenOn, setKitchenOn] = useState(false);
+  const [bathOn, setBathOn] = useState(false);
+
+  const toggleBed = () => setBedOn(!BedOn);
+  const toggleKitchen = () => setKitchenOn(!kitchenOn);
+  const toggleBath = () => setBathOn(!bathOn);
+
+  return (
+    <div style={{display: "table", margin: "50px auto auto auto"}}>
+      <Light room="침실" on={bedOn} toggle={toggleBed} />
+      <Light room="주방" on={kitchenOn} toggle={toggleKitchen}/>
+      <Light room="욕실" on={bathOn} toggle={toggleBath} />
+    </div>
+  );
+}
+```
+
+**Light.js**
+```JSX
+import React from "react";
+
+export default function Light({ room, on, toggle }) {
+    console.log({ room, on });
+    return (
+      <button onClick={toggle}>
+        {room} {on ? "💡" : "⬛"}
+      </button>
+    );
+  }
+```
