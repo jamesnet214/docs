@@ -30,7 +30,7 @@ useMemo는 메모이제이션 된 값을 반환하고 useCallback은 메모이�
 
 <br />
 
-### UseMemo 사용방법
+### UseMemo 사용 기본예시
 기본사용문법 <br />
 useMemo 첫 번째 인자값은 내가 연산할 함수 그리고 연산할 값을 배열로 지정합니다.
 
@@ -42,5 +42,8 @@ const memoizedValue = useMemo(() => computeExpensiveValue(a, b), [a, b]);
  
 #### 메모제이션이란?
 메모이제이션(memoization)은 컴퓨터 프로그램이 동일한 계산을 반복해야 할 때, 이전에 계산한 값을 메모리에 저장함으로써 동일한 계산의 반복 수행을 제거하여 프로그램 실행 속도를 빠르게 하는 기술이다.
+memoization 을 절적히 활용하면 중복 연산을 피할 수 있어 메모리를 조금 더 쓰더라도 성능을 최적화할 수 있습니다.
+
+
 
 
