@@ -12,17 +12,23 @@
 
 ### Content
 이 항목은 **devncore.org**에서 함께 포스팅 되고 있습니다.
-- [x] [Guide to Git](https://github.com/devncore/guide-to-git)
-- [x] [Guide to Blender](https://github.com/devncore/guide-to-blender)
-- [x] [Guide to Markdown](https://github.com/devncore/guide-to-markdown)
-- [x] [Guide to React](https://github.com/devncore/guide-to-react)
+
+#### Devncore
+- [ ] [Guide to Git](https://github.com/devncore/guide-to-git)
+- [ ] [Guide to Blender](https://github.com/devncore/guide-to-blender)
+- [ ] [Guide to Markdown](https://github.com/devncore/guide-to-markdown)
+- [ ] [Guide to React](https://github.com/devncore/guide-to-react)
+
+<br />
+
+#### Articles
 - [ ] [EF Sqlite 마이그레이션 만들기](articles/entityframework-sqlite.md)
-- [x] [브라우저 자동완성 정책 Auto Complete](articles/autocomplete.md)
-- [x] [로컬 인증서 만들기 (mkcert)](/articles/mkcert.md)
-- [x] [JWT](articles/csharp-jwt-token.md)
-- [x] [체인 메서드 Chain Method](articles/chainmethod.md)
-- [x] [SPA란? (Single Page Application)](articles/single-page-application.md)
-- [x] [AspNetCore CORS 크로스 도메인 정책](articles/allow-cors-for-aspnetcore.md)
+- [ ] [브라우저 자동완성 정책 Auto Complete](articles/autocomplete.md)
+- [ ] [로컬 인증서 만들기 (mkcert)](/articles/mkcert.md)
+- [ ] [JWT](articles/csharp-jwt-token.md)
+- [ ] [체인 메서드 Chain Method](articles/chainmethod.md)
+- [ ] [SPA란? (Single Page Application)](articles/single-page-application.md)
+- [ ] [AspNetCore CORS 크로스 도메인 정책](articles/allow-cors-for-aspnetcore.md)
 - [ ] [데이터베이스 스키마란? (DatabaseSchema)](articles/database-schema.md)
 - [ ] [React-Router-Dom 패키지 사용법](articles/react-router-dom.md)
 - [ ] [인젝션이란? (Blazor Injection)](articles/blazor-injection.md)
@@ -32,13 +38,13 @@
 - [ ] [Azure 웹 서버 등록](articles/azure-portal.md)
 - [ ] [Blazor API](articles/blazor-api.md)
 - [ ] [Wpf 게이지 컨트롤 만들기](articles/wpf-gauge-control.md)
-- [x] [Wpf 원 그리기](articles/wpf-circle.md)
+- [ ] [Wpf 원 그리기](articles/wpf-circle.md)
 - [ ] [네이밍 표기법](articles/naming.md)
 - [ ] [Producer-Consumer 패턴이란?](articles/producer-consumer.md)
-- [x] [IIS 배포환경설정](articles/iis-deployment.md)
-- [x] [Swagger UI설정](articles/swagger-ui.md)
-- [x] [CORS 도메인 정책](articles/cors-domain.md) 
-- [x] [로컬 프록시 연결 설정](articles/local-proxy.md) 
+- [ ] [IIS 배포환경설정](articles/iis-deployment.md)
+- [ ] [Swagger UI설정](articles/swagger-ui.md)
+- [ ] [CORS 도메인 정책](articles/cors-domain.md) 
+- [ ] [로컬 프록시 연결 설정](articles/local-proxy.md) 
 - [ ] [Client Cookie](articles/client-cookie.md)
 - [ ] [YAML파일 Converter C#](articles/yaml-converter.md)
 - [ ] [StreamReader C#](articles/stream-reader-csharp.md)
@@ -48,3 +54,5 @@
 - [ ] [React Developer Tools](articles/react-developer-tools.md)
 - [ ] [Axios](articles/axios.md)
 - [ ] [RoutedEvent](articles/routedevent.md)
+
+
