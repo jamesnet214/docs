@@ -14,7 +14,6 @@
 이 항목은 **devncore.org**에서 함께 포스팅 되고 있습니다.
 
 #### Articles
-- [ ] [Allow Cors For Aspnetcore](articles/allow-cors-for-aspnetcore.md)
 - [ ] [Asp Social Oauth](articles/asp-social-oauth.md)
 - [ ] [Aspnetcore Api](articles/aspnetcore-api.md)
 - [ ] [Aspnetcore Spa](articles/aspnetcore-spa.md)
