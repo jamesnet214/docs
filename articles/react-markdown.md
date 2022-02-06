@@ -20,12 +20,13 @@
 
 #### 1.1. Install packeages
 uiw사의 React markdown 패키지를 설치합니다.
-```
+
+```jsx
 npm install @uiw/react-md-editor;
 ```
 
 #### 1.2. Create component
-```
+```jsx
 // root/src/components/md/MarkdownViewer.jsx
 
 import React from "react";
