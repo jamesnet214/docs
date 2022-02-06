@@ -117,7 +117,7 @@ export default function Light({ room, on, toggle }) {
   }
 ```
 
-침실조명만 on하고 콘솔을 확인해 보면 침실 Light 컴포넌트 조명만 변경 됐지만 주방, 욕실 Light 컴포넌트도 호출된 걸 확인할 수 있습니다.
+침실 조명만 on하고 콘솔을 확인해 보면 침실 Light 컴포넌트 조명만 변경 됐지만 주방, 욕실 Light 컴포넌트도 호출된 걸 확인할 수 있습니다.
 ```JSX
 {room: "침실", on: true}
 {room: "주방", on: false}
@@ -126,6 +126,7 @@ export default function Light({ room, on, toggle }) {
 
 - **useCallback 적용**    
 SmartHome.js
+
 ```JSX
 import React, { useState, useCallback } from "react";
 
@@ -163,4 +164,9 @@ export default function Light({ room, on, toggle }) {
   }
   
 Light = React.memo(Light);
+```
+
+위와 마찬가지로 침실 조명만 on하고 콘솔을 확인해 변경된 침실 Light만 호출된 걸 확인할 수 있습니다.
+```JSX
+{room: "침실", on: true}
 ```
