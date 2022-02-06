@@ -1,4 +1,4 @@
-## setupProxy
+## SetupProxy
   
 이 리포지토리는 setupProxy 기술을 활용하는데 필요한 설명을 다루는 리포지토리입니다. <br />
 
