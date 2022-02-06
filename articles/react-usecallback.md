@@ -117,7 +117,7 @@ export default function Light({ room, on, toggle }) {
   }
 ```
 
-침실불만 켜고 Consoloe 해보면 침실 Light 컴포넌트 조명만 변경 됐지만 주방, 욕실 Light 컴포넌트도 호출된 걸 확인할 수 있습니다.
+침실조명만 on하고 콘솔을 확인해 보면 침실 Light 컴포넌트 조명만 변경 됐지만 주방, 욕실 Light 컴포넌트도 호출된 걸 확인할 수 있습니다.
 ```JSX
 {room: "침실", on: true}
 {room: "주방", on: false}
