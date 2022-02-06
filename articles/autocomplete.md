@@ -1,6 +1,6 @@
 ## AutoComplete 기능
 
-이 리포지토리는 AspNetCore SPA 에 대하여 설명합니다. <br />
+이 리포지토리는 AutoComplete 기능에 대하여 설명합니다. <br />
 
 <a href="https://github.com/devncore/devncore"><strong>더 알아보기 »</strong></a>
  
