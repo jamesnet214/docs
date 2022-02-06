@@ -27,7 +27,6 @@
 - [ ] [Chainmethod](articles/chainmethod.md)
 - [ ] [Client Cookie](articles/client-cookie.md)
 - [ ] [Cors Domain](articles/cors-domain.md) 
-- [ ] [Cors Domain](articles/cors-domain.md)
 - [ ] [Database Schema](articles/database-schema.md)
 - [ ] [Entityframework Sqlite](articles/entityframework-sqlite.md)
 - [ ] [Github Api](articles/github-api.md)
