@@ -19,6 +19,10 @@
 - [ ] [Guide to Markdown](https://github.com/devncore/guide-to-markdown)
 - [ ] [Guide to React](https://github.com/devncore/guide-to-react)
 - [ ] [Guide to Yaml](https://github.com/devncore/guide-to-yaml)
+- [ ] [Commit Log Viewer](https://github.com/devncore/commit-log-viewer)
+- [ ] [Devncore](https://github.com/devncore/devncore)
+- [ ] [Devncore Official](https://github.com/devncore/devncore-official)
+- [ ] [Guide To Entityframework](https://github.com/devncore/guide-to-entityframework)
 
 <br />
 
