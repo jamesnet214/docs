@@ -64,20 +64,20 @@ a: {
         c: "cc"
         },
     d: "dd"
-e: "ee"
+    e: "ee"
 }
 
 //target데이터만 변경
 
 const newObject = {
-...object,
-a: {
-    ...object.a,
-    b: {
-    ...object.a.b,
-    target: 456
-    }
-}
+  ...object,
+  a: {
+      ...object.a,
+      b: {
+      ...object.a.b,
+      target: 456
+      }
+  }
 }
 ```
 
