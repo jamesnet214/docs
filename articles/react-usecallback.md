@@ -77,8 +77,9 @@ const latestCount = useRef(count);
 * * *
 
 #### useCallback 테스트 코드
+- **useCallback 미적용**    
 
-**SmartHome.js**
+SmartHome.js
 ```JSX
 import React, { useState, useCallback } from "react";
 
@@ -102,7 +103,7 @@ export default function SmartHome() {
 }
 ```
 
-**Light.js**
+Light.js
 ```JSX
 import React from "react";
 
@@ -114,4 +115,11 @@ export default function Light({ room, on, toggle }) {
       </button>
     );
   }
+```
+
+침실불만 켜고 Consoloe 해보면 침실 Light 컴포넌트 조명만 변경 됐지만 주방, 욕실 Light 컴포넌트도 호출된 걸 확인할 수 있습니다.
+```JSX
+{room: "침실", on: true}
+{room: "주방", on: false}
+{room: "욕실", on: false}
 ```
