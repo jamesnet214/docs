@@ -23,6 +23,7 @@
 - [ ] [Blazor API](articles/blazor-api.md)
 - [ ] [Blazor Injection](articles/blazor-injection.md)
 - [ ] [Csharp Jwt Token](articles/csharp-jwt-token.md)
+- [ ] [Csharp System Path](articles/csharp-system-path.md)
 - [ ] [Calling Another Api](articles/calling-another-api.md)
 - [ ] [Chainmethod](articles/chainmethod.md)
 - [ ] [Client Cookie](articles/client-cookie.md)
