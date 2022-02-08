@@ -52,7 +52,7 @@ export default Portal;
 
 ___생성된 PortalContext를 자식 컴포넌트에서 어떻게 사용해야 할까요?___
 
-자식 컴포넌트에서 보무 컴포넌트의 PortalContext를 사용하기 위해 `useContext`를 사용합니다.
+자식 컴포넌트에서 `useContext`를 사용해 PortalContext를 불러옵니다.
 
 ```jsx
 import { useContext } from 'react'
