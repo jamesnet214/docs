@@ -10,6 +10,15 @@
 
 <br />
 
+## Contents
+
+- [현재 시스템(Current) 유저 폴더](#현재-시스템)
+- [다운로드 폴더](#다운로드-폴더)
+- [AppData\Local 위치](#AppData\Local-위치)
+- [AppData\Roaming 위치](#AppData\Roaming-위치)
+
+<br />
+
 
 ## 현재 시스템(Current) 유저 폴더
 ```csharp
@@ -18,11 +27,34 @@ using System;
 string userRoot = Environment.GetEnvironmentVariable("USERPROFILE");
 ```
 
+<br />
+
 ## 다운로드 폴더
 다운로드 폴더는 userRoot와 조합하여 만들 수가 있습니다.
-```
+```csharp
 using System;
 
 string userRoot = Environment.GetEnvironmentVariable("USERPROFILE");
 string downloadRoot = $@"{userRoot}/Downloads";
 ```
+
+<br />
+
+## AppData\Local 위치
+
+```csharp
+string configLocalPath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
+# "C:\\Users\\<Lucas>\\AppData\\Local"
+```
+
+<br />
+
+## AppData\Roaming 위치
+
+```csharp
+string configRoamingPath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
+# C:\Users\<Lucas>\AppData\Roaming
+```
+
+<br />
+
