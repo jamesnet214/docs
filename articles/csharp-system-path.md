@@ -12,7 +12,7 @@
 
 ## Contents
 
-- [현재 시스템(Current) 유저 폴더](#현재-시스템)
+- [현재 시스템(Current) 유저 폴더](#현재-시스템(Current)-유저-폴더)
 - [다운로드 폴더](#다운로드-폴더)
 - [AppData Local 위치](#AppData-Local-위치)
 - [AppData Roaming 위치](#AppData-Roaming-위치)
