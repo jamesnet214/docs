@@ -80,8 +80,21 @@ public class MyProfile
 ## Json Deserialization
 Json 문자열을 C# 객체로 복원
 ```csharp
+string jsonString = "{\"Name\":\"Lucas\", \"Age\":21}";
+var profileValue = JsonSerializer.Deserialize<MyProfile>(jsonString);
+Console.WriteLine(profileValue);
 
+public class MyProfile
+{
+    public string Name { get; set; }
+    public int Age { get; set; }
+}
 ```
+
+| Deserialization 객체변환 |
+|:--:|
+| ![image](https://user-images.githubusercontent.com/76234292/153252219-bca80eaf-80fe-4a6c-b1ec-15f5d7f329b1.png) |
+
 
 
 <br />
