@@ -16,6 +16,8 @@
 - [다운로드 폴더](#다운로드-폴더)
 - [AppData Local 위치](#AppData-Local-위치)
 - [AppData Roaming 위치](#AppData-Roaming-위치)
+- [Json Serialization](#Json-Serialization)
+- [Json Deserialization](#Json-Deserialization)
 
 <br />
 
@@ -58,3 +60,14 @@ string configRoamingPath = Environment.GetFolderPath(Environment.SpecialFolder.A
 
 <br />
 
+## Json Serialization
+ 
+ 
+
+<br />
+ 
+## Json Deserialization
+
+
+<br />
+ 
