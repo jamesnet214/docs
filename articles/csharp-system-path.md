@@ -61,12 +61,27 @@ string configRoamingPath = Environment.GetFolderPath(Environment.SpecialFolder.A
 <br />
 
 ## Json Serialization
- 
- 
+클래스를 통해 C# 객체를 Json 문자열로 변경
+```csharp
+MyProfile profile = new MyProfile { Name = "Alex", Age = 21 };
+string jsonValue = JsonSerializer.Serialize(profile);
+Console.WriteLine(jsonValue); 
+# 결과값 jsonValue, {"Name":"Lucas","Age":21}
+
+public class MyProfile
+{
+    public string Name { get; set; }
+    public int Age { get; set; }
+}
+```
 
 <br />
  
 ## Json Deserialization
+Json 문자열을 C# 객체로 복원
+```csharp
+
+```
 
 
 <br />
