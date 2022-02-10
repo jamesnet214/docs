@@ -17,3 +17,38 @@
 ### useRef vs getElementById
 일반적으로, ref가  document.getElementById보다 리액트에서 개발할 땐 더 좋다고 합니다.    
 왜냐하면 리액트로 된 나머지 코드들과 더 잘 맞고 컴포넌트는 여러 개의 인스턴스를 가질 수 있기 때문에 엘리먼트의 id를 사용하면 id가 중복될 수 있기 때문입니다.
+
+### useRef 테스트 코드
+```JSX
+import React, {useRef} from "react";
+
+export default function UseRefTest() {
+
+const handleClick = () => {
+    //Id입력 input이 null or WhiteSpace일 때 Id입력 Input에 커서 이동
+    if(!domId.current.value) {
+        alert("Id를 입력해주세요.")
+        domId.current.focus();
+        return;
+    }
+    //Password입력 input이 null or WhiteSpace일 때 Password입력 Input에 커서 이동
+    if(!domPassword.current.value) {
+        alert("비밀번호를 입력해주세요.")
+        domPassword.current.focus();
+        return;
+    }
+
+    alert("모두 입력");
+}
+
+    const domId = useRef(null);
+    const domPassword = useRef(null);
+    return (
+        <div style={{margin: "50px auto 0 auto", display: "flex", flexDirection: "column" }}>
+            <input type="text" ref={domId} style={{}}/>
+            <input type="password" ref={domPassword} style={{marginTop: "10px", marginBlock: "10px"}}/>
+            <button onClick={handleClick}>클릭</button>
+        </div>
+    );
+}
+```
