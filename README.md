@@ -47,7 +47,7 @@
 - [ ] [React Router Dom](articles/react-router-dom.md)
 - [ ] [React Spread](articles/react-spread.md)
 - [ ] [React Temp](articles/react-temp.md)
-- [ ] [React Memo](articles/react-Memo.md)
+- [ ] [React Memo](articles/react-memo.md)
 - [ ] [React UseMemo](articles/react-useMemo.md)
 - [ ] [React Usecallback](articles/react-usecallback.md)
 - [ ] [RoutedEvent](articles/routedevent.md)
