@@ -16,14 +16,17 @@ React.memo는 고차 컴포넌트(Higher Order Component)입니다.
 
 <br />
 
-### React.Memo 사용
-
+### React.Memo 와 React.useMemo 공통점
+React.memo와 useMemo 모두 이전 props와 동일하면 인자로 넘긴 함수는 재실행되지 않고, 이전의 메모이즈된 결과를 반환한다는 점에서 동일하게 동작합니다.
 
 <br />
 
 ### React.Memo 와 React.useMemo 차이점
-
+useMemo는 hook이고 React.memo()는 HOC으로 다른 종류입니다.
 
 <br />
 
+### React.Memo 사용
 
+
+<br />
