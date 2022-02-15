@@ -54,5 +54,32 @@ start();
 
 #### 집청소 비동기
 ```JSX
-TDB
+React.useEffect(() => {
+    async function start() {
+        laundry();
+        dishes();
+    }
+
+    start();
+}, []);
+
+const laundry = async () => {
+    console.log("빨래 시작");
+
+    var percent = 0;
+    while (percent < 101) {
+        await console.log(`빨래 ${percent}% 완료`)
+        percent += 20;
+    }
+}
+
+const dishes = async () => {
+    console.log("설거지 시작");
+
+    var percent = 0;
+    while (percent < 101) {
+        await console.log(`설거지 ${percent}% 완료`)
+        percent += 20;
+    }
+}
 ```
