@@ -46,7 +46,7 @@ function start()
 start();
 ```
 
-#### 결과
+<br />
 <img src="https://user-images.githubusercontent.com/68521148/153867801-9ac9b573-4ec6-4c2d-bb4f-c8762c861a8a.png" width="200"></img>
 
 위 예시는 집청소를 동기적으로 실행한 결과입니다. 빨래를 완료하고 나서야 설거지를 실행하네요    
@@ -83,3 +83,8 @@ const dishes = async () => {
     }
 }
 ```
+
+<br />
+<img src="https://user-images.githubusercontent.com/68521148/154076503-0fea1e9d-6bb6-4cde-bb93-a2af190d690e.png" width="200"></img>
+
+
