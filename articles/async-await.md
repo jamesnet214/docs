@@ -88,10 +88,50 @@ const dishes = async () => {
 <img src="https://user-images.githubusercontent.com/68521148/154076503-0fea1e9d-6bb6-4cde-bb93-a2af190d690e.png" width="200"></img>
 
 빨래 행위(while문)를 할 때 await을 사용해 부모에게 주도권을 넘겨주어 dishes() 함수를 호출해 동시에 작업을 진행시켰습니다.
-빨래를 돌려두고 설거지를 병행할 순 있지만 설거지를 하면서 방청소는 병행할 수 없습니다.
+빨래를 돌려두고 설거지를 병행할 순 있지만 설거지를 하면서 방청소는 병행할 수 없습니다.    
 
+설거지를 다 끝낸후 방청소를 시작해 봅시다.
 
+#### 설거지 종료 후 방청소 시작
+```JSX
+React.useEffect(() => {
+    async function start() {
+        laundry();
+        await dishes();
+        room();
+    }
 
+    start();
+}, []);
 
+const laundry = async () => {
+    console.log("빨래 시작");
 
+    var percent = 0;
+    while (percent < 101) {
+        await console.log(`빨래 ${percent}% 완료`)
+        percent += 20;
+    }
+}
+
+const dishes = async () => {
+    console.log("설거지 시작");
+
+    var percent = 0;
+    while (percent < 101) {
+        await console.log(`설거지 ${percent}% 완료`)
+        percent += 20;
+    }
+}
+
+const room = async () => {
+    console.log("방청소 시작");
+
+    var percent = 0;
+    while (percent < 101) {
+       await console.log(`방청소 ${percent}% 완료`)
+        percent += 20;
+    }
+};
+```
 
