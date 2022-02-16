@@ -15,7 +15,7 @@ async와 await는 자바스크립트의 비동기 처리 패턴 중 최근에 �
 
 <br />
 
-먼저 비동기 사용 이유에 대해서 알아봅시다.
+- 먼저 비동기 사용 이유에 대해서 알아봅시다.
 ```JSX
 function laundry()
 {
@@ -88,4 +88,10 @@ const dishes = async () => {
 <img src="https://user-images.githubusercontent.com/68521148/154076503-0fea1e9d-6bb6-4cde-bb93-a2af190d690e.png" width="200"></img>
 
 빨래 행위(while문)를 할 때 await을 사용해 부모에게 주도권을 넘겨주어 dishes() 함수를 호출해 동시에 작업을 진행시켰습니다.
+빨래를 돌려두고 설거지를 병행할 순 있지만 설거지를 하면서 방청소는 병행할 수 없습니다.
+
+
+
+
+
 
