@@ -135,3 +135,8 @@ const room = async () => {
 };
 ```
 
+<br />
+<img src="https://user-images.githubusercontent.com/68521148/154273500-4bf99d79-429a-4b9e-9cb4-9e7b07b33d61.png" width="200"></img>
+
+빨래와 설거지를 동시에 병행하고 설거지가 끝난 후 방청소를 진행 되는걸 확인할 수 있습니다.    
+start() 메서드에서 dishes(설거지)를 호출할 때 await 키워드를 사용 함으로써 dishes 작업이 끝난 후 room(방청소를) 수행할 수 있게 됩니다.
