@@ -10,11 +10,12 @@
 
 <br />
 
+
 ### async/await 이란?
 async와 await는 자바스크립트의 비동기 처리 패턴 중 최근에 나온 문법입니다.
 
 <br />
-
+<br />
 아래 예시를 통해 비동기 사용 이유와 async/await 사용법을 알아봅시다.
 ```JSX
 function laundry()
