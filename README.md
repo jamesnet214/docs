@@ -2,6 +2,8 @@
 
 이 리포지토리는 DevNcore Articles에 대해 기술한 리포지토리입니다. <br />
 
+이 항목은 **devncore.org**에서 함께 포스팅 되고 있습니다.
+
 <a href="https://github.com/devncore/devncore"><strong>더 알아보기 »</strong></a>
  
 | Star | License | Activity |
@@ -10,10 +12,7 @@
 
 <br />
 
-### Content
-이 항목은 **devncore.org**에서 함께 포스팅 되고 있습니다.
-
-#### Articles
+### Articles
 - [ ] [Asp Social Oauth](articles/asp-social-oauth.md)
 - [ ] [Aspnetcore Api](articles/aspnetcore-api.md)
 - [ ] [Aspnetcore Spa](articles/aspnetcore-spa.md)
@@ -67,7 +66,7 @@
 - [ ] [Yaml Converter](articles/yaml-converter.md)
 
 
-#### Devncore
+### Devncore
 - [ ] [Awesome Wpf](https://github.com/devncore/awesome-wpf)
 - [ ] [Blazor Authentication](https://github.com/devncore/blazor-authentication)
 - [ ] [Csharp](https://github.com/devncore/csharp)
@@ -96,7 +95,7 @@
 - [ ] [Wpf Demo](https://github.com/devncore/wpf-demo)
 - [ ] [Wpf Xaml Binding](https://github.com/devncore/wpf-xaml-binding)
 
-#### Apps
+### Apps
 - [ ] [Blazor Quiz](https://github.com/devncore/blazor-quiz)
 - [ ] [Cbt](https://github.com/devncore/cbt)
 - [ ] [Colorpicker](https://github.com/devncore/colorpicker)
