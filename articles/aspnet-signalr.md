@@ -79,7 +79,7 @@ SignalR은 Server에선 Hub, Client에선 Hub Proxy로 연결되어 서로 통�
 
 ![image](https://user-images.githubusercontent.com/74305823/156702492-4821bb5b-8598-4ebf-a09b-888cca12ea20.png)
 
-- **'@microsoft/signalr'** 라이브러리 선택 후 `특정 파일 선택`에서 `파일 수 > dist > broswer` 디렉터리의 **`signalr.js`**, **`signalr.min.js`** 파일을 선택하여 설치합니다.
+- **'@microsoft/signalr'** 라이브러리 선택 후 `특정 파일 선택`에서 `파일 수 > dist > browser` 디렉터리의 **`signalr.js`**, **`signalr.min.js`** 파일을 선택하여 설치합니다.
 
 ![image](https://user-images.githubusercontent.com/74305823/156703136-5f13d8be-cadb-407c-90fb-950c1080b958.png)
 
