@@ -2,8 +2,7 @@
 - [ASP.NET SignalR](#aspnet-signalr)
 - [SignalR 전송 방식](#signalr-전송-방식)
 - [SignalR 통신 방법](#signalr-통신-방법)
-- 예제1 (모의 주식 시세 앱)
-- [예제2 (실시간 채팅 앱)](#예제2-실시간-채팅-앱)
+- [예제 (실시간 채팅 앱)](#예제-실시간-채팅-앱)
 
 <br/>
 
@@ -57,11 +56,7 @@ SignalR은 Server에선 Hub, Client에선 Hub Proxy로 연결되어 서로 통�
 
 <br/>
 
-## 예제1 (모의 주식 시세 앱)
-
-<br/>
-
-## 예제2 (실시간 채팅 앱)
+## 예제 (실시간 채팅 앱)
 > Visual Studio 2019로 구현하였습니다.
 
 ### 1. 새 프로젝트 만들기
