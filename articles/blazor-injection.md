@@ -25,8 +25,7 @@
 <br />
 
 ## DI Service 구성
-
-
+Blazor의 DI 시스템은 [ASP.NET Core DI 시스템](https://docs.microsoft.com/ko-kr/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-2.1)을 기본으로 합니다. 
 
 <br />
 
