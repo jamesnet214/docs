@@ -25,12 +25,13 @@
 <br />
 
 ## DI Service 구성
-Blazor의 DI 시스템은 [ASP.NET Core DI 시스템](https://docs.microsoft.com/ko-kr/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-2.1)을 기본으로 합니다. 
+Blazor의 DI 시스템은 [ASP.NET Core DI 시스템](https://docs.microsoft.com/ko-kr/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-2.1)을 기본으로 합니다. DI Service는 생명주기에 따라 구성할 수 있습니다.
+
 |Method|Description|
 |:----|:-----------|
-|Singleton||
-|Transient||
-|Scoped||
+|Singleton|서비스의 단일 인스턴스를 생성합니다. 이 서비스가 필요한 모든 구성 요소는 인스턴스에 대한 참조를 받습니다.|
+|Transient|서비스가 필요할 때마다 서비스의 새 인스턴스를 생성합니다.|
+|Scoped|클라이언트의 Request 시작부터 Response 종료까지 유지되며, 연결되는 각 클라이언트마다 존재합니다.|
 
 <br />
 
