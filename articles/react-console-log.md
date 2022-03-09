@@ -13,3 +13,26 @@
 #### Console Log란?
 
 tBD 
+
+
+#### Console Log 종류
+
+print object
+console.time
+console.count
+console.trace
+console.log
+console.info
+console.warn
+console.error
+console.assert
+console.table
+console.dir
+
+warn, error 나도 사용할 수 있구나
+count 횟수
+trace 추적
+dir - depth 오브젝트 레벨,
+assert 특정 조건
+
+
