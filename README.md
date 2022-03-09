@@ -39,6 +39,7 @@
 - [ ] [Producer Consumer](articles/producer-consumer.md)
 - [ ] [PL/SQL](articles/plsql.md)
 - [ ] [Rest API](articles/rest-api.md)
+- [ ] [React Console log](articles/react-console-log.md)
 - [ ] [React Context](articles/react-context.md)
 - [ ] [React Developer Tools](articles/react-developer-tools.md)
 - [ ] [React Express Server](articles/react-express-server.md)
