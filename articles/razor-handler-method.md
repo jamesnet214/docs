@@ -43,5 +43,5 @@ public void OnGetSearchDevice(string device)
 ```
 
 ## Reference
-https://www.learnrazorpages.com/razor-pages/handler-methods
-https://codingblast.com/asp-net-core-razor-pages-handlers/
+- https://www.learnrazorpages.com/razor-pages/handler-methods  
+- https://codingblast.com/asp-net-core-razor-pages-handlers/
