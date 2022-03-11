@@ -1,9 +1,9 @@
 # MudBlazor
 > MudBlazor는 Blazor를 위한 Material Design 컴포넌트 프레임워크입니다.
 
-👉 **[MudBlazor GitHub](https://github.com/MudBlazor/MudBlazor)**
+- [MudBlazor Official Site](https://mudblazor.com/)  
+- [MudBlazor GitHub](https://github.com/MudBlazor/MudBlazor)
 
-<br/>
 
 ## Getting Started
 
