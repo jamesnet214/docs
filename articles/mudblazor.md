@@ -44,7 +44,7 @@ dotnet add package MudBlazor
 ```
 
 #### 4. script 추가
-앞서 Style을 추가한 파일과 동일한 파일에 MudBlazo js file을 추가합니다. Blazor의 기본 스크립트의 위치와 동일해야 합니다.
+앞서 Style을 추가한 파일과 동일한 파일에 MudBlazor js file을 추가합니다. Blazor의 기본 스크립트 위치와 동일해야 합니다.
 ```html
 <script src="_content/MudBlazor/MudBlazor.min.js"></script>
 ```
