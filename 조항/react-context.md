@@ -49,7 +49,7 @@ function Portal(props) {
 
 export default Portal;
 ```
-
+<br />
 <br />
 
 ___생성된 PortalContext는 자식 컴포넌트에서 어떻게 사용해야 할까요?___
