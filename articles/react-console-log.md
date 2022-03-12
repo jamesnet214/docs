@@ -1,4 +1,4 @@
-## React Console Log
+## React Console
 
 이 리포지토리는 React Console Log에 대해 기술한 리포지토리입니다. <br />
 
@@ -10,12 +10,11 @@
 
 <br />
 
-#### Console Log란?
+#### Console이란?
 
-TBD
+개발자가 코드를 디버깅하는데 사용하는 방법이며 콘솔에 값을 기록하는데 사용 됩니다.
 
-
-#### Console Log 종류
+#### Console 종류
 
 console.time
 console.count
