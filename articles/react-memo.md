@@ -28,5 +28,3 @@ useMemo는 hook이고 React.memo()는 HOC으로 다른 종류입니다.
 
 ### React.Memo 사용
 
-
-<br />
