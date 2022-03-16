@@ -17,6 +17,7 @@
 - [ ] [Aspnetcore Api](articles/aspnetcore-api.md)
 - [ ] [Aspnetcore Spa](articles/aspnetcore-spa.md)
 - [ ] [Autocomplete](articles/autocomplete.md)
+- [ ] [Async-Await](articles/async-await.md)
 - [ ] [Axios](articles/axios.md)
 - [ ] [Azure Portal](articles/azure-portal.md)
 - [ ] [Blazor API](articles/blazor-api.md)
