@@ -24,6 +24,7 @@
 - [ ] [Blazor DbContext](articles/blazor-DbContext.md)
 - [ ] [Blazor Injection](articles/blazor-injection.md)
 - [ ] [Csharp Jwt Token](articles/csharp-jwt-token.md)
+- [ ] [Csharp Maui](articles/articles-dotnet-maui.md)
 - [ ] [Csharp System Path](articles/csharp-system-path.md)
 - [ ] [Csharp DateTime Converter](articles/csharp-datetime-converter.md)
 - [ ] [Calling Another Api](articles/calling-another-api.md)
