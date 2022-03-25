@@ -2,7 +2,7 @@
 
 이 리포지토리는 DevNcore Articles에 대해 기술한 리포지토리입니다. <br />
 
-이 항목은 **devncore.org**에서 함께 포스팅 되고 있습니다.
+이 항목은 **devncore.org**에서 함께 포스팅되고 있습니다.
 
 <a href="https://github.com/devncore/devncore"><strong>더 알아보기 »</strong></a>
  
@@ -115,4 +115,3 @@
 - [ ] [Leagueoflegends](https://github.com/devncore/leagueoflegends)
 - [ ] [Tictactoe React](https://github.com/devncore/tictactoe-react)
 - [ ] [Tictactoe Wpf](https://github.com/devncore/tictactoe-wpf)
-
