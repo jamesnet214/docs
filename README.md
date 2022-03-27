@@ -23,6 +23,7 @@
 - [ ] [Blazor API](articles/blazor-api.md)
 - [ ] [Blazor DbContext](articles/blazor-DbContext.md)
 - [ ] [Blazor Injection](articles/blazor-injection.md)
+- [ ] [Blazor MudBlazor](articles/mudblazor.md)
 - [ ] [Csharp Jwt Token](articles/csharp-jwt-token.md)
 - [ ] [Csharp Maui](articles/dotnet-maui.md)
 - [ ] [Csharp System Path](articles/csharp-system-path.md)
