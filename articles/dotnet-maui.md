@@ -24,6 +24,81 @@ MAUI 앱은 일반적으로 Android, iOS, macOS 및 Windows 대상으로 지정�
 
 <img src="https://user-images.githubusercontent.com/74305823/160987500-9e6615fe-0504-4250-992f-fe66b14d92b3.png" width="350"/>
 
+### 리소스 파일
+각 플랫폼마다 리소스를 관리하는 고유한 접근방식이 있기 때문에 크로스플랫폼 앱 개발에서 리소스를 관리하는 것은 일반적으로 문제가 있었습니다. 하나의 이미지는 각 플랫폼에 맞게 여러 번 복제되었으며, 이로 인해 각 플랫폼에서 서로 다른 파일 이름 또는 폴더 규칙을 사용해야 했습니다.
+
+MAUI 단일 프로젝트를 사용하면 리소스 파일을 한 곳에 저장하여 각 플랫폼에서 사용할 수 있습니다. 리소스 파일에는 앱 아이콘, 글꼴, 이미지, 시작 화면 등이 포함됩니다.
+
+<table>
+<th>리소스</th>
+<th>빌드 작업</th>
+<th>추가 예시</th>
+<tr>
+  <td>앱 아이콘</td>
+  <td>MauiIcon</td>
+  <td>
+    
+  ```xml
+    <MauiIcon Include="Resources\Images\appicon.png" />
+  ```
+  </td>
+</tr>
+<tr>
+  <td>글꼴</td>
+  <td>MauiFont</td>
+  <td>
+    
+  ```xml
+    <MauiFont Include="Resources\Fonts\OpenSans-Regular.ttf" />
+  ```
+  </td>
+</tr>
+<tr>
+  <td>이미지</td>
+  <td>MauiImage</td>
+  <td>
+    
+  ```xml
+    <MauiImage Include="Resources\Images\logo.jpg" />
+  ```
+  </td>
+</tr>
+<tr>
+  <td>시작화면</td>
+  <td>MauiSplashScreen</td>
+  <td>
+    
+  ```xml
+    <MauiSplashScreen Include="Resources\Images\splashscreen.svg" />
+  ```
+  </td>
+</tr>
+<tr>
+  <td>원시자산</td>
+  <td>MauiAsset</td>
+  <td>
+    
+  ```xml
+    <MauiAsset Include="Resources\Raw\index.html" />
+  ```
+  </td>
+</tr>
+<tr>
+  <td>CSS 파일</td>
+  <td>MauiCss</td>
+  <td>
+    
+  ```xaml
+    <Application ...>
+        <Application.Resources>
+            <StyleSheet Source="/Resources/styles.css" />
+        </Application.Resources>
+    </Application>
+  ```
+  </td>
+</tr>
+</table>
+
 <br>
 
 ## Reference
