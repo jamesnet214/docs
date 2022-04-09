@@ -25,6 +25,7 @@
 - [ ] [Blazor DbContext](articles/blazor-DbContext.md)
 - [ ] [Blazor Injection](articles/blazor-injection.md)
 - [ ] [Blazor MudBlazor](articles/mudblazor.md)
+- [ ] [Blaozr 구성요소 수명주기](articles/blazor-구성요소-수명주기.md)
 - [ ] [Csharp Jwt Token](articles/csharp-jwt-token.md)
 - [ ] [Csharp System Path](articles/csharp-system-path.md)
 - [ ] [Csharp DateTime Converter](articles/csharp-datetime-converter.md)
