@@ -31,5 +31,5 @@ Geometry 클래스 계층
 >
 > _찰스페졸드의 WPF 에서..._
 
-![image](https://user-images.githubusercontent.com/52397976/162556315-e0c85dca-5bbb-4dc1-bae3-7dadab4e3c0f.png)
+![image](https://user-images.githubusercontent.com/52397976/162556460-064b1498-fa82-4f63-92a2-72ee2cf54d8d.png)
 
