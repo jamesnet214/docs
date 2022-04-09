@@ -7,7 +7,22 @@ Shape
 - Line
 - Polyline
 - Polygon
+- Path
 
-> Shape
+Geometry 클래스 계층
 
-1234
+```
+- Object
+  - DispatcherObject (abstract)
+    - DependencyObject
+      - Freezable (abstract)
+        - Animatable
+          - Geometry
+            - LineGeometry
+            - RectangleGeometry
+            - EllipseGeometry
+            - GeometryGroup
+            - CombinedGeometry
+            - PathGeometry
+            - StreamGeometry
+```
