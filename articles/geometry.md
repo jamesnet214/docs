@@ -51,7 +51,7 @@ Geometry 클래스는 총 7개의 파생된 Geometry를 가지고 있습니다.
 
 ___Charles Petzold 中...___
 
-이처럼 윈버지이신 Charles Petzold는 점(points)과 길이(lengths)를 통해 모든 그래픽 표현을 그릴 수 있도록 기하학을 캡슐화한 WPF를 언급하고 있습니다.
+윈버지 **Charles Petzold**는 점(points)과 길이(lengths)를 통해 모든 그래픽 표현을 그릴 수 있도록 기하학을 캡슐화한 WPF 설계를 언급하고 있습니다.
 
 
 ## EllipseGeometry
