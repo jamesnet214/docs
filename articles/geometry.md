@@ -19,12 +19,12 @@ WPF에서 Vector 기반의 그래픽을 그리기 위한 클래스입니다.
 Shape를 상속받으면서 동시에 Geometry를 표현할 수 있는 클래스입니다.
 
 ```
-- Rectangle
-- Ellipse
-- Line
-- Polyline
-- Polygon
-- Path
+Rectangle
+Ellipse
+Line
+Polyline
+Polygon
+Path
 ```
 
 ## Geometry 클래스 계층
