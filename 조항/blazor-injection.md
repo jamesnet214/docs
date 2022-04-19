@@ -38,3 +38,5 @@ Blazor의 DI 시스템은 [ASP.NET Core DI 시스템](https://docs.microsoft.com
 ## References
 - [Blazor Tutorial - Dependency Injection](https://blazor-tutorial.net/dependency-injection)
 - [Dependency injection in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-2.1)
+
+<br />
