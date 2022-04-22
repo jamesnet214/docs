@@ -1,3 +1,15 @@
+# Razor-Handler-Method
+
+이 리포지토리는 Blazor Razor-Handler-Method 에 대하여 설명합니다. <br />
+
+<a href="https://github.com/devncore/devncore"><strong>더 알아보기 »</strong></a>
+ 
+| Star | License | Activity |
+|:----:|:-------:|:--------:|
+| <a href="https://github.com/devncore/docs/stargazers"><img src="https://img.shields.io/github/stars/devncore/docs" alt="Github Stars"></a> | <img src="https://img.shields.io/github/license/devncore/docs" alt="License"> | <a href="https://github.com/devncore/docs/pulse"><img src="https://img.shields.io/github/commit-activity/m/devncore/docs" alt="Commits-per-month"></a> |
+
+<br>
+
 ## razor-handler-method
 Razor Pages에서 Handler Method는 요청의 결과로써 자동적으로 수행됩니다. Handler Method는 반드시 `public`이어야 하며, `void`, `Task`, `IActionResult`를 return 값으로 할 수 있습니다.
 
