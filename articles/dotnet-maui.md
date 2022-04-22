@@ -1,6 +1,14 @@
-## MAUI (Multi-platform App UI)
+# MAUI (Multi-platform App UI)
 
-![image](https://user-images.githubusercontent.com/74305823/158945628-e1cadebc-84aa-48dc-bf3f-39b15ee2588f.png)
+이 리포지토리는 MAUI 에 대하여 설명합니다. <br />
+
+<a href="https://github.com/devncore/devncore"><strong>더 알아보기 »</strong></a>
+ 
+| Star | License | Activity |
+|:----:|:-------:|:--------:|
+| <a href="https://github.com/devncore/docs/stargazers"><img src="https://img.shields.io/github/stars/devncore/docs" alt="Github Stars"></a> | <img src="https://img.shields.io/github/license/devncore/docs" alt="License"> | <a href="https://github.com/devncore/docs/pulse"><img src="https://img.shields.io/github/commit-activity/m/devncore/docs" alt="Commits-per-month"></a> |
+
+<br>
 
 ## MAUI란?
 
@@ -15,6 +23,8 @@
 - Blazor 지원
 
 <br>
+
+![image](https://user-images.githubusercontent.com/74305823/158945628-e1cadebc-84aa-48dc-bf3f-39b15ee2588f.png)
 
 ## MAUI 단일 프로젝트
 MAUI 앱은 일반적으로 Android, iOS, macOS 및 Windows 대상으로 지정할 수 있는 단일 프로젝트로 구성되며, 아래와 같은 이점이 있습니다.
