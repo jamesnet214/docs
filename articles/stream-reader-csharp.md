@@ -1,4 +1,4 @@
-## C# StreamReader
+## StreamReader C#
 
 이 리포지토리는 C# StreamReader에 대해 기술한 리포지토리입니다. <br />
 
