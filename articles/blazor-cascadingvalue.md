@@ -47,9 +47,39 @@ Blazor는 **`CascadingValue`** 라는 내장 컴포넌트를 가지고 있습니
 }
 ```
 
-위의 코드에서는 버튼을 클릭할 때마다 `currentCount`값이 1씩 증가하게 되며, 해당 값을 자식 컴포넌트에 넘겨주게 됩니다.
+위의 코드에서 버튼을 클릭할 때마다 `currentCount`값이 1씩 증가하게 되며, 해당 값을 자식 컴포넌트에 넘겨주게 됩니다.
 
 <br>
 
 ## Cascading Parameter
 
+자식 컴포넌트에서 Cascading Value에 접근하기 위해서는 동일한 타입의 변수를 선언해주고 **`[CascadingParameter]`** 속성을 명시하면 됩니다.
+
+#### `ChildCounter.razor`
+```razor
+<h4>Child Component Text - @ParentCount</h4>
+
+@code {
+    [CascadingParameter]
+    protected int ParentCount { get; set; }
+}
+```
+
+<img src="https://user-images.githubusercontent.com/74305823/164612965-c2bfb7cc-e54b-491b-83c5-ff5c7ebde270.gif"/>
+
+<br>
+
+## Multiple Cascading Parameters
+
+
+<br>
+
+## IsFixed Property
+
+<br>
+
+***
+
+## References
+- [Blazor cascading values and parameters](https://www.pragimtech.com/blog/blazor/blazor-cascading-values-parameters/)
+- [ASP.NET Core Blazor cascading values and parameters](https://docs.microsoft.com/en-us/aspnet/core/blazor/components/cascading-values-and-parameters?view=aspnetcore-6.0)
