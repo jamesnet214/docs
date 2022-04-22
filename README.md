@@ -13,7 +13,7 @@
 <br />
 
 ### Articles
-- [ ] [Aspnetcore Social Oauth](articles/asp-social-oauth.md)
+- [ ] [Aspnetcore Social Oauth](articles/aspnetcore-social-oauth.md)
 - [ ] [Aspnetcore Api](articles/aspnetcore-api.md)
 - [ ] [Aspnetcore ModelBinding](articles/aspnetcore-modelbiding.md)
 - [ ] [Aspnetcore Spa](articles/aspnetcore-spa.md)
