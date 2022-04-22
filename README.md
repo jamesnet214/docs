@@ -22,6 +22,7 @@
 - [ ] [Axios](articles/axios.md)
 - [ ] [Azure Portal](articles/azure-portal.md)
 - [ ] [Blazor API](articles/blazor-api.md)
+- [ ] [Blazor CascadingValue](articles/blazor-cascadingvalue.md)
 - [ ] [Blazor DbContext](articles/blazor-DbContext.md)
 - [ ] [Blazor Injection](articles/blazor-injection.md)
 - [ ] [Blazor MudBlazor](articles/mudblazor.md)
