@@ -186,7 +186,7 @@ Blazor는 **`CascadingValue`** 라는 내장 컴포넌트를 가지고 있습니
 
 <br>
 
-#### 🤔 _그렇다면 각각 다른 Value값을 받으려면 어떻게 해야 할까요?_
+#### 🤔 _각각 다른 CascadingValue값을 받으려면 어떻게 해야 할까요?_
 
 이때는 아래 코드와 같이 CascadingValue 컴포넌트의 `Name` 속성으로 접근할 수 있습니다.
 ```razor
@@ -225,6 +225,71 @@ Blazor는 **`CascadingValue`** 라는 내장 컴포넌트를 가지고 있습니
 <br>
 
 ## IsFixed Property
+CascadingValue 컴포넌트는 **`IsFixed`** 라는 boolean 속성을 가지고 있으며 기본값은 `false`입니다. 즉 CascadingValue값이 변하면 해당 값을 사용하는 변수들의 값도 자동으로 업데이트됩니다. 하지만 지속적인 모니터링에는 리소스가 필요하기 때문에, 불필요한 경우 성능을 위해 모니터링을 끄는 것이 좋습니다.
+
+#### ✔️ 모니터링을 비활성화해야 할 경우
+- 아래 코드에서 `Style`의 값은 변하지 않기 때문에 모니터링을 끄는 것이 좋습니다.
+- 모니터링을 끄기 위해서는 **`IsFixed`** 값을 `true`로 설정합니다.
+
+#### `ParentComponent.razor`
+```razor
+<h1 style="@Style">Parent Component Text</h1>
+
+<CascadingValue Value="@Style" Name="ColorStyle" IsFixed="true">
+    <ChildComponent></ChildComponent>
+</CascadingValue>
+
+@code {
+    public string Style { get; set; } = "color:red";
+}
+```
+
+#### `ChildComponent.razor`
+```razor
+<h1 style="@ElementStyle">-Child Component Text</h1>
+
+@code {
+    [CascadingParameter(Name = "ColorStyle")]
+    public string ElementStyle { get; set; }
+}
+```
+
+#### ✔️ 모니터링을 활성화해야 할 경우
+- 아래 코드에서는 버튼을 클릭할 때마다 `Counter`의 값이 1씩 증가합니다.
+- 만약 **`IsFixed`** 값을 `true`로 설정한다면 변화한 값은 하위 계층으로 전달되지 않을 것입니다.
+- 따라서 이런 경우에는 모니터링을 활성화해야 합니다.
+
+#### `ParentComponent.razor`
+```razor
+<button class="btn btn-primary" @onclick="IncrementCounter">
+    Increment Counter
+</button>
+
+<h1>Parent Component Text - @Counter</h1>
+
+<CascadingValue Value="@Counter" Name="Counter" IsFixed="false">
+    <ChildComponent></ChildComponent>
+</CascadingValue>
+
+@code {
+    public int Counter { get; set; } = 0;
+
+    private void IncrementCounter()
+    {
+        Counter = Counter + 1;
+    }
+}
+```
+
+#### `ChildComponent.razor`
+```razor
+<h1>Child Component Text - @Counter</h1>
+
+@code {
+    [CascadingParameter(Name = "Counter")]
+    public int Counter { get; set; }
+}
+```
 
 <br>
 
