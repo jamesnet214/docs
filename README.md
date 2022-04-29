@@ -120,4 +120,3 @@
 - [ ] [Tictactoe React](https://github.com/devncore/tictactoe-react)
 - [ ] [Tictactoe Wpf](https://github.com/devncore/tictactoe-wpf)
 
-<br />
