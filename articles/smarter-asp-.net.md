@@ -101,5 +101,5 @@
 
 <p align="center"><img src="https://user-images.githubusercontent.com/68521148/168813844-44c50740-2eef-4b71-a047-f8bb998087e7.png"></p>
 <p align="center">
-  <B>게시 세팅</B>
+  <B>게시 설정</B>
 </p>
