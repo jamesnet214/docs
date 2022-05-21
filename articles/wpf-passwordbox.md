@@ -115,4 +115,8 @@ public static class PasswordBoxAssistant
 
 ### XAML
 ```CSharp
+ <PasswordBox x:Name="password" VerticalAlignment="Top" Height="30" Grid.Row="1" VerticalContentAlignment="Center"
+                     Padding="5,0" Margin="0,5,0,0"
+                     local:PasswordBoxAssistant.BindPassword="true"  
+                     local:PasswordBoxAssistant.BoundPassword="{Binding Password, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
 ```
