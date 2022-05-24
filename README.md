@@ -73,6 +73,7 @@
 - [ ] [Vulnerability](articles/vulnerability.md)
 - [ ] [Wpf Circle](articles/wpf-circle.md)
 - [ ] [Wpf Gauge Control](articles/wpf-gauge-control.md)
+- [ ] [Wpf PasswordBox](articles/wpf-passwordbox.md)
 - [ ] [Yaml Converter](articles/yaml-converter.md)
 
 <br />
